@@ -54,7 +54,7 @@ function addTableOfContents() {
 
 		var $header = $(this);
 		console.log($header);
-		return '<li><a href="#' + $header.attr('id') + '">' + $header.text() + '</a></li>';
+		return '\n<li><a href="#' + $header.attr('id') + '">' + $header.text() + '</a></li>';
 
 	}).get().join('');
 
