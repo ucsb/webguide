@@ -1,0 +1,100 @@
+# Site settings
+title: UCSB Web Standards Guide
+email: webstandards@lists.ucsb.edu
+description: >
+  The UCSB Web Standards Guide is a guide to building semantic, accessible,
+  and standards-compliant websites and web applications for the
+  University of California, Santa Barbara
+baseurl: "/ucsb-wsg/"
+url: "http://www.ucsb.edu/webguide/"
+twitter_username: ucsantabarbara
+github_username:  ucsb-wsg
+
+# Build settings
+markdown: redcarpet
+
+redcarpet:
+    extensions: [with_toc_data]
+
+navigation:
+  -
+    name: 'Graphical Presentation'
+    links:
+      -
+        text: Browsers
+        url: browsers/
+      -
+        text: "Favicon and Touch Icons"
+        url: favicon-and-touch-icons/
+      -
+        text: "UCSB Graphic Identity"
+        url: ucsb-graphic-identity/
+      -
+        text: "Viewport Dimensions"
+        url: viewport-dimensions/
+  -
+    name: 'Markup & Styling'
+    links:
+      -
+        text: CSS
+        url: css/
+      -
+        text: Footer
+        url: footer/
+      -
+        text: Header
+        url: header/
+      -
+        text: HTML
+        url: html/
+      -
+        text: Resources
+        url: resources/
+  -
+    name: 'General Recommendations'
+    links:
+      -
+        text: "E-mail Addresses"
+        url: email-addresses/
+      -
+        text: "Web Security"
+        url: web-security/
+      -
+        text: URLs
+        url: urls/
+      -
+        text: "Search Engine Optimization"
+        url: seo/
+  -
+    name: 'Policy Compliance'
+    links:
+      -
+        text: Policies
+        url: policies/
+      -
+        text: "Web Accessibility"
+        url: web-accessibility/
+  -
+    name: 'Resources'
+    links:
+      -
+        text: "Campus Resources"
+        url: campus-resources/
+      -
+        text: "Best Practices Examples"
+        url: best-practice-examples/
+      -
+        text: "Web Standards Checklist"
+        url: web-standards-checklist/
+  -
+    name: 'Behind the Standards'
+    links:
+      -
+        text: "About the WSG"
+        url: about/
+      -
+        text: "Contact WSG"
+        url: contact/
+      -
+        text: "Web Guide Site Map"
+        url: site-map/
