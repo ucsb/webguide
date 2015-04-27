@@ -5,7 +5,7 @@ description: >
   The UCSB Web Standards Guide is a guide to building semantic, accessible,
   and standards-compliant websites and web applications for the
   University of California, Santa Barbara
-baseurl: "/ucsb-wsg/"
+baseurl: "/"
 url: "http://www.ucsb.edu/webguide/"
 twitter_username: ucsantabarbara
 github_username:  ucsb-wsg
