@@ -214,6 +214,6 @@ their archive,you may hire their photographers to shoot on location or in their
 studio.
 
 You may also contact the UCSB
-[Cheadle Center for Biodiversity and Ecological Restoration (CCBER)](http://www.ccber.ucsb.edu)
+[Cheadle Center for Biodiversity and Ecological Restoration (CCBER)](http://ccber.ucsb.edu)
 for photographs.
 </p>
