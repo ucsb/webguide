@@ -29,7 +29,7 @@ graphs below were created using the file provided:
 </p>
 
 <div class="graphs">
-	<img class="browser-graph" src="/images/analytics-browsers.png" alt="Statistics of browser usage by page views">
-	<img class="browser-graph" src="/images/analytics-operating-systems.png" alt="Statistics of operating system usage by page views">
-	<img class="browser-graph" src="/images/analytics-mobile-desktop.png" alt="Statistics on Desktop vs Mobile visits">
+	<img class="browser-graph" src="/images/analytics/browsers.png" alt="Statistics of browser usage by page views">
+	<img class="browser-graph" src="/images/analytics/operating-systems.png" alt="Statistics of operating system usage by page views">
+	<img class="browser-graph" src="/images/analytics/mobile-desktop.png" alt="Statistics on Desktop vs Mobile visits">
 </div>
