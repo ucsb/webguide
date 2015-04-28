@@ -49,8 +49,18 @@ function labelCodeSamples() {
 
 function addTableOfContents() {
 
+	var $headers = $('h3');
+
+	if($headers.length === 0) {
+
+		// If there are no headers on the page, do not generate a table of
+		// contents
+		return;
+
+	}
+
 	// Build a list using the H3s on the page
-	var listItemHtml = $('h3').map(function() {
+	var listItemHtml = $headers.map(function() {
 
 		var $header = $(this);
 		console.log($header);
