@@ -29,7 +29,7 @@ of intrusions, denial of service and other information security incidents that
 take place on UCSB computers and Networks. To report an incident, send email
 to: [security@ucsb.edu](mailto:security@ucsb.edu).
 
-Please review [OIT's intrusion reporting guidelines](OIT's intrusion reporting guidelines).
+Please review [OIT's intrusion reporting guidelines](http://www.oit.ucsb.edu/security/report_intrusion.asp).
 
 ### Secure Coding Practices
 
