@@ -36,7 +36,7 @@ the web for a fee. If you don't find what you are looking for in their archive,
 you may hire their photographers to shoot on location or in their studio.
 
 You may also contact the UCSB
-[Cheadle Center for Biodiversity and Ecological Restoration (CCBER)](http://www.ccber.ucsb.edu)
+[Cheadle Center for Biodiversity and Ecological Restoration (CCBER)](http://ccber.ucsb.edu)
 for photographs.
 
 **High-resolution seals and logos** suitable for use in authorized UCSB
