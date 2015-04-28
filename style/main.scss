@@ -7,7 +7,7 @@
 /* =RESET
 =============================================*/
 
-html, body, #main-nav ul, #sidebar ul, #footer ul
+html, body, #main-nav ul, #sidebar ul, #guide-footer ul
 {
 	margin: 0;
 	padding: 0;
@@ -206,7 +206,7 @@ h1 a
 /* =FOOTER
 =============================================*/
 
-#footer
+#guide-footer
 {
 	border-top: 1px solid #CCC;
 	clear: both;
@@ -215,23 +215,23 @@ h1 a
 	padding: 5px 0 15px;
 }
 
-#footer .copyright, #footer .contact, #footer ul
+#guide-footer .copyright, #guide-footer .contact, #guide-footer ul
 {
 	display: block;
 }
 
-#footer ul
+#guide-footer ul
 {
 	font-size: 1.2em;
 	font-weight: bold;
 }
 
-#footer li
+#guide-footer li
 {
 	display: inline;
 }
 
-#footer a
+#guide-footer a
 {
 	color: #000;
 	text-decoration: none;
