@@ -215,6 +215,8 @@ placement of the `tfoot` element directly following the `thead` element.
 
 ### Images
 
+<!-- -->
+
 #### Always specify a meaningful `alt` attribute for every image
 
 If you do not specify an `alt` ("alternate text") attribute for your images,
