@@ -5,16 +5,16 @@ title: "Home"
 
 ### Mission Statement
 
-The mission of this site is to help campus Web site developers create policy
-compliant Web sites that utilize industry best practices and policies set forth
+The mission of this site is to help campus website developers create policy
+compliant websites that utilize industry best practices and policies set forth
 by the federal government and the University of California. This guide should
-provide a useful reference to Web site development on campus.
+provide a useful reference to website development on campus.
 
 ### About
 
 The standards described on this site have been developed and endorsed by the
 **UCSB Web Standards and Content Working Group (WSG)**, a task force made up of
-Web professionals from across the UCSB campus.
+web professionals from across the UCSB campus.
 
 When initially introduced in 2006, the WSG recognized that many UCSB websites
 had been developed before the standards were proposed and that it would be
@@ -29,7 +29,7 @@ its history visit [About the WSG](about).
 
 ### General
 
-The topics of this Web site have been organized into sections in the left
+The topics of this website have been organized into sections in the left
 side menu.
 
 * **Graphical Presentation**: UC/UCSB branding as well as other visual components of a website
