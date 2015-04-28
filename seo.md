@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Search Engines
+title: Search Engine Optimization
 permalink: /seo/
 ---
 
