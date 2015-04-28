@@ -19,8 +19,8 @@ Also note that there may be inconsistencies between how the various browsers
 interpret CSS and display your website to users. This could be a result of a
 lack of support for certain CSS properties as well as conflicting or
 inconsistent implementations of CSS properties. You will need to test in the
-various browsers to ensure that your website design is cross-browser
-compatible.
+various browsers to ensure that your website design is
+[cross-browser compatible](/browsers/).
 
 ### Declarations
 
