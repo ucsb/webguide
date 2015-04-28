@@ -13,7 +13,7 @@ Include the following HTML statement with the year the site was created or the
 year of the last major redesign or version of the website:
 
 ```html
-Copyright &copy; 2013 The Regents of the University of California, All Rights Reserved.
+Copyright &copy; 2015 The Regents of the University of California, All Rights Reserved.
 ```
 
 For more information about copyright requirements, visit
@@ -89,7 +89,7 @@ someone within the organization about questions or concerns with the website.
 The following example includes all of the guidelines described above:
 
 ```html
-Copyright &copy; 2013 The Regents of the University of California,
+Copyright &copy; 2015 The Regents of the University of California,
 All Rights Reserved
 <br />
 <a href="http://www.policy.ucsb.edu/terms_of_use/">Terms of Use</a> /
