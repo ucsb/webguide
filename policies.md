@@ -82,8 +82,8 @@ information collection and use, visitor choices, and security practices. The
 WSG recommends that all UCSB websites that collect information from visitors
 link to this [Privacy Notification Statement](http://www.policy.ucsb.edu/privacy-notification/).
 
-* *Sites collecting personal information* must display the statement (or a link to the statement) prominently on the page on which the information is requested, and it should be accessible to the individual to read prior to volunteering information about him/herself. The icon or link directing users to the policy should contain the word "privacy."
-* *Sites collecting only general information* may include a link in the [footer](/footer/) of the site home page. The link should contain the word "privacy."
+* **Sites collecting personal information** must display the statement (or a link to the statement) prominently on the page on which the information is requested, and it should be accessible to the individual to read prior to volunteering information about him/herself. The icon or link directing users to the policy should contain the word "privacy."
+* **Sites collecting only general information** may include a link in the [footer](/footer/) of the site home page. The link should contain the word "privacy."
 
 ### Use of Images and Photo Releases
 
@@ -114,7 +114,7 @@ Management & Insurance.
 When you request permission to use images on your website, we also recommend
 that you inform the individual of your privacy practices by including a link
 to, or a copy of, your
-[Privacy Notification statement](/#Privacy-Notification).
+[Privacy Notification statement](#privacy-notification).
 
 #### Using Images of Public UCSB Events
 
