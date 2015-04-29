@@ -1,0 +1,15 @@
+<div id="main-nav">
+  {% for category in site.navigation %}
+    <span class="nav-header">{{ category.name }}</span>
+    <ul>
+      {% for link in category.links %}
+        {% capture relative_url %}{{ link.url | prepend: '/' }}{% endcapture %}
+        {% assign current = nil %}
+        {% if page.url == relative_url %}
+          {% assign current = 'selected' %}
+        {% endif %}
+        <li class="{{ current }}"><a href="{{ link.url | prepend: site.baseurl }}">{{ link.text }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</div>
