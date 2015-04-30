@@ -96,7 +96,7 @@ event, obtain the individual's written permission prior to publishing it.
 To request permission of an individual employed by UCSB, you may use an
 abbreviated release.
 
-* [Release and license form to use UC employee's image, name, voice, and/or creative work (DOCX)](/media/simple-photo-release.docx)
+* [Release and license form to use UC employee's image, name, voice, and/or creative work (PDF)](/media/simple-photo-release.pdf)
 
 #### Release for Non-Affiliates
 
