@@ -17,13 +17,13 @@ public-facing web standards guide. The site is hosted on the
 [UCSB IT Web site](http://it.ucsb.edu/) (login required) and
 provides additional depth and specifics on many topics covered in the guide.
 
-### [UCSB-Web Mailing List](https://lists.ucsb.edu/mailman/listinfo/ucsb-web)
+### [UCSB-Web Mailing List](https://lists.noc.ucsb.edu/mailman/listinfo/ucsb-web)
 
 Provides a forum for UCSB web professionals to exchange information about web
 design, development, best practices, and other web-related topics at UCSB. Web
 Standards Group meeting and event notices are also distributed via this list.
 
-### [Computer Support Forum (CSF) Mailing List](https://lists.ucsb.edu/mailman/listinfo/csf)
+### [Computer Support Forum (CSF) Mailing List](https://lists.noc.ucsb.edu/mailman/listinfo/csf)
 
 Provides a means for UCSB computer support staff to exchange questions,
 answers, and information in support of computing at UCSB.
