@@ -79,7 +79,6 @@ For a guide on how to meet these requirements, use the
 
 * [A Guide to Disability Rights Laws](http://www.usdoj.gov/crt/ada/cguide.htm)
 * [Section 504 Fact Sheet](http://www.hhs.gov/ocr/civilrights/resources/factsheets/504.pdf)
-* [Section 504 of the Rehabilitation Act of 1973 (PDF)](http://www.section508.gov/docs/Section504.pdf)
-* [Section 508 of the Rehabilitation Act of 1973](http://www.section508.gov/index.cfm?fuseAction=1998Amend)
+* [Section 508 of the Rehabilitation Act of 1973](http://www.section508.gov/Section-508-Of-The-Rehabilitation-Act)
 * [Section 255 of the Telecommunications Act of 1996](http://transition.fcc.gov/cgb/dro/section255.html)
 * [Americans with Disabilities Act of 1990](http://www.ada.gov/pubs/ada.htm)
