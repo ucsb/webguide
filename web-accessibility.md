@@ -38,7 +38,7 @@ contact one of the individuals listed under our campus resources.
 In 2013, the
 [UC Electronic Accessibility Leadership Team (EALT)](http://www.ucop.edu/electronic-accessibility/initiative/leadership-team.html)
 proposed a
-[new systemwide accessibility policy](http://www.ucop.edu/electronic-accessibility/initiative/proposed-policy.html),
+[new systemwide accessibility policy](http://www.ucop.edu/electronic-accessibility/initiative/policy.html),
 which included the requirement that all websites should meet the
 [WCAG 2.0 Level AA Success](http://www.w3.org/TR/WCAG20/) requirements.
 
