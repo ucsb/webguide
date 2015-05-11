@@ -8,7 +8,7 @@ This page was last reviewed by WSG members in September 2014.
 
 Your web pages must comply with UC and UCSB policies. Some good policy
 resources to start with are the
-[UC Electronics Communication Policy](http://www.ucop.edu/ucophome/policies/ec/)
+[UC Electronics Communications Policy](http://www.ucop.edu/information-technology-services/policies/electronic-communications.html)
 and the [UC and UCSB Policies](http://www.policy.ucsb.edu/) pages. In the
 recommendations below, WSG provides guidelines and resources to address only
 the most common policy issues of concern to UCSB web developers/managers.
@@ -33,7 +33,7 @@ your web page to the Terms of Use document in your [footer](/footer/).
 ### Electronic Information Security
 
 If your website collects data, follow guidelines in the
-[UC Business and Finance Bulletin IS-3 on Electronic Information Security](http://www.ucop.edu/ucophome/policies/bfb/is3.pdf).
+[UC Business and Finance Bulletin IS-3 on Electronic Information Security (PDF)](http://policy.ucop.edu/doc/7000543/).
 This policy provides critical information about measures to promote the
 security of and access to electronic data.
 
@@ -43,13 +43,13 @@ The Office of the Vice Chancellor, Administrative Services, has also developed
 and maintains resources related to acknowledgements and advertising on UCSB
 websites. These include the following:
 
-[Guidelines for Acknowledgements and Advertising on University Electronic Resources](http://www.policy.ucsb.edu/policies/policy-docs/advertising-guide.pdf):
+[Guidelines for Acknowledgements and Advertising on University Electronic Resources (PDF)](http://www.policy.ucsb.edu/policies/policy-docs/advertising-guide.pdf):
 A set of guidelines designed to provide basic principles and examples of
 acceptable and unacceptable acknowledgements and advertising on UCSB electronic
 resources to assist web administrators, designers, and others to abide by
 University policy and applicable law.
 
-[Matrix for Web Acknowledgements, Advertising, and Sponsorships](http://www.policy.ucsb.edu/policies/advisory-docs/WebAdMatrix.pdf):
+[Matrix for Web Acknowledgements, Advertising, and Sponsorships (PDF)](http://www.policy.ucsb.edu/policies/advisory-docs/WebAdMatrix.pdf):
 A matrix that displays what kinds of advertising or third-party symbols
 (banner ads, sponsor logos, links to online stores, etc.) are permitted or
 disallowed on various kinds of UCSB websites.
@@ -62,9 +62,9 @@ of any UCSB online applications that give access to user data:
 "This is official University of California, Santa Barbara information.
 Unauthorized access, disclosure, or use of this information may result in
 disciplinary action and/or criminal prosecution. See
-[UCSB Rules of Conduct (PDF)](http://www.ucop.edu/ucophome/policies/bfb/rmp8.html#D)."
+[UCSB Rules of Conduct (PDF)](http://policy.ucop.edu/doc/7020463)."
 
-For information, read [Civil Code Section 1798.55–1798.57](http://www.leginfo.ca.gov/cgi-bin/displaycode?section=civ&amp;group=01001-02000&amp;file=1798.55-1798.57).
+For information, read [Civil Code Section 1798.55–1798.57](http://www.leginfo.ca.gov/cgi-bin/displaycode?section=civ&group=01001-02000&file=1798.55-1798.57).
 
 ### Privacy Notification
 
