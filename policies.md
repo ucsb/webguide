@@ -62,7 +62,7 @@ of any UCSB online applications that give access to user data:
 "This is official University of California, Santa Barbara information.
 Unauthorized access, disclosure, or use of this information may result in
 disciplinary action and/or criminal prosecution. See
-[UCSB Rules of Conduct (PDF)](http://policy.ucop.edu/doc/7020463)."
+[Rules of Conduct for Rules of Conduct for University Employees Involved with Information Regarding Individuals](http://www.ucop.edu/ethics-compliance-audit-services/_files/compliance/privacy/rules-of-conduct.pdf)."
 
 For information, read [Civil Code Section 1798.55–1798.57](http://www.leginfo.ca.gov/cgi-bin/displaycode?section=civ&group=01001-02000&file=1798.55-1798.57).
 
