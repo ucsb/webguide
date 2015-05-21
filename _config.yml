@@ -82,7 +82,7 @@ navigation:
         url: campus-resources/
       -
         text: "Best Practices Examples"
-        url: examples/
+        url: best-practice-examples/
       -
         text: "Web Standards Checklist"
         url: web-standards-checklist/
