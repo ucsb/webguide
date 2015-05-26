@@ -1,0 +1,16 @@
+{
+  "name": "ucsb-wsg.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loganfranken/ucsb-wsg.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/loganfranken/ucsb-wsg.github.io/issues"
+  },
+  "homepage": "https://github.com/loganfranken/ucsb-wsg.github.io",
+  "dependencies": {
+    "uglifyjs": "^2.4.10"
+  }
+}
