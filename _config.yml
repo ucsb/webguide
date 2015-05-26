@@ -16,6 +16,9 @@ markdown: redcarpet
 redcarpet:
     extensions: [with_toc_data]
 
+sass:
+    style: :compressed
+
 navigation:
   -
     name: 'Graphical Presentation'
