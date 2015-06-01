@@ -41,9 +41,7 @@ Technology Associate Director Lubomir Bojilov conceived, proposed, and
 organized the subcommittee, and served as its first chair.
 
 The WSG became a task-level subcommittee/working group reporting directly to
-the ITPG in Fall 2005. Work began on the initial version of the webguide
-shortly thereafter. In an effort to help departments/units prioritize efforts,
-the framework of the [Three Tiers](/tiers/) was adopted. The initial version
+the ITPG in Fall 2005. The initial version of the UCSB Web Standards Guide
 was brought before the ITPG for acceptance in late 2006 and was finally
 approved by the ITB in January 2007.
 
