@@ -84,8 +84,11 @@ navigation:
         text: "Campus Resources"
         url: campus-resources/
       -
-        text: "Best Practices Examples"
-        url: best-practice-examples/
+        text: "Examples"
+        url: examples/
+      -
+        text: "Best Practices Templates"
+        url: best-practice-templates/
       -
         text: "Web Standards Checklist"
         url: web-standards-checklist/
