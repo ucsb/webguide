@@ -87,8 +87,8 @@ navigation:
         text: "Examples"
         url: examples/
       -
-        text: "Best Practices Examples"
-        url: best-practice-examples/
+        text: "Best Practices Templates"
+        url: best-practice-templates/
       -
         text: "Web Standards Checklist"
         url: web-standards-checklist/
