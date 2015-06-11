@@ -14,5 +14,5 @@ permalink: /contact/
 Attend a meeting of the Web Standards Group, which generally meets the first
 Tuesday of every month. Attendance is open to all UCSB IT professionals. Visit
 the [WSG's group page](https://it.ucsb.edu/groups/wsg) on the
-[UCSB IT Web site](http://it.ucsb.edu) and check the calendar of events for
+[UCSB IT Web site](https://it.ucsb.edu) and check the calendar of events for
 the next meeting.

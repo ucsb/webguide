@@ -62,7 +62,7 @@ To view the corresponding web guide section for each area of the checklist,
 
 * Use semantically-appropriate markup
 * Minimize markup
-* Validate markup with the [W3C Validator](http://validator.w3.org/)
+* Validate markup with the [W3C Validator](https://validator.w3.org/)
 * Avoid `iframes`
 * Never use frames
 * Use descriptive link text
