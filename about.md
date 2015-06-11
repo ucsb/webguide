@@ -51,8 +51,7 @@ The WSG is active in promoting development and training opportunities for web
 professionals at UCSB. Since 2006, the group has organized more than 20 free
 workshops and Brown Bag forums on web standards, web accessibility, web
 applications security, web content management systems, and related topics.
-[WSG podcasts](http://panopto.id.ucsb.edu/Panopto/Pages/Sessions/List.aspx#folderID=f454c5a2-ba6f-4383-a0fb-088f709f919c)
-of recent training activities are available online. The Office of Information
+[Video archives of recorded events are available through the UCSB Gauchocast service](https://gauchocast.ucsb.edu/Panopto/Pages/Sessions/List.aspx#folderID=%22f454c5a2-ba6f-4383-a0fb-088f709f919c%22). The Office of Information
 Systems and Technology, the Division of Student Affairs, and the Disabled
 Students Program have provided support for this training.
 
