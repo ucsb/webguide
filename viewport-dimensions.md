@@ -34,7 +34,7 @@ specifically targeted to mobile devices.
 If you wish to create a design targeted specifically to mobile devices
 (a "device experience"), the [Mobile Web Framework (MWF)](http://mwf.ucla.edu/)
 is a simple, powerful platform collaboratively developed by UC developers. The
-UCSB Libray [hosts an instance of the framework](http://mwf.library.ucsb.edu/)
+UCSB Libray [hosts an instance of the framework](https://mwf.library.ucsb.edu/)
 that you can use within your projects.
 
 ### Responsive Layouts

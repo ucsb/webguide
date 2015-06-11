@@ -13,7 +13,7 @@ the following URL clearly describes the page the user would access:
 
 ```bash
 # GOOD PRACTICE
-http://department.ucsb.edu/staff/john-smith
+https://department.ucsb.edu/staff/john-smith
 ```
 
 In contrast, the following URL is more cryptic:
@@ -59,6 +59,6 @@ HTTP/1.1 307 Temporary Redirect
 ### Third-Level Domain Names
 
 Websites should be available via both their specific third-level domain name
-(e.g., `http://department.ucsb.edu`) and the WWW domain
-(e.g., `http://www.department.ucsb.edu`), so that users may access a site using
+(e.g., `https://department.ucsb.edu`) and the WWW domain
+(e.g., `https://www.department.ucsb.edu`), so that users may access a site using
 either URL.

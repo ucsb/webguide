@@ -4,7 +4,7 @@ title: Campus Resources
 permalink: /campus-resources/
 ---
 
-### [UCSB IT Website](http://it.ucsb.edu/)
+### [UCSB IT Website](https://it.ucsb.edu/)
 
 A launch pad to the information technology organizations that provide
 infrastructure, applications, and services to support academic and business
@@ -14,7 +14,7 @@ activities at UCSB.
 
 This resource, available to UCSB affiliates only, accompanies this
 public-facing web standards guide. The site is hosted on the
-[UCSB IT Web site](http://it.ucsb.edu/) (login required) and
+[UCSB IT Web site](https://it.ucsb.edu/) (login required) and
 provides additional depth and specifics on many topics covered in the guide.
 
 ### [UCSB-Web Mailing List](https://lists.noc.ucsb.edu/mailman/listinfo/ucsb-web)

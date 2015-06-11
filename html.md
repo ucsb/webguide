@@ -100,7 +100,7 @@ Only include additional elements if absolutely required.
 
 It's not always feasible to have fully W3C-compliant markup. However, it is
 strongly recommended that you strive for it. Use the
-[W3C Validator](http://validator.w3.org/) to ensure the validity of your
+[W3C Validator](https://validator.w3.org/) to ensure the validity of your
 markup.
 
 ### Frames

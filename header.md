@@ -35,7 +35,7 @@ opening `head` tag:
 Setting the document language can have a number of benefits, including
 [assisting search engines and screen readers](http://www.w3.org/TR/html4/struct/dirlang.html#adef-lang).
 For languages other than English,
-[view the full list of language codes](http://www.loc.gov/standards/iso639-2/php/English_list.php).
+[view the full list of language codes](https://www.loc.gov/standards/iso639-2/php/English_list.php).
 
 ### Character Encoding
 
@@ -48,7 +48,7 @@ The `meta` element specifiying the character encoding should be added
 
 The character encoding `meta` element is inserted early in the
 document because
-[the HTML5 specification](http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#charset)
+[the HTML5 specification](https://html.spec.whatwg.org/multipage/semantics.html#charset)
 explains that the `meta` tag should appear in the first 1024 bytes of the document.
 
 Although the character encoding `meta` element should be included
@@ -107,7 +107,7 @@ strips unnecessary visual elements from the page:
 Depending on the needs of your website and audience, you may want to include a
 stylesheet specifically catered towards an older, less modern
 standards-compliant version of Internet Exporer. This can be accomplished
-through [conditional comments](http://msdn.microsoft.com/en-us/library/ms537512%28v=vs.85%29.aspx),
+through [conditional comments](https://msdn.microsoft.com/en-us/library/ms537512%28v=vs.85%29.aspx),
 a cleaner alternative than CSS hacks. The following snippet targets versions
 of Internet Explorer less than 8:
 

@@ -17,7 +17,7 @@ Review the
 list which is maintained by The Open Web Application Security Project to become
 familiar with the most current threats.
 
-A [vulnerability disclosure database](http://cve.mitre.org) is maintained and
+A [vulnerability disclosure database](https://cve.mitre.org) is maintained and
 published by the National Cyber Security Division of the U.S. Department of
 Homeland Security. This database can be used to research vulnerabilities common
 to a specific development platform.
