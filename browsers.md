@@ -12,6 +12,8 @@ to analyze traffic statistics for their site.
 
 As of June 2015 UCSB policy allows the use of Google Analytics for tracking website visitor statistics. But, departments and entities [using Google Analytics should abide by the procedures outlined by the announcement of campus support of Google Analytics and other click-thru agreements](http://www.policy.ucsb.edu/policies/advisory-docs/clickthrough-guide.pdf).
 
+While Google Analytics may be used on campus websites, the [UCSB Enterprise Technology Services offers the Piwik Analytics Platform as a service to campus entities](http://www.ets.ucsb.edu/services/ets-web-analytics) as a centrally hosted, on-campus alternative to a 3rd party vendor service.
+
 ### Vendor Requirements
 
 The standards described on this page may be used for vendor requirements.
