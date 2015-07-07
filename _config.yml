@@ -10,6 +10,10 @@ url: "http://webguide.ucsb.edu/"
 twitter_username: ucsantabarbara
 github_username:  ucsb-wsg
 
+# Add support for githubpages sitemap.xml.
+gems:
+  - jekyll-sitemap
+
 # Build settings
 markdown: redcarpet
 
