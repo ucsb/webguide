@@ -43,7 +43,7 @@ The `meta` element specifiying the character encoding should be added
 *directly* after the opening `head` tag:
 
 ```html
-<meta charset="utf-8" />
+<meta charset="utf-8">
 ```
 
 The character encoding `meta` element is inserted early in the
@@ -82,7 +82,7 @@ your document:
 ```html
 <meta name="description" content="The UCSB News Page features the
 latest news and press releases from the University of California,
-Santa Barbara." />
+Santa Barbara.">
 ```
 
 ### CSS Stylesheets
@@ -90,7 +90,7 @@ Santa Barbara." />
 Next, include your CSS stylesheets:
 
 ```html
-<link href="style/main.css" type="text/css" rel="stylesheet" />
+<link href="style/main.css" type="text/css" rel="stylesheet">
 ```
 
 ### Print Stylesheet
@@ -99,7 +99,7 @@ To optimize a website for printing, provide an alternate print stylesheet that
 strips unnecessary visual elements from the page:
 
 ```html
-<link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
+<link href="css/print.css" rel="stylesheet" type="text/css" media="print">
 ```
 
 ### Internet Explorer Stylesheet
@@ -136,7 +136,7 @@ enabled:
 
 ```html
 <noscript>
-  <link href="css/noscript.css" rel="stylesheet" type="text/css" />
+  <link href="css/noscript.css" rel="stylesheet" type="text/css">
 </noscript>
 ```
 
@@ -191,17 +191,17 @@ The following example summarizes the above suggestions:
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
 
     <title>Document Title</title>
-    <meta name="description" content="Description of document" />
+    <meta name="description" content="Description of document">
 
-    <link href="css/main.css" type="text/css" rel="stylesheet" />
+    <link href="css/main.css" type="text/css" rel="stylesheet">
     <!--[if lte IE 8]>
       <link href="css/ie.css" rel="stylesheet" type="text/css" />
     <![endif]-->
     <noscript>
-      <link href="css/noscrpt.css" rel="stylesheet" type="text/css" />
+      <link href="css/noscrpt.css" rel="stylesheet" type="text/css">
     </noscript>
 
     <script src="js/modernizr.js"></script>
@@ -224,9 +224,9 @@ older versions of Internet Explorer or JavaScript disabled:
     <meta charset="utf-8" />
 
     <title>Document Title</title>
-    <meta name="description" content="Description of document" />
+    <meta name="description" content="Description of document">
 
-    <link href="css/main.css" type="text/css" rel="stylesheet" />
+    <link href="css/main.css" type="text/css" rel="stylesheet">
     <script src="js/modernizr.js"></script>
 </head>
 <body>

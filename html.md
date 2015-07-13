@@ -224,7 +224,7 @@ screen readers will not be able to provide users with information about the
 image:
 
 ```html
-<img src="/images/horse.png" alt="A galloping horse in a field" />
+<img src="/images/horse.png" alt="A galloping horse in a field">
 ```
 
 While you should avoid using image elements purely for structural and styling
@@ -233,7 +233,7 @@ provide a blank value for the image's `alt` attribute so that the screenreader
 will ignore the image entirely:
 
 ```html
-<img src="/images/spacer.gif" alt="" />
+<img src="/images/spacer.gif" alt="">
 ```
 
 If you completely remove the attribute, a screenreader may read the image's
