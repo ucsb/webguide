@@ -75,8 +75,8 @@ also uphold the separation of presentation and content principle:
 <!-- GOOD PRACTICE -->
 <head>
     <title>Hello World</title>
-    <link rel="stylesheet" href="screen.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="screen.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="print.css" type="text/css" media="print">
 </head>
 ```
 
