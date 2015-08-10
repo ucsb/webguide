@@ -1,9 +1,10 @@
+var childProcess = require('child_process');
 var del = require('del');
 var gulp = require('gulp');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 
-gulp.task('default', ['minify-js']);
+gulp.task('default', ['minify-js', 'jekyll']);
 
 gulp.task('minify-js', function () {
 
@@ -11,5 +12,14 @@ gulp.task('minify-js', function () {
     .pipe(uglify())
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('./scripts/'));
+
+});
+
+gulp.task('jekyll', function() {
+
+  var jekyll = childProcess.exec('jekyll serve -w');
+  jekyll.stdout.on('data', function(data) {
+    console.log(data);
+  });
 
 });

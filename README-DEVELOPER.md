@@ -20,8 +20,6 @@ associated with hosting the UCSB Web Standards Guide on your local machine:
 
 1. Clone the git repository: `git clone https://github.com/ucsb-wsg/ucsb-wsg.github.io.git`
 2. Run `npm install` to install all the required node.js dependencies
-3. Run `gulp` to minify JavaScript files
-4. Run `jekyll build` to generate the site
-5. Run `jekyll serve` to host the site locally
+3. Run `gulp` to generate the site and host it locally
 
 You can now view the site [http://localhost:4000/](http://localhost:4000/).

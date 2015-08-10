@@ -91,11 +91,11 @@ The following example includes all of the guidelines described above:
 ```html
 Copyright &copy; 2015 The Regents of the University of California,
 All Rights Reserved
-<br />
+<br>
 <a href="http://www.policy.ucsb.edu/terms_of_use/">Terms of Use</a> /
 <a href="http://www.policy.ucsb.edu/privacy-notification/">Privacy Notification</a> /
 <a href="/accessibility">Accessibility</a>
-<br />
+<br>
 Last Modified April 4, 2006 /
 Questions or contacts? Please <a href="/contact">contact us</a>
 ```
