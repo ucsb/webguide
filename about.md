@@ -42,10 +42,7 @@ organized the subcommittee, and served as its first chair.
 
 The WSG became a task-level subcommittee/working group reporting directly to
 the ITPG in Fall 2005. Work began on the initial version of the webguide
-shortly thereafter. In an effort to help departments/units prioritize efforts,
-the framework of the [Three Tiers](/tiers/) was adopted. The initial version
-was brought before the ITPG for acceptance in late 2006 and was finally
-approved by the ITB in January 2007.
+shortly thereafter. The initial version was brought before the ITPG for acceptance in late 2006 and was finally approved by the ITB in January 2007.
 
 The WSG is active in promoting development and training opportunities for web
 professionals at UCSB. Since 2006, the group has organized more than 20 free
