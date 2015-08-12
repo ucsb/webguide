@@ -2,5 +2,4 @@ _site
 Gemfile.lock
 .sass-cache
 node_modules
-*.min.js
 .idea/
