@@ -63,6 +63,8 @@ In 2013, amid restructuring of IT units within UCSB, the reporting chain for
 many of the ITPG formed working groups, including the WSG, was transferred to
 the [UCSB IT Council](https://it.ucsb.edu/groups/itc).
 
+In 2015, the webguide's underlying infrastructure was migrated from an on-campus hosted solution to Github using Github Pages. This was to allow more rapid content development within the webguide and broader community contribution and collaboration leveraging the Github platform.
+
 ### Contact
 
 You may contact the WSG with questions, comments, or suggestions at
