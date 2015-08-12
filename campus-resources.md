@@ -17,6 +17,10 @@ public-facing web standards guide. The site is hosted on the
 [UCSB IT Web site](https://it.ucsb.edu/) (login required) and
 provides additional depth and specifics on many topics covered in the guide.
 
+### [Github Issue Tracker](https://github.com/ucsb-wsg/ucsb-wsg.github.io/issues)
+
+Any individual seeking clarification or with an inquiry regarding web standards or best practices is encouraged to post their inquiry in the Github Issues Tracker which is actively moderated by the WSG Co-Chairs and WSG members. Please note that the Github platform requires a user account, by participating on Github your inquiries and responses will be in the public domain. Please observe proper etiquette and be respectful of others.
+
 ### [UCSB-Web Mailing List](https://lists.noc.ucsb.edu/mailman/listinfo/ucsb-web)
 
 Provides a forum for UCSB web professionals to exchange information about web
