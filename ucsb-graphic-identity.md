@@ -4,6 +4,8 @@ title: UCSB Graphic Identity
 permalink: /ucsb-graphic-identity/
 ---
 
+**Notice Posted on 08-12-2015: The information provided on the page will be updated in 1-2 months with resources provided by Public Affairs on updated UCSB branding guidelines. Please watch this space for updates. -WSG Co-Chair**
+
 On this page, the Web Standards Group provides resources to help UCSB
 webmasters make a site look like a part of our University, and to encourage
 consistency. We provide a color palette, logos, fonts, and
