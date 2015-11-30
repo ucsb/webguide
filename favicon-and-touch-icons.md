@@ -4,17 +4,25 @@ title: Favicon and Touch Icons
 permalink: /favicon-and-touch-icons/
 ---
 
-`favicon.ico` will generally be displayed near the address bar of a browser.
-Touch icons will be displayed when the website visitor puts a bookmark linking
-to the website on their mobile device's home screen. These images do not need
-to be specified in the HTML; they will automatically be requested by the browser.
+A "favicon" will generally appear near a browser's address bar when a user
+is visiting your website.
 
-To target all devices, create and provide the following icons in the root of
-your website:
+However, these icons can appear in a number of places beyond the address
+bar, including alongside the website's name on a browser tab and
+on the "home screens" of mobile devices. As a result, the favicon should
+provide a simple and straightforward visual cue to help a user quickly
+identify your website amongst other websites.
 
-* `apple-touch-icon-144x144-precomposed.png`
-* `apple-touch-icon-114x114-precomposed.png`
-* `apple-touch-icon-72x72-precomposed.png`
-* `apple-touch-icon-57x57-precomposed.png`
-* `apple-touch-icon-precomposed.png`
-* `favicon.ico`
+At the very least, **the Web Standards Group recommends** creating a
+`favicon.ico` file and placing it in the *root* directory of your website
+(this particular icon does *not* need to be specified with a `meta` tag
+in the HTML).
+
+This `favicon.ico` file should contain *two* images of different sizes:
+16x16 and 32x32.
+
+This provides a **bare level** of support for browsers and devices.
+
+To create a better user experience across a number of platforms, including
+varying pixel densities, devices, and operating systems, refer to the
+[open-source favicon cheat sheet](https://github.com/audreyr/favicon-cheat-sheet).
