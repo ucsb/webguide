@@ -31,11 +31,6 @@ serves the popular jQuery library from Google's CDN:
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 ```
 
-Notice that we have not included a protocol in the URL (`http` or `https`).
-Protcol-less URLs will use the visitor's current protocol, allowing for
-efficient caching when retrieving resources over HTTP and avoiding the errors
-generated from mixing protocols when retrieving resources over HTTPS.
-
 ### Minified Resources
 
 JavaScript and CSS files should be **minified**. Minification is the process of
