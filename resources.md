@@ -28,13 +28,8 @@ decreased latency and the ability to leverage caching. The following example
 serves the popular jQuery library from Google's CDN:
 
 ```html
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 ```
-
-Notice that we have not included a protocol in the URL (`http` or `https`).
-Protcol-less URLs will use the visitor's current protocol, allowing for
-efficient caching when retrieving resources over HTTP and avoiding the errors
-generated from mixing protocols when retrieving resources over HTTPS.
 
 ### Minified Resources
 
