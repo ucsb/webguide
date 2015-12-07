@@ -38,3 +38,11 @@ condensing JavaScript and CSS files to only include the required content. For
 example, spaces can be removed from CSS files and the names of local variables
 can be shortened in JavaScript files. A number of tools exist for accomplishing
 this task.
+
+### Concatenating Resources
+
+JavaScript and CSS files should also be **concatenated**, or combined together
+into a single file. In other words, rather than referencing multiple JavaScript
+files on a page, these scripts should be concatenated into a single JavaScript
+file. This improves performance by reducing the number of separate
+connections the browser needs to establish while loading a page.
