@@ -9,8 +9,7 @@ audience the ability to communicate with your department. But websites also
 provide spammers a source of e-mail addresses to target. Your department's
 needs should be evaluated against the pros and cons of the various solutions.
 A more in-depth discussion of this topic is available to the UCSB community at
-[Web Standards Guide Resources - Email Addresses](https://it.ucsb.edu/resources/web-standards-guide-resources-email-addresses)
-(login required).
+[Web Standards Guide Resources - Email Addresses](https://github.com/ucsb-wsg/ucsb-wsg.github.io/wiki/E-mail-Addresses).
 
 ### Avoid Displaying Personal Email Addresses
 
