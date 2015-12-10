@@ -10,12 +10,11 @@ A launch pad to the information technology organizations that provide
 infrastructure, applications, and services to support academic and business
 activities at UCSB.
 
-### [WSG Web Guide Resources](https://it.ucsb.edu/resources/web-standards-guide-resources)
+### [GitHub Wiki](https://github.com/ucsb-wsg/ucsb-wsg.github.io/wiki)
 
-This resource, available to UCSB affiliates only, accompanies this
-public-facing web standards guide. The site is hosted on the
-[UCSB IT Web site](https://it.ucsb.edu/) (login required) and
-provides additional depth and specifics on many topics covered in the guide.
+A public, collaboratively-maintained accompaniment to the Web Guide, including
+more in-depth discussions of existing sections as well as drafts for future
+sections.
 
 ### [Github Issue Tracker](https://github.com/ucsb-wsg/ucsb-wsg.github.io/issues)
 
