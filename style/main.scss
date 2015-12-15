@@ -63,7 +63,6 @@ a, a:visited
 {
 	color: #00356B;
 	font-weight: bold;
-	text-decoration: none;
 }
 
 a:hover, a:active
@@ -344,6 +343,7 @@ code
 	color: #00356B;
 	padding: 4px;
 	margin: 0px;
+	text-decoration: none;
 	font-size: 0.8em;
 	white-space: nowrap;
 	/* text-indent: -20px; */
