@@ -47,10 +47,6 @@ body
 
 #main
 {
-	/* three column background image
-	  background: #FFF url(../images/content_back.png) no-repeat 200px 42px;
-	*/
-	/* tweaked version of the 3 column bg image to configure for 2 column layout */
 	background: #FFF url(../images/content_back_2col.png) no-repeat 200px 42px;
 	margin: 0 auto;
 	width: 960px;
@@ -103,8 +99,6 @@ h1 a
 	float: left;
 	height: 88px;
 	width: 290px;
-	/* width: 538px; */
-	/* width: 715px; */
 }
 
 /* =NAVIGATION
@@ -199,7 +193,6 @@ h1 a
 	margin: 0 10px;
 	padding-left: 20px;
 	width: 700px;
-	/* width: 538px; */
 }
 
 /* =FOOTER
@@ -297,15 +290,6 @@ code
 /* =TABLE-OF-CONTENTS
 =============================================*/
 
-/*
-#toc li
-{
-
-    background-color: red;
-    color: red;
-}
-*/
-
 #toc
 {
 	overflow: auto;
@@ -346,7 +330,6 @@ code
 	text-decoration: none;
 	font-size: 0.8em;
 	white-space: nowrap;
-	/* text-indent: -20px; */
 }
 
 /* =SEARCH
@@ -426,10 +409,6 @@ code
     display: table-row;
 }
 .swatch-cell {
-    /*
-    background-color: magenta;
-    border: solid 2px black;
-    */
     vertical-align: middle;
     width: 150px;
     display: table-cell;
