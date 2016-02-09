@@ -15,11 +15,6 @@ gems:
   - jekyll-sitemap
 
 # Build settings
-markdown: redcarpet
-
-redcarpet:
-    extensions: [with_toc_data]
-
 sass:
     style: :compressed
 
