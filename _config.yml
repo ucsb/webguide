@@ -67,6 +67,9 @@ navigation:
       -
         text: "Search Engine Optimization"
         url: seo/
+      -
+        text: "Frameworks"
+        url: frameworks/
   -
     name: 'Policy Compliance'
     links:
