@@ -27,7 +27,7 @@ The WSG is a campus-wide forum whose membership is drawn from web developers,
 designers, and administrators across campus. Its meetings, typically held the
 first Tuesday of every month, are open to all UCSB web professionals.
 Meeting announcements are disseminated through the
-[UCSB-Web mailing list](https://lists.ucsb.edu/mailman/listinfo/ucsb-web).
+[UCSB-Web mailing list](https://lists.noc.ucsb.edu/mailman/listinfo/ucsb-web).
 WSG meeting notes and other documents are posted on the
 [WSG group page](https://it.ucsb.edu/groups/wsg) on the
 [campus (UCSB) IT website](https://it.ucsb.edu).
