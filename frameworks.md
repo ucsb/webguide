@@ -13,7 +13,7 @@ These frameworks generally include JavaScript or CSS that handle common
 and so on).
 
 For example, when using the popular framework
-[Twitter Bootstrap](http://getbootstrap.com/), tabbed navigation can be added
+[Bootstrap](http://getbootstrap.com/), tabbed navigation can be added
 with the following markup:
 
 ```html
@@ -29,8 +29,8 @@ a series of tabs; the framework simply handles this work for us.
 
 Examples of popular frameworks include:
 
-* [Twitter Bootstrap](http://getbootstrap.com/)
-* [Zurb Foundation](http://foundation.zurb.com/)
+* [Bootstrap](http://getbootstrap.com/)
+* [Foundation](http://foundation.zurb.com/)
 
 While these frameworks are powerful tools, keep in mind that they
 come and go: as a result, you should not plan on depending on a framework
