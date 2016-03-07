@@ -1,15 +1,14 @@
 {
   "name": "ucsb-wsg.github.io",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/loganfranken/ucsb-wsg.github.io"
+    "url": "git+https://github.com/ucsb-wsg/ucsb-wsg.github.io"
   },
   "bugs": {
-    "url": "https://github.com/loganfranken/ucsb-wsg.github.io/issues"
+    "url": "https://github.com/ucsb-wsg/ucsb-wsg.github.io/issues"
   },
-  "homepage": "https://github.com/loganfranken/ucsb-wsg.github.io",
+  "homepage": "http://webguide.ucsb.edu/",
   "dependencies": {},
   "devDependencies": {
     "del": "^1.2.0",
@@ -17,5 +16,11 @@
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.2.0",
     "uglify-js": "^2.4.23"
-  }
+  },
+  "description": "This is the UCSB Web Standards Group webguide which is a static website whose content provides recommendations and best practices for websites hosted within and affiliated with www.ucsb.edu. These recommendations are intended to be broad enough to apply to most any website in any domain -- but an emphasis is placed on Higher Ed web content.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "UCSB Web Standards Group",
+  "license": "BSD-3-Clause"
 }
