@@ -8,6 +8,10 @@ As a general rule of thumb, the content of your website should have a logical
 flow regardless of any styling. In other words, a user who has disabled CSS
 should still be able to understand your website's content.
 
+More specifically, *websites should not convey information by color alone*.
+This is especially important for users who are color blind or who use a screen
+reader.
+
 Note that CSS techniques and technologies are evolving rapidly. Website
 developers should try to understand the tradeoffs involved with their choices
 (loading one vs. many stylesheets, performance vs. organization, basic CSS vs.
