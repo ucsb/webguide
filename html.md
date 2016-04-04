@@ -159,60 +159,6 @@ framework. However, this technique has fallen out of favor because table markup
 does not accurately reflect the semantics of the content. Only use tables for
 tabular data.
 
-#### Use table-related elements appropriately
-
-There are a number of elements that can provide more semantic meaning to the
-rows within tables (`th`, `caption`, `thead`, `tbody`, and `tfoot`). Use them
-when appropriate:
-
-```html
-<table>
-    <caption>Where Students Live</caption>
-    <thead>
-        <tr>
-            <th>Location</th>
-            <th>Percentage of Students</th>
-        </tr>
-    </thead>
-    <tfoot>
-        <tr>
-            <th>Location</th>
-            <th>Percentage of Students</th>
-        </tr>
-    </tfoot>
-    <tbody>
-        <tr>
-            <td>UCSB Residence Halls</td>
-            <td>23%</td>
-        </tr>
-        <tr>
-            <td>UCSB Apartments</td>
-            <td>11%</td>
-        </tr>
-        <tr>
-            <td>Fraternities/Sororities</td>
-            <td>2%</td>
-        </tr>
-        <tr>
-            <td>Isla Vista, Goleta, Santa Barbara</td>
-            <td>52%</td>
-        </tr>
-        <tr>
-            <td>Commuters</td>
-            <td>6%</td>
-        </tr>
-        <tr>
-            <td>Education Abroad/Addresses Unknown</td>
-            <td>4%</td>
-        </tr>
-    </tbody>
-</table>
-```
-
-Note the use of the `caption` element to describe the contents of the table,
-the use of `th` instead of `td` for cells within `thead` and `tfoot`, and the
-placement of the `tfoot` element directly following the `thead` element.
-
 #### Use `caption`s and summaries
 
 With the `caption` element, you can provide a descriptive heading for a table,
