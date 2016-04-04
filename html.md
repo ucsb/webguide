@@ -213,6 +213,35 @@ Note the use of the `caption` element to describe the contents of the table,
 the use of `th` instead of `td` for cells within `thead` and `tfoot`, and the
 placement of the `tfoot` element directly following the `thead` element.
 
+#### Use `caption`s and summaries
+
+With the `caption` element, you can provide a descriptive heading for a table,
+summarizing the table's data:
+
+```html
+<table>
+    <caption>Department Contact Information</caption>
+    <!-- Table Content -->
+</table>
+```
+
+This is especially useful for users with screen readers, who can read this
+`caption` element without leafing through a table's rows and columns to
+understand its content and purpose.
+
+Note that the `caption` element is visible to all users. If the purpose of the
+table is clear to users who can see the table and you only want to provide a
+summary for users who can not see the table, use the `summary` attribute:
+
+```html
+<table summary="Column one display's the name of the person, column two displays their phone number">
+    <!-- Table Content -->
+</table>
+```
+
+If the approaches above do not meet your needs, the W3C's Web accessibility
+Initiative provides [alternative methods](https://www.w3.org/WAI/tutorials/tables/caption-summary/).
+
 ### Images
 
 <!-- -->
