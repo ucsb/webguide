@@ -67,7 +67,8 @@ To view the corresponding web guide section for each area of the checklist,
 * Never use frames
 * Use descriptive link text
 * Don't use tables for layout
-* Use table-related elements for tabular data appropriately
+* Use `caption`s and summaries with tables
+* Use `th` to provide table header
 * Provide a meaningful "alt" attribute for every image
 
 ### [Resources](/resources/)
