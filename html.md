@@ -239,8 +239,38 @@ summary for users who can not see the table, use the `summary` attribute:
 </table>
 ```
 
-If the approaches above do not meet your needs, the W3C's Web accessibility
+If the approaches above do not meet your needs, the W3C's Web Accessibility
 Initiative provides [alternative methods](https://www.w3.org/WAI/tutorials/tables/caption-summary/).
+
+#### Use `th` to provide table headers
+
+Use the `th` element, with the `scope` attribute, to indicate the header of a
+column within a table:
+
+```html
+<table>
+    <caption>Where Students Live</caption>
+    <thead>
+        <tr>
+            <th scope="col">Location</th>
+            <th scope="col">Percentage of Students</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>UCSB Residence Halls</td>
+            <td>23%</td>
+        </tr>
+        <tr>
+            <td>UCSB Apartments</td>
+            <td>11%</td>
+        </tr>
+    </tbody>
+</table>
+```
+
+For more information on how to use the `th` element in irregular scenarios,
+refer to the W3C's Web Accessibility Initiative [Tables Tutorial](https://www.w3.org/WAI/tutorials/tables/).
 
 ### Images
 
