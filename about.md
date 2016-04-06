@@ -32,6 +32,8 @@ WSG meeting notes and other documents are posted on the
 [WSG group page](https://it.ucsb.edu/groups/wsg) on the
 [campus (UCSB) IT website](https://it.ucsb.edu).
 
+<iframe src="https://calendar.google.com/calendar/embed?src=ucsb.edu_s3lonstmibq1b6p3m1fl4llukk%40group.calendar.google.com&showTitle=0&showPrint=0&showCalendars=0&height=600&wkst=1&bgcolor=%23FFFFFF&ctz=America/Los_Angeles" style="border: 0" width="700" height="600" frameborder="0" scrolling="no"></iframe>
+
 ### History
 
 The WSG was formed in May 2005 as a subcommittee of the New Business
