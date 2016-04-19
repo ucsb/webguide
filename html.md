@@ -159,27 +159,49 @@ framework. However, this technique has fallen out of favor because table markup
 does not accurately reflect the semantics of the content. Only use tables for
 tabular data.
 
-#### Use table-related elements appropriately
+#### Use `caption`s and summaries
 
-There are a number of elements that can provide more semantic meaning to the
-rows within tables (`th`, `caption`, `thead`, `tbody`, and `tfoot`). Use them
-when appropriate:
+With the `caption` element, you can provide a descriptive heading for a table,
+summarizing the table's data:
+
+```html
+<table>
+    <caption>Department Contact Information</caption>
+    <!-- Table Content -->
+</table>
+```
+
+This is especially useful for users with screen readers, who can read this
+`caption` element without leafing through a table's rows and columns to
+understand its content and purpose.
+
+Note that the `caption` element is visible to all users. If the purpose of the
+table is clear to users who can see the table and you only want to provide a
+summary for users who can not see the table, use the `summary` attribute:
+
+```html
+<table summary="Column one display's the name of the person, column two displays their phone number">
+    <!-- Table Content -->
+</table>
+```
+
+If the approaches above do not meet your needs, the W3C's Web Accessibility
+Initiative provides [alternative methods](https://www.w3.org/WAI/tutorials/tables/caption-summary/).
+
+#### Use `th` to provide table headers
+
+Use the `th` element, with the `scope` attribute, to indicate the header of a
+column within a table:
 
 ```html
 <table>
     <caption>Where Students Live</caption>
     <thead>
         <tr>
-            <th>Location</th>
-            <th>Percentage of Students</th>
+            <th scope="col">Location</th>
+            <th scope="col">Percentage of Students</th>
         </tr>
     </thead>
-    <tfoot>
-        <tr>
-            <th>Location</th>
-            <th>Percentage of Students</th>
-        </tr>
-    </tfoot>
     <tbody>
         <tr>
             <td>UCSB Residence Halls</td>
@@ -189,29 +211,12 @@ when appropriate:
             <td>UCSB Apartments</td>
             <td>11%</td>
         </tr>
-        <tr>
-            <td>Fraternities/Sororities</td>
-            <td>2%</td>
-        </tr>
-        <tr>
-            <td>Isla Vista, Goleta, Santa Barbara</td>
-            <td>52%</td>
-        </tr>
-        <tr>
-            <td>Commuters</td>
-            <td>6%</td>
-        </tr>
-        <tr>
-            <td>Education Abroad/Addresses Unknown</td>
-            <td>4%</td>
-        </tr>
     </tbody>
 </table>
 ```
 
-Note the use of the `caption` element to describe the contents of the table,
-the use of `th` instead of `td` for cells within `thead` and `tfoot`, and the
-placement of the `tfoot` element directly following the `thead` element.
+For more information on how to use the `th` element in irregular scenarios,
+refer to the W3C's Web Accessibility Initiative [Tables Tutorial](https://www.w3.org/WAI/tutorials/tables/).
 
 ### Images
 
