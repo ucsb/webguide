@@ -1,36 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    <a href="#end_of_header" class="hidden">Skip to Content</a>
-    <div id="main">
+  <a href="http://webguide.ucsb.edu/#content" class="sr-only sr-only-focusable skip-to-content">Skip to content</a>
+  <header role="banner">
+      <div class="navbar navbar-default yamm">
+      <div class="navbar-header navbar-fixed-top">
 
-      <a target="_blank" id="ucsb-header" href="http://www.ucsb.edu/">UCSB</a>
+        <div class="container">
+          <button type="button" class="navbar-toggle collapsed navbar-closed" data-toggle="collapse" data-target="#ucsb-nav" id="hamburger" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar burger-top"></span>
+            <span class="icon-bar burger-middle"></span>
+            <span class="icon-bar burger-bottom"></span>
+          </button>
+          <div class="row">
+            <div class="navbar-brand col-sm-6 col-md-6 col-lg-5">
+                <h1 class="inline-block"><a href="http://www.ucsb.edu/" id="logo">UC Santa Barbara</a></h1>
+            </div>
 
-      {% include main-nav.html %}
+            <div class="search-bundle-wrapper col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-3 hidden-xs">
+              <form role="search" name="gs" method="get" action="http://webguide.ucsb.edu/search" class="site-search-navbar-header">
+                <label for="search-query"><span class="sr-only sr-only-focusable">Search Query:</span></label>
+                <input type="text" name="query" class="searchinput" id="search-query" placeholder="search webguide">
+                <input type="image" class="searchsubmit" src="images/search.png" alt="Submit Search" id="sitesearch-submit">
+              </form>
 
-      <div id="content">
+            </div> <!-- /.search-bundle-wrapper -->
+          </div> <!-- row -->
+        </div> <!-- /.container -->
+      </div> <!-- /.navbar-header -->
 
-        <div class="header">
-          <h1><a href="/">UC Santa Barbara Web Standards</a></h1>
-          <form class="search-form" method="GET" action="/search">
-             <label for="search-query" class="hidden">Search Query:</label>
-             <input type="text" id="search-query" name="query" placeholder="Search this site..." />
-             <input class="search-btn" type="submit" value="Search" />
-         </form>
-        </div>
+      <div class="container">
+      <h2 class="page-title">Web Standards Group</h2>
+        <nav class="collapse navbar-collapse" role="navigation" id="ucsb-nav">
+          <h2 class="sr-only sr-only-focusable">Navigation</h2>
 
-        <h2>{{ page.title }}</h2>
+          <form role="search" name="gs-mobile" method="get" action="http://webguide.ucsb.edu/search" class="site-search visible-xs-block">
+            <h2 class="sr-only sr-only-focusable"><label for="sitesearch-mobile">Site Search</label></h2>
+            <input type="text" name="query" class="searchinput" id="sitesearch-mobile" placeholder="search webguide">
+            <input type="image" name="magnify-glass" class="searchsubmit" src="images/search.png" alt="Submit Search" id="sitesearch-submit-mobile">
+          </form>
 
+          {% include main-nav.html %}
+
+        </nav> <!-- /#ucsb-nav -->
+      </div> <!-- /.container -->
+    </div> <!-- /.navbar .navbar-default -->  </header>
+<section class="container page-campus-intro template-primary movedown" id="content" tabindex="-1" role="main">
+
+    <div class="row">
+      <main class="col-sm-12">
+        <h3 class="page-subtitle">{{ page.title }}</h3>
         {{ content }}
-
-      </div>
-
-      {% include footer.html %}
-
+      </main>
     </div>
-  </body>
+  </section><!-- /.container -->
+
+{% include footer.html %}
+
+</body>
 </html>

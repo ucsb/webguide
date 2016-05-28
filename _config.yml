@@ -20,89 +20,101 @@ sass:
 
 navigation:
   -
-    name: 'Graphical Presentation'
-    links:
+    categories:
       -
-        text: Browsers
-        url: browsers/
+        name: 'Graphical Presentation'
+        id: 'presentation'
+        links:
+          -
+            text: Browsers
+            url: browsers/
+          -
+            text: "Favicon and Touch Icons"
+            url: favicon-and-touch-icons/
+          -
+            text: "UCSB Graphic Identity"
+            url: ucsb-graphic-identity/
+          -
+            text: "Viewport Dimensions"
+            url: viewport-dimensions/
       -
-        text: "Favicon and Touch Icons"
-        url: favicon-and-touch-icons/
-      -
-        text: "UCSB Graphic Identity"
-        url: ucsb-graphic-identity/
-      -
-        text: "Viewport Dimensions"
-        url: viewport-dimensions/
+        name: 'Markup & Styling'
+        id: 'markup'
+        links:
+          -
+            text: CSS
+            url: css/
+          -
+            text: Footer
+            url: footer/
+          -
+            text: Header
+            url: header/
+          -
+            text: HTML
+            url: html/
+          -
+            text: Resources
+            url: resources/
   -
-    name: 'Markup & Styling'
-    links:
+    categories:
       -
-        text: CSS
-        url: css/
+        name: 'General Recommendations'
+        id: 'recommendations'
+        links:
+          -
+            text: "E-mail Addresses"
+            url: email-addresses/
+          -
+            text: "Web Security"
+            url: web-security/
+          -
+            text: URLs
+            url: urls/
+          -
+            text: "Search Engine Optimization"
+            url: seo/
+          -
+            text: "Frameworks"
+            url: frameworks/
       -
-        text: Footer
-        url: footer/
-      -
-        text: Header
-        url: header/
-      -
-        text: HTML
-        url: html/
-      -
-        text: Resources
-        url: resources/
+        name: 'Policy Compliance'
+        id: 'policy'
+        links:
+          -
+            text: Policies
+            url: policies/
+          -
+            text: "Web Accessibility"
+            url: web-accessibility/
   -
-    name: 'General Recommendations'
-    links:
+    categories:
       -
-        text: "E-mail Addresses"
-        url: email-addresses/
+        name: 'Resources'
+        id: 'resources'
+        links:
+          -
+            text: "Campus Resources"
+            url: campus-resources/
+          -
+            text: "Examples"
+            url: examples/
+          -
+            text: "Best Practices Templates"
+            url: best-practice-templates/
+          -
+            text: "Web Standards Checklist"
+            url: web-standards-checklist/
       -
-        text: "Web Security"
-        url: web-security/
-      -
-        text: URLs
-        url: urls/
-      -
-        text: "Search Engine Optimization"
-        url: seo/
-      -
-        text: "Frameworks"
-        url: frameworks/
-  -
-    name: 'Policy Compliance'
-    links:
-      -
-        text: Policies
-        url: policies/
-      -
-        text: "Web Accessibility"
-        url: web-accessibility/
-  -
-    name: 'Resources'
-    links:
-      -
-        text: "Campus Resources"
-        url: campus-resources/
-      -
-        text: "Examples"
-        url: examples/
-      -
-        text: "Best Practices Templates"
-        url: best-practice-templates/
-      -
-        text: "Web Standards Checklist"
-        url: web-standards-checklist/
-  -
-    name: 'Behind the Standards'
-    links:
-      -
-        text: "About the WSG"
-        url: about/
-      -
-        text: "Contact WSG"
-        url: contact/
-      -
-        text: "Web Guide Site Map"
-        url: site-map/
+        name: 'Behind the Standards'
+        id: 'standards'
+        links:
+          -
+            text: "About the WSG"
+            url: about/
+          -
+            text: "Contact WSG"
+            url: contact/
+          -
+            text: "Web Guide Site Map"
+            url: site-map/
