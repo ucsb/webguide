@@ -17,7 +17,7 @@ gulp.task('minify-js', function () {
 
 gulp.task('jekyll', function() {
 
-  var jekyll = childProcess.exec('jekyll serve -w');
+  var jekyll = childProcess.exec('bundle exec jekyll serve');
   jekyll.stdout.on('data', function(data) {
     console.log(data);
   });
