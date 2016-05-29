@@ -19,14 +19,14 @@
           </button>
           <div class="row">
             <div class="navbar-brand col-sm-6 col-md-6 col-lg-5">
-                <h1 class="inline-block"><a href="http://www.ucsb.edu/" id="logo">UC Santa Barbara</a></h1>
+                <span class="inline-block"><a href="http://www.ucsb.edu/" id="logo">UC Santa Barbara</a></span>
             </div>
 
             <div class="search-bundle-wrapper col-sm-6 col-md-5 col-md-offset-1 col-lg-4 col-lg-offset-3 hidden-xs">
               <form role="search" name="gs" method="get" action="http://webguide.ucsb.edu/search" class="site-search-navbar-header">
                 <label for="search-query"><span class="sr-only sr-only-focusable">Search Query:</span></label>
                 <input type="text" name="query" class="searchinput" id="search-query" placeholder="search webguide">
-                <input type="image" class="searchsubmit" src="images/search.png" alt="Submit Search" id="sitesearch-submit">
+                <input type="image" class="searchsubmit" src="{{ "images/search.png" | prepend: site.baseurl }}" alt="Submit Search" id="sitesearch-submit">
               </form>
 
             </div> <!-- /.search-bundle-wrapper -->
@@ -35,14 +35,14 @@
       </div> <!-- /.navbar-header -->
 
       <div class="container">
-      <h2 class="page-title">Web Standards Group</h2>
+      <h1 class="page-title">Web Standards Group</h1>
         <nav class="collapse navbar-collapse" role="navigation" id="ucsb-nav">
           <h2 class="sr-only sr-only-focusable">Navigation</h2>
 
           <form role="search" name="gs-mobile" method="get" action="http://webguide.ucsb.edu/search" class="site-search visible-xs-block">
-            <h2 class="sr-only sr-only-focusable"><label for="sitesearch-mobile">Site Search</label></h2>
+            <span class="sr-only sr-only-focusable"><label for="sitesearch-mobile">Site Search</label></span>
             <input type="text" name="query" class="searchinput" id="sitesearch-mobile" placeholder="search webguide">
-            <input type="image" name="magnify-glass" class="searchsubmit" src="images/search.png" alt="Submit Search" id="sitesearch-submit-mobile">
+            <input type="image" name="magnify-glass" class="searchsubmit" src="{{ "images/search.png" | prepend: site.baseurl }}" alt="Submit Search" id="sitesearch-submit-mobile">
           </form>
 
           {% include main-nav.html %}
@@ -54,7 +54,7 @@
 
     <div class="row">
       <main class="col-sm-12">
-        <h3 class="page-subtitle">{{ page.title }}</h3>
+        <h2 class="page-subtitle">{{ page.title }}</h2>
         {{ content }}
       </main>
     </div>

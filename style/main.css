@@ -176,7 +176,7 @@ strong {
     text-decoration: underline
 }
 
-h2.page-title {
+h1.page-title {
     color: #00468b;
     font-size: 1.5em;
     font-weight: 700;
@@ -185,8 +185,8 @@ h2.page-title {
     padding-top:70px
 }
 
-h3.page-subtitle,
-h3.aside-title {
+h2.page-subtitle,
+h2.aside-title {
     color: #00468b;
     font-size: 1.25em;
     font-weight: 600;
@@ -194,7 +194,7 @@ h3.aside-title {
     padding: 10px 0 10px
 }
 
-h4 {
+h3 {
     color: #00468b;
     font-size: 0.95em;
     font-weight: 600;
@@ -202,9 +202,17 @@ h4 {
     padding: 7px 0 5px
 }
 
+h4
+{
+  color: #00468b;
+  font-size: 0.95em;
+  font-weight: 600;
+  padding: 7px 0 5px
+}
+
 @media (min-width: 992px) {
-    h3.page-subtitle,
-    h3.aside-title {
+    h2.page-subtitle,
+    h2.aside-title {
         padding: 25px 0 20px
     }
 }
@@ -520,7 +528,7 @@ header .navbar-header .navbar-brand {
     padding: 5px 0 0
 }
 
-header .navbar-header h1 a#logo {
+header .navbar-header a#logo {
     background: url(../../images/ucsb-wordmark-xs.png);
     background: url(../../images/ucsb-wordmark.svg), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
     background-repeat: no-repeat;
@@ -537,7 +545,7 @@ header .navbar-header h1 a#logo {
     header .navbar-header .navbar-brand {
         padding: 3px 0 0
     }
-    header .navbar-header h1 a#logo {
+    header .navbar-header a#logo {
         background: url(../../images/ucsb-wordmark-sm.png);
         background: url(../../images/ucsb-wordmark.svg), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
         background-repeat: no-repeat;
@@ -556,7 +564,7 @@ header .navbar-header h1 a#logo {
     header .navbar-header .navbar-brand {
         padding: 0
     }
-    header .navbar-header h1 a#logo {
+    header .navbar-header a#logo {
         background: url(../../images/ucsb-wordmark.png);
         background: url(../../images/ucsb-wordmark.svg), linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
         background-repeat: no-repeat;
@@ -1024,7 +1032,7 @@ footer#footer .footer-secondary {
         border: 0;
         color: #FFF;
         font-size: 0.80em;
-        height: 285px;
+        height: 300px;
         text-align: center;
         margin-top: 0;
         padding: 0;
@@ -1386,3 +1394,93 @@ form.site-search .searchsubmit {
 
 footer#footer a.mailinglist-button, footer#footer a.mailinglist-button:visited { color: #00468b; }
 footer#footer a.mailinglist-button:hover, footer#footer a.mailinglist-button:focus { background: #EEE; text-decoration:none; }
+
+#content ul
+{
+  list-style: disc;
+  margin: 1em 0;
+  padding: 0 0 0 2.5em;
+}
+
+#content a
+{
+  color: #337ab7;
+  text-decoration: underline;
+}
+
+#content em
+{
+  font-style: italic;
+}
+
+/* =CODE
+=============================================*/
+
+.highlight
+{
+	border: 3px solid #EEE;
+	border-width: 0 0 0 3px;
+	font-size: 1.25em;
+	margin: 1em 0 1em 10px;
+  max-width: 678px;
+  overflow: auto;
+	padding: 0 10px;
+}
+
+.highlight pre
+{
+	margin: 0;
+}
+
+.highlight.good
+{
+    border-color: #7ACC00;
+}
+
+.highlight.bad
+{
+    border-color: #C00;
+}
+
+.highlight code
+{
+	font-size: 1em;
+}
+
+/* =TABLE-OF-CONTENTS
+=============================================*/
+
+#toc
+{
+	overflow: auto;
+	width: 100%;
+}
+
+#toc span
+{
+	font-weight: bold;
+	float: left;
+  margin: 0.25em 0.5em;
+}
+
+#toc ul
+{
+	display: block;
+	float: left;
+  margin: 0;
+	padding: 0;
+	width: 85%;
+}
+
+#toc ul li
+{
+	display: inline;
+	margin-right: 0.25em;
+	line-height: 1.8em;
+}
+
+#toc ul li a
+{
+	color: #337ab7;
+	margin: 0;
+}
