@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    <a href="#end_of_header" class="hidden">Skip to Content</a>
+    <div id="main">
+
+      <a target="_blank" id="ucsb-header" href="http://www.ucsb.edu/">UCSB</a>
+
+      {% include main-nav.html %}
+
+      <div id="content">
+
+        <div class="header">
+          <h1><a href="/">UC Santa Barbara Web Standards</a></h1>
+          <form class="search-form" method="GET" action="/search">
+             <label for="search-query" class="hidden">Search Query:</label>
+             <input type="text" id="search-query" name="query" placeholder="Search this site..." />
+             <input class="search-btn" type="submit" value="Search" />
+         </form>
+        </div>
+
+        <h2>{{ page.title }}</h2>
+
+        {{ content }}
+
+      </div>
+
+      {% include footer.html %}
+
+    </div>
+  </body>
+</html>

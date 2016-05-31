@@ -1,19 +1,21 @@
-<div id="guide-footer">
-
-  <span class="copyright">
-    Copyright &copy; 2015 The Regents of the University of California, All Rights Reserved.
-  </span>
-  <span class="contact">
-      UC Santa Barbara, Santa Barbara, CA 93106 &bull; (805) 893-8000
-  </span>
-  <ul>
-      <li><a target="_blank" href="http://www.ucsb.edu/sitemap/index.shtml">Site Map</a> &bull;</li>
-      <li><a target="_blank" href="http://www.ucsb.edu/about-our-site/index.shtml">About Our Site</a> &bull;</li>
-      <li><a target="_blank" href="http://www.ucsb.edu/policies/terms-of-use.shtml">Terms of Use</a> &bull;</li>
-      <li><a target="_blank" href="http://www.ucsb.edu/accessibility/index.html">Web Accessibility</a></li>
+<footer class="container" id="footer" role="contentinfo" aria-label="footer">
+<h2>WEBGUIDE</h2>
+    <ul class="footer-nav row">
+    <li class="col-ms-6 col-sm-2 "><a href="{{ "site-map" | prepend: site.baseurl }}">Site Map</a></li>
+    <li class="col-ms-6 col-sm-2 "><a href="{{ "about" | prepend: site.baseurl }}">About Our Site</a></li>
+    <li class="col-ms-6 col-sm-2 "><a href="http://www.ucsb.edu/terms-of-use">Terms of Use</a></li>
+    <li class="col-ms-6 col-sm-2 "><a href="http://www.ucsb.edu/accessibility">Web Accessibility</a></li>
+    <li class="col-ms-6 col-sm-3 col-sm-offset-1">
+    <a href="https://lists.noc.ucsb.edu/mailman/listinfo/ucsb-web" class="mailinglist-button">Join Mailing List</a>
+    </li>
   </ul>
-  <a class="ucsb-link" target="_blank" href="http://www.ucsb.edu/">UCSB</a>
-</div>
+  <section class="footer-secondary row">
+    <p class="col-md-12">Copyright &copy; 2016 <a href="http://regents.universityofcalifornia.edu/">The Regents</a> of the <a href="http://www.universityofcalifornia.edu/">University of California</a>, All Rights Reserved. UC Santa Barbara, Santa Barbara, CA 93106 • (805) 893-8000</p>
+  </section>
+</footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="{{ "scripts/main.min.js" | prepend: site.baseurl }}" type="text/javascript"></script>
+<script src="{{ "scripts/jquery.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "scripts/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "scripts/main.min.js" | prepend: site.baseurl }}"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="{{ "scripts/ie10-viewport-bug-workaround.min.js" | prepend: site.baseurl }}"></script>
