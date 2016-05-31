@@ -17,7 +17,7 @@ Copyright &copy; 2015 The Regents of the University of California, All Rights Re
 ```
 
 For more information about copyright requirements, visit
-[UCOP Copyright Matters](http://www.ucop.edu/ott/faculty/crprimr.html).
+[UCOP Copyright Matters](http://copyright.universityofcalifornia.edu/).
 
 ### Terms of Use
 
