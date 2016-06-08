@@ -53,11 +53,11 @@ For a guide on how to meet these requirements, use the
 <br />
 [grosch-m@sa.ucsb.edu](mailto:grosch-m@sa.ucsb.edu)
 
-**Tessa Mendez**
+**Jennifer Lofthus**
 <br />
-*Deputy ADA Compliance Officer and Special Projects*
+*Policy Coordinator & Deputy ADA Compliance Officer*
 <br />
-[tessa.mendez@vcadmin.ucsb.edu](mailto:tessa.mendez@vcadmin.ucsb.edu)
+[Jennifer.Lofthus@vcadmin.ucsb.edu](mailto:Jennifer.Lofthus@vcadmin.ucsb.edu)
 
 **Gary White**
 <br />
