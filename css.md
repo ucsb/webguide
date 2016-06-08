@@ -8,6 +8,10 @@ As a general rule of thumb, the content of your website should have a logical
 flow regardless of any styling. In other words, a user who has disabled CSS
 should still be able to understand your website's content.
 
+More specifically, *websites should not convey information by color alone*.
+This is especially important for users who are color blind or who use a screen
+reader.
+
 Note that CSS techniques and technologies are evolving rapidly. Website
 developers should try to understand the tradeoffs involved with their choices
 (loading one vs. many stylesheets, performance vs. organization, basic CSS vs.
@@ -161,7 +165,14 @@ div p
 However, this won't do anything because your earlier `!important` declaration
 overrides this declaration. To fix this problem, you'll need to add !important
 to this rule. As you can see, our CSS selector hierarchy is now becoming
-needlessly convoluted. Thus, you should avoid using the !important keyword.
+needlessly convoluted.
+
+Furthermore, using `!important` makes it more difficult for users to apply
+their own user-defined stylesheets (stylesheets authored by the user of the
+browser to customize web pages for accessibility and other reasons), since they
+must now use `!important` themselves to fully override styling rules.
+
+For all of these reasons, you should avoid using the `!important` keyword.
 
 #### Don't use `@import`
 

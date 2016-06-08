@@ -28,13 +28,8 @@ decreased latency and the ability to leverage caching. The following example
 serves the popular jQuery library from Google's CDN:
 
 ```html
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 ```
-
-Notice that we have not included a protocol in the URL (`http` or `https`).
-Protcol-less URLs will use the visitor's current protocol, allowing for
-efficient caching when retrieving resources over HTTP and avoiding the errors
-generated from mixing protocols when retrieving resources over HTTPS.
 
 ### Minified Resources
 
@@ -43,3 +38,11 @@ condensing JavaScript and CSS files to only include the required content. For
 example, spaces can be removed from CSS files and the names of local variables
 can be shortened in JavaScript files. A number of tools exist for accomplishing
 this task.
+
+### Concatenating Resources
+
+JavaScript and CSS files should also be **concatenated**, or combined together
+into a single file. In other words, rather than referencing multiple JavaScript
+files on a page, these scripts should be concatenated into a single JavaScript
+file. This improves performance by reducing the number of separate
+connections the browser needs to establish while loading a page.
