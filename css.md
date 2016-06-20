@@ -206,6 +206,16 @@ In a general, if you need to use a hack, this is a hint that either your CSS
 rules or your markup is too convoluted. Try reformatting one or the other
 using standard CSS techniques first and only use a hack as a last resort.
 
+#### Use relative over absolute units
+
+Prefer _relative_ units (such as `em`, `%`, or `rem`) over _absolute_ units
+(such as `px`).
+
+By using relative units, elements on the page are better suited for adapting
+to various screen sizes and container widths. Furthermore, using relative units
+provides a smoother experience for users zooming in and out of your web pages
+using a browser's zooming features.
+
 ### Naming
 
 Give selectors semantically meaningful names
