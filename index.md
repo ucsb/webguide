@@ -40,7 +40,12 @@ side menu.
 
 ### Additional Resources
 
-Additional resources related to this webguide are available to the UCSB
-community at the IT resources site:
-[Web Standards Guide Resources](https://it.ucsb.edu/resources/web-standards-guide-resources)
-(login required).
+Additional resources related to this web guide:
+
+**[GitHub Wiki](https://github.com/ucsb-wsg/ucsb-wsg.github.io/wiki)**:
+A publicly-accessible wiki for sharing resources and preparing rough drafts of
+future web guide content.
+
+**[IT Resources Wiki](https://it.ucsb.edu/resources/website-tools)**:
+A wiki for sharing web-related tools and resources, only accessible by those
+with a valid UCSB Net ID and password.
