@@ -216,6 +216,21 @@ to various screen sizes and container widths. Furthermore, using relative units
 provides a smoother experience for users zooming in and out of your web pages
 using a browser's zooming features.
 
+#### Don't generate content with CSS
+
+Text content can be added to a page using the `content` property (with the
+`::before` and `::after` pseudo-elements). However, this content may or may not
+be read by a screen reader.
+
+Given this ambiguity, you should never generate essential content using CSS.
+
+Furthermore, since some screen readers _do_ read content generated with CSS,
+you should also avoid generating non-essential content as well (for example,
+inserting a "double arrow" symbol next to links), since this content will be
+unnecessarily read to a user with a screen reader.
+
+Altogether, you should avoid generating _any_ content with CSS.
+
 ### Naming
 
 Give selectors semantically meaningful names
