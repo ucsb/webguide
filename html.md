@@ -243,3 +243,8 @@ will ignore the image entirely:
 
 If you completely remove the attribute, a screenreader may read the image's
 actual filename.
+
+#### Prefer text over images of text
+
+Whenever possible, use actual text instead of images of text, styling the text
+as desired with CSS. 
