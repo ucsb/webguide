@@ -323,3 +323,11 @@ form have both worked in the same browser, but with different behavior
 the "proper" form last, you ensure that you are always overriding any
 alternate, vendor-specific behavior with the behavior outlined in the CSS
 specification.
+
+### Display
+
+#### Ensure color contrast
+
+Ensure there exists an appropriate degree of contrast between background and
+foreground colors. This is critical to providing an accessible experience for
+users with color blindness or limited vision.
