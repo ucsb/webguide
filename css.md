@@ -331,3 +331,10 @@ specification.
 Ensure there exists an appropriate degree of contrast between background and
 foreground colors. This is critical to providing an accessible experience for
 users with color blindness or limited vision.
+
+There are a number of techniques for checking the accessibility of your
+website's colors, including using an automated tool, printing your website on
+a black and white printer, or lowering the brightness of your monitor.
+
+In all cases, the content of your website should be easy to discern and should
+not rely on subtle differences in color.
