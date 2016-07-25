@@ -6,6 +6,18 @@ permalink: /web-accessibility/
 
 Download the [UCSB Web Accessibility Guidelines (PDF)](/media/web-accessibility-guidelines.pdf)
 
+### General Web Accessibility Guidelines
+
+In addition to the PDF above and the recommendations described throughout the Web
+Guide, the Web Standards Group also provides the following general guidelines for
+addressing accessibility in your websites:
+
+**Your page should not depend on the user using a specific type of device**.
+In other words, your page should be navigable by mouse, keyboard, voice, and
+head wand. Elements that appear only upon mouse-over, for example, are usually
+inaccessible to people using screen readers. In general, any page that can be
+navigated via keyboard can also be navigated by voice or screen reader.
+
 ### Importance of Web Accessibility
 
 "Accessibility is a Civil Rights issue and inaccessible websites violate the
