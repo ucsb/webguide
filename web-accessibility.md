@@ -13,7 +13,7 @@ Guide, the Web Standards Group also provides the following general guidelines fo
 addressing accessibility in your websites:
 
 **Your page should not depend on the user using a specific type of device**.
-In other words, your page should be navigable by mouse, keyboard, voice, and
+In other words, your page should be navigable by mouse, keyboard, voice, touch, and
 head wand. Elements that appear only upon mouse-over, for example, are usually
 inaccessible to people using screen readers. In general, any page that can be
 navigated via keyboard can also be navigated by voice or screen reader.
