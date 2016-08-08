@@ -39,7 +39,7 @@ use on the web for a small fee. If you don't find what you are looking for withi
 you may hire [Instructional Development Photography Services](http://photo.production.id.ucsb.edu/) photographers to shoot on location or in their studio.
 
 In August 2016, a collaboration of many departments created the [UCSB Digital Asset Library](https://ucsb.webdamdb.com/
-), hosted by WebDAM, which is a resource available to all UCSB personnel and is to act as a centralized location for high quality photography of the campus. To use the service simply provide your UCSBNetID and password at login.
+), hosted by WebDAM, which is a resource available to all UCSB personnel and is to act as a centralized location for high quality photography of the campus.
 
 You may also contact the UCSB
 [Cheadle Center for Biodiversity and Ecological Restoration (CCBER)](http://ccber.ucsb.edu)
