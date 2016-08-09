@@ -34,14 +34,13 @@ answers, and information in support of computing at UCSB.
 ### UCSB Campus Image Resources
 
 UCSB Photo Services has an
-[archive of campus photos](http://photo.production.id.ucsb.edu/) available for
-the web for a fee. If you don't find what you are looking for in their archive,
-you may hire their photographers to shoot on location or in their studio.
+[archive of campus photos](http://ucsbphoto.photoshelter.com/) available for
+use on the web for a small fee. If you don't find what you are looking for within any UCSB archive,
+you may hire [Instructional Development Photography Services](http://photo.production.id.ucsb.edu/) photographers to shoot on location or in their studio.
+
+In August 2016, a collaboration of many departments created the [UCSB Digital Asset Library](https://ucsb.webdamdb.com/
+), hosted by WebDAM, which is a resource available to all UCSB personnel and is to act as a centralized location for high quality photography of the campus.
 
 You may also contact the UCSB
 [Cheadle Center for Biodiversity and Ecological Restoration (CCBER)](http://ccber.ucsb.edu)
 for photographs.
-
-**High-resolution seals and logos** suitable for use in authorized UCSB
-print publications are available from
-[UCSB Artworks](http://www.aw.id.ucsb.edu/logos/).
