@@ -12,11 +12,27 @@ In addition to the PDF above and the recommendations described throughout the We
 Guide, the Web Standards Group also provides the following general guidelines for
 addressing accessibility in your websites:
 
+#### Design for Device Independence
+
 **Your page should not depend on the user using a specific type of device**.
 In other words, your page should be navigable by mouse, keyboard, voice, touch, and
 head wand. Elements that appear only upon mouse-over, for example, are usually
 inaccessible to people using screen readers. In general, any page that can be
 navigated via keyboard can also be navigated by voice or screen reader.
+
+#### Avoid Time-Sensitive Content Changes
+
+Avoid time-sensitive content changes or allow users to control the timing of
+these changes. For example, if your website features a image carousel that cycles
+through several images, provide options for users to pause or slow down the
+transition between images.
+
+If your website _must_ include time-sensitive content changes without user
+controls, provide ample time for the user to engage with the content. As a
+general rule: 20 seconds for every line of text.
+
+Similarly, avoid moving content around the page unless users can control the
+movement of the content.
 
 ### Importance of Web Accessibility
 
