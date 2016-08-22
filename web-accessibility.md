@@ -34,6 +34,13 @@ general rule: 20 seconds for every line of text.
 Similarly, avoid moving content around the page unless users can control the
 movement of the content.
 
+#### Don't Use Pop-up Windows
+
+Do not use "pop-up" windows, or separate, modal browser windows that are
+opened by the current page. They inhibit screen reader's ability to
+read the desired active screen. Furthermore, most modern browsers automatically
+block the display of these windows.
+
 ### Importance of Web Accessibility
 
 "Accessibility is a Civil Rights issue and inaccessible websites violate the
