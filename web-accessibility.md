@@ -34,6 +34,10 @@ general rule: 20 seconds for every line of text.
 Similarly, avoid moving content around the page unless users can control the
 movement of the content.
 
+#### Prefer HTML Over PDFs
+
+Always prefer HTML web pages over PDF files.
+
 ### Importance of Web Accessibility
 
 "Accessibility is a Civil Rights issue and inaccessible websites violate the
