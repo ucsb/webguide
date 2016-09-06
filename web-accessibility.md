@@ -41,6 +41,18 @@ opened by the current page. They inhibit screen reader's ability to
 read the desired active screen. Furthermore, most modern browsers automatically
 block the display of these windows.
 
+#### Prefer HTML Over Non-HTML Documents
+
+Always prefer HTML web pages over non-HTML document formats, like PDF files or
+Microsoft Word files. These file formats often can't be viewed natively
+within a browser, forcing the user out of your website and into an alternate
+viewer.
+
+Furthermore, making these alternate file formats accessible to screen readers
+and other assistive technologies often requires a completely
+separate approach than HTML documents, complicating your website's
+accessibility maintenance.
+
 #### Consistent Page Layout
 
 Your website should feature a consistent page layout with page elements, like
