@@ -41,6 +41,16 @@ opened by the current page. They inhibit screen reader's ability to
 read the desired active screen. Furthermore, most modern browsers automatically
 block the display of these windows.
 
+#### Consistent Page Layout
+
+Your website should feature a consistent page layout with page elements, like
+navigation and main content areas, appearing in the same location and
+featuring the same format across your website.
+
+#### Clear, Simple Language
+
+Content within your website should be written in clear, simple language.
+
 ### Importance of Web Accessibility
 
 "Accessibility is a Civil Rights issue and inaccessible websites violate the
