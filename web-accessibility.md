@@ -63,6 +63,14 @@ featuring the same format across your website.
 
 Content within your website should be written in clear, simple language.
 
+#### Plug-ins
+
+In general, your website should not require the use of plug-ins or extensions
+not already present in a browser.
+
+If your website does require a plug-in or extension, provide a link to
+download that component near the content that requires it.
+
 ### Importance of Web Accessibility
 
 "Accessibility is a Civil Rights issue and inaccessible websites violate the
