@@ -126,6 +126,7 @@ For a guide on how to meet these requirements, use the
 
 * [University of California Resources for Developing Accessible websites](http://www.ucop.edu/irc/itaccessibility/resources/)
 * [World Wide Web Consortium (W3C) Web Accessibility Initiative](http://www.w3.org/WAI/)
+* [WebAIM](http://webaim.org/)
 
 ### Evaluation Tools
 
