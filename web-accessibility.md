@@ -148,3 +148,112 @@ For a guide on how to meet these requirements, use the
 * [Section 508 of the Rehabilitation Act of 1973](http://www.section508.gov/Section-508-Of-The-Rehabilitation-Act)
 * [Section 255 of the Telecommunications Act of 1996](http://transition.fcc.gov/cgb/dro/section255.html)
 * [Americans with Disabilities Act of 1990](http://www.ada.gov/pubs/ada.htm)
+
+### Relevant Case Law
+
+The rights of disabled individuals in the United States are covered under
+several laws. These laws are in turn enforced by several agencies:
+
+#### Section 504 of the Rehabilitation Act of 1973
+
+[Full Text](http://www.nationalrehab.org/website/history/act.html)
+
+"Section 504 states that "no qualified individual with a disability in the
+United States shall be excluded from, denied the benefits of, or be subjected
+to discrimination under" any program or activity that either receives Federal
+financial assistance or is conducted by any Executive agency or the United
+States Postal Service.
+
+Each Federal agency has its own set of section 504 regulations that apply to
+its own programs. Agencies that provide Federal financial assistance also have
+section 504 regulations covering entities that receive Federal aid.
+Requirements common to these regulations include reasonable accommodation for
+employees with disabilities; program accessibility; effective communication
+with people who have hearing or vision disabilities; and accessible new
+construction and alterations. Each agency is responsible for enforcing its own
+regulations. Section 504 may also be enforced through private lawsuits. It is
+not necessary to file a complaint with a Federal agency or to receive a
+"right-to-sue" letter before going to court."
+([Source](http://www.usdoj.gov/crt/ada/cguide.htm#anchor65610))
+
+#### Section 508 of The Rehabilitation Act of 1973:
+
+[Full Text](http://www.section508.gov/index.cfm?FuseAction=Content&ID=14)
+
+"In 1998, Congress amended the Rehabilitation Act to require Federal agencies
+to make their electronic and information technology accessible to people with
+disabilities. Inaccessible technology interferes with an individual's ability
+to obtain and use information quickly and easily. Section 508 was enacted to
+eliminate barriers in information technology, to make available new
+opportunities for people with disabilities, and to encourage development of
+technologies that will help achieve these goals. The law applies to all
+Federal agencies when they develop, procure, maintain, or use electronic and
+information technology. Under Section 508 (29 U.S.C. ‘ 794d), agencies must
+give disabled employees and members of the public access to information that
+is comparable to the access available to others. It is recommended that you
+review the laws and regulations listed below to further your understanding
+about Section 508 and how you can support implementation." For more
+information, visit the [Section 508 website](http://www.section508.gov).
+
+#### Section 255 of The Telecommunications Act of 1996:
+
+[Full Text](http://www.fcc.gov/cgb/dro/telecom_language.html)
+
+"The Federal Communications Commission (FCC) has rules requiring
+telecommunications manufacturers and service providers to make their products
+and services accessible to people with disabilities, if readily achievable.
+These rules implement Section 255 of the Communications Act. Where it is not
+readily achievable to provide access, Section 255 requires manufacturers and
+providers to make their devices and services compatible with peripheral
+devices and specialized customer premises equipment that are commonly used
+by people with disabilities, if such compatibility is readily achievable."
+For more information, visit the
+[Section 255 website](http://www.fcc.gov/cgb/dro/section255.html)
+
+#### The Americans with Disabilities Act of 1990:
+
+[Full Text](http://www.usdoj.gov/crt/ada/pubs/ada.txt)
+
+"The ADA prohibits discrimination on the basis of disability in employment,
+State and local government, public accommodations, commercial facilities,
+transportation, and telecommunications. It also applies to the United States
+Congress.
+
+To be protected by the ADA, one must have a disability or have a relationship
+or association with an individual with a disability. An individual with a
+disability is defined by the ADA as a person who has a physical or mental
+impairment that substantially limits one or more major life activities, a
+person who has a history or record of such an impairment, or a person who is
+perceived by others as having such an impairment. The ADA does not
+specifically name all of the impairments that are covered."
+([Source](http://www.usdoj.gov/crt/ada/cguide.htm#anchor62335)).
+
+### Agencies Who Enforce Access
+
+#### The United States Access Board
+
+The [United States Access Board](http://www.access-board.gov/) covers
+Accessible Design and sets standards for
+architecture and design. They set rules and standards for such things as size,
+distribution and arrangement of disabled parking spaces, wheelchair access for
+theatres, design guidelines for talking or chirping crosswalk indicators,
+etc.
+
+#### U.S. Department of Education
+
+Section 504 is enforced by the
+[U.S. Department of Education, Office for Civil Rights](http://www.ed.gov/about/offices/list/ocr/index.html)
+enforces Section 504 as it applies recipients of Federal Funding for education.
+
+#### The Department of Justice
+
+[Section 508](http://www.usdoj.gov/crt/508/508home.html) requires all federal
+government bodies and their contractors to make Information Technology
+accessible for the disabled.
+
+#### The Federal Communications Commission (FCC)
+
+[Section 255 of The Telecommunications Act](http://www.fcc.gov/cgb/dro/section255.html)
+is coordinated by the FCC. They require the telecommunications industry to
+make equipment readily accessible or, alternatively make equipment compatible
+with assistive technology devices.
