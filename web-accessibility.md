@@ -245,7 +245,7 @@ Section 504 is enforced by the
 [U.S. Department of Education, Office for Civil Rights](http://www.ed.gov/about/offices/list/ocr/index.html)
 enforces Section 504 as it applies recipients of Federal Funding for education.
 
-#### The Department of Justice
+#### U.S. Department of Justice
 
 [Section 508](http://www.usdoj.gov/crt/508/508home.html) requires all federal
 government bodies and their contractors to make Information Technology
