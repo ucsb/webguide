@@ -136,8 +136,16 @@ For a guide on how to meet these requirements, use the
 * [World Wide Web Consortium (W3C) Web Accessibility Initiative](http://www.w3.org/WAI/)
 * [WebAIM](http://webaim.org/)
 
-### Evaluation Tools
+### Adaptive Software Providers
 
+* [Ai Squared](http://www.aisquared.com/products/)
+* [JAWS](http://www.freedomscientific.com/)
+* [Nuance](http://www.nuance.com/for-individuals/index.htm)
+
+### Accessibility Tools
+
+* [Firefox Web Developer Plug-in](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
+* [University of Minnesota List of Accessibility Tools](http://www.d.umn.edu/goto/tools#accesstools)
 * [W3C List of Accessibility Tools](http://www.w3.org/WAI/ER/tools/)
 * [W3C Validator Tool](http://validator.w3.org/)
 
