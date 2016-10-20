@@ -129,6 +129,12 @@ However, frames create a number of problems: each "frame" can be viewed
 individually and navigating through frames often breaks the functionality of
 the browser's back button. Thus, frames should never be used.
 
+#### Use `title` Attribute
+
+When using `iframe`s (or legacy sites with `frameset` and `frame`), use the
+`title` attribute to describe the contents of the frame for assistive
+technologies.
+
 ### Links
 
 #### Use descriptive link text
@@ -247,4 +253,4 @@ actual filename.
 #### Prefer text over images of text
 
 Whenever possible, use actual text instead of images of text, styling the text
-as desired with CSS. 
+as desired with CSS.
