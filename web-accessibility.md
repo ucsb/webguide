@@ -71,6 +71,12 @@ not already present in a browser.
 If your website does require a plug-in or extension, provide a link to
 download that component near the content that requires it.
 
+#### CSS Speech
+
+Use the [CSS Speech properties](https://www.w3.org/TR/css3-speech/) to control
+how text on a web page is read via assistive technologies, like screen readers,
+including volume, balance, timing, and more.
+
 ### Importance of Web Accessibility
 
 "Accessibility is a Civil Rights issue and inaccessible websites violate the
