@@ -53,6 +53,9 @@ and other assistive technologies often requires a completely
 separate approach than HTML documents, complicating your website's
 accessibility maintenance.
 
+If you must use a PDF, ensure that your PDF is accessible using
+[Adobe's PDF accessibility guidelines](http://www.adobe.com/accessibility/pdf/pdf-accessibility-overview.html).
+
 #### Consistent Page Layout
 
 Your website should feature a consistent page layout with page elements, like
