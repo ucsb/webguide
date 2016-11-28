@@ -15,8 +15,7 @@ gems:
   - jekyll-sitemap
 
 # Build settings
-sass:
-    style: :compressed
+exclude: [node_modules]
 
 navigation:
   -
