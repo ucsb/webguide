@@ -4,7 +4,76 @@
 @viewport                                       { width: device-width; }
 @-ms-viewport                           { width: device-width; }
 
-@import url("http://fonts.googleapis.com/css?family=Hind:400,500,600,700,300");
+@font-face {
+  font-family: 'Hind';
+  font-weight: 300;
+  font-style: normal;
+  src: url('../fonts/Hind-300/Hind-300.eot');
+  src: url('../fonts/Hind-300/Hind-300.eot?#iefix') format('embedded-opentype'),
+       local('Hind Light'),
+       local('Hind-300'),
+       url('../fonts/Hind-300/Hind-300.woff2') format('woff2'),
+       url('../fonts/Hind-300/Hind-300.woff') format('woff'),
+       url('../fonts/Hind-300/Hind-300.ttf') format('truetype'),
+       url('../fonts/Hind-300/Hind-300.svg#Hind') format('svg');
+}
+
+@font-face {
+  font-family: 'Hind';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Hind-regular/Hind-regular.eot');
+  src: url('../fonts/Hind-regular/Hind-regular.eot?#iefix') format('embedded-opentype'),
+       local('Hind'),
+       local('Hind-regular'),
+       url('../fonts/Hind-regular/Hind-regular.woff2') format('woff2'),
+       url('../fonts/Hind-regular/Hind-regular.woff') format('woff'),
+       url('../fonts/Hind-regular/Hind-regular.ttf') format('truetype'),
+       url('../fonts/Hind-regular/Hind-regular.svg#Hind') format('svg');
+}
+
+@font-face {
+  font-family: 'Hind';
+  font-weight: 500;
+  font-style: normal;
+  src: url('../fonts/Hind-500/Hind-500.eot');
+  src: url('../fonts/Hind-500/Hind-500.eot?#iefix') format('embedded-opentype'),
+       local('Hind Medium'),
+       local('Hind-500'),
+       url('../fonts/Hind-500/Hind-500.woff2') format('woff2'),
+       url('../fonts/Hind-500/Hind-500.woff') format('woff'),
+       url('../fonts/Hind-500/Hind-500.ttf') format('truetype'),
+       url('../fonts/Hind-500/Hind-500.svg#Hind') format('svg');
+}
+
+@font-face {
+  font-family: 'Hind';
+  font-weight: 600;
+  font-style: normal;
+  src: url('../fonts/Hind-600/Hind-600.eot');
+  src: url('../fonts/Hind-600/Hind-600.eot?#iefix') format('embedded-opentype'),
+       local('Hind SemiBold'),
+       local('Hind-600'),
+       url('../fonts/Hind-600/Hind-600.woff2') format('woff2'),
+       url('../fonts/Hind-600/Hind-600.woff') format('woff'),
+       url('../fonts/Hind-600/Hind-600.ttf') format('truetype'),
+       url('../fonts/Hind-600/Hind-600.svg#Hind') format('svg');
+}
+
+@font-face {
+  font-family: 'Hind';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/Hind-700/Hind-700.eot');
+  src: url('../fonts/Hind-700/Hind-700.eot?#iefix') format('embedded-opentype'),
+       local('Hind Bold'),
+       local('Hind-700'),
+       url('../fonts/Hind-700/Hind-700.woff2') format('woff2'),
+       url('../fonts/Hind-700/Hind-700.woff') format('woff'),
+       url('../fonts/Hind-700/Hind-700.ttf') format('truetype'),
+       url('../fonts/Hind-700/Hind-700.svg#Hind') format('svg');
+}
+
 html,
 body,
 div,
