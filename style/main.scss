@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import "syntax-highlighting";
+
 // See: http://getbootstrap.com/getting-started/#support-ie10-width
 @viewport                                       { width: device-width; }
 @-ms-viewport                           { width: device-width; }
@@ -1456,16 +1458,16 @@ footer#footer a.mailinglist-button:hover, footer#footer a.mailinglist-button:foc
 {
 	border: 3px solid #EEE;
 	border-width: 0 0 0 3px;
-	font-size: 1.25em;
+	font-size: 1em;
 	margin: 1em 0 1em 10px;
   max-width: 678px;
   overflow: auto;
-	padding: 0 10px;
+	padding: 5px 10px;
 }
 
-.highlight pre
+pre.highlight
 {
-	margin: 0;
+  border-radius: 0;
 }
 
 .highlight.good
