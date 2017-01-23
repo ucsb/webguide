@@ -12,6 +12,16 @@ In addition to the PDF above and the recommendations described throughout the We
 Guide, the Web Standards Group also provides the following general guidelines for
 addressing accessibility in your websites:
 
+#### Help Users Navigate
+
+Ensure that your website is easy for your users to navigate by establishing a
+clearly-defined information architecture and providing straightforward mechanisms for users to
+navigate within this architecture, including search engines and site outlines.
+
+Furthermore, ensure that users can easily orient themselves within the structure of
+website using techniques such as labeling the current section and using
+breadcrumb navigation.
+
 #### Design for Device Independence
 
 **Your page should not depend on the user using a specific type of device**.
