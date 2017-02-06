@@ -87,6 +87,31 @@ your website, ensure that media is accessible to all of your users.
 For example, all videos should include captions for deaf and hard of hearing
 audiences.
 
+#### Provide "Skip Links"
+
+To allow users with screen readers to efficiently bypass redundant navigation
+on each page, provide a "skip link." To create a skip link, create an HTML
+anchor at the start of the page's content and provide an
+<a href="http://webaim.org/techniques/css/invisiblecontent/">invisible link</a>
+to that anchor at the top of your page's HTML:
+
+```html
+<!-- GOOD PRACTICE -->
+<body>
+
+  <a class="hidden" href="#content">Skip to Content</a>
+
+  <ul id="navigation">
+    <!-- Navigation -->
+  </ul>
+
+  <div id="content">
+    Welcome to the Department of Gauchos!
+  </div>
+
+</body>
+```
+
 ### Importance of Web Accessibility
 
 "Accessibility is a Civil Rights issue and inaccessible websites violate the
