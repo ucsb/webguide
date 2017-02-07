@@ -19,7 +19,7 @@ clearly-defined information architecture and providing straightforward mechanism
 navigate within this architecture, including search engines and site outlines.
 
 Furthermore, ensure that users can easily orient themselves within the structure of
-website using techniques such as labeling the current section and using
+the website using techniques such as labeling the current section and using
 breadcrumb navigation.
 
 #### Design for Device Independence
