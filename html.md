@@ -156,6 +156,12 @@ Instead, provide a concise description of the resource for the link text:
 Download the <a href="/forms/payment-agreement.pdf">Payment Agreement Form</a>
 ```
 
+#### Use the same destination for the same link text
+
+Links on the same page with the same text should point to the same destination.
+For example, if two links use the text "Visit Us" on a page, both of these
+links should point to the same URL.
+
 ### Tables
 
 #### Don't use tables for layout
