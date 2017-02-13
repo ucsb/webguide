@@ -13,6 +13,7 @@ To view the corresponding web guide section for each area of the checklist,
 ### [Cross-Browser Compatibility](/browsers/)
 
 * Ensure that your website works in the browsers used by 90% of your visitors
+* Use web analytics tools to analyze traffic statistics for your site
 
 ### [Favicons and Touch Icons](/favicon-and-touch-icons/)
 
@@ -20,12 +21,12 @@ To view the corresponding web guide section for each area of the checklist,
 
 ### [Graphic Identity](/ucsb-graphic-identity/)
 
-* Clearly identify your website as a UCSB-affiliated website
-* Offer generic alternatives when specifying fonts
+* Follow the [UC Santa Barbara Graphic Identity guidelines](http://www.ucsb.edu/graphic-identity/)
 
 ### [Viewport Dimensions](/viewport-dimensions/)
 
-* Design websites for display adapters capable of at least 1024 x 768 pixels screen resolution
+* Employ responsive web design (RWD) to support a range of resolutions and devices
+* Make sure that your page content prints appropriately
 
 ### [CSS](/css/)
 
@@ -35,9 +36,12 @@ To view the corresponding web guide section for each area of the checklist,
 * Don't use `!important`
 * Don't use `@import` in plain CSS
 * Avoid browser-specific hacks
+* Use relative over absolute units
+* Don’t generate content with CSS
 * Give selectors semantically meaningful names
 * Alphabetize properties in rules (except for vendor prefixes)
 * List vendor prefixes directly before their W3C form
+* Ensure color contrast
 
 ### [Footer](/footer/)
 
@@ -45,7 +49,7 @@ To view the corresponding web guide section for each area of the checklist,
 * Include UCSB Terms of Use statement
 * If you collect personal information from visitors, include the UCSB Privacy Policy statement
 * Include statement about alternative, accessible content
-* Include a contact link</li>
+* Include a contact link
 
 ### [Header](/header/)
 
@@ -65,17 +69,21 @@ To view the corresponding web guide section for each area of the checklist,
 * Validate markup with the [W3C Validator](https://validator.w3.org/)
 * Avoid `iframes`
 * Never use frames
+* When using `iframes`, use the `title` attribute
 * Use descriptive link text
+* Use the same destination for the same link text
 * Don't use tables for layout
 * Use `caption`s and summaries with tables
-* Use `th` to provide table header
+* Use `th` to provide table headers
 * Provide a meaningful "alt" attribute for every image
+* Prefer text over images of text
 
 ### [Resources](/resources/)
 
 * Include JavaScript files right before the closing `body` tag
 * Leverage content delivery networks (CDNs)
 * Minify CSS and JavaScript files
+* Concatenate CSS and JavaScript files
 
 ### [E-mail Addresses](/email-addresses/)
 
@@ -97,4 +105,15 @@ To view the corresponding web guide section for each area of the checklist,
 
 ### [Web Accessibility](/web-accessibility/)
 
-* Ensure that your website meets the WCAG 2.0 Level AA Success criteria for accessiblity
+* Ensure that your website is easy for your users to navigate
+* Design for device independence
+* Avoid time-sensitive content changes
+* Don't use pop-up windows
+* Prefer HTML over non-HTML documents
+* Use a consistent page layout
+* Write content in clear, simple language
+* Don't require the use of a plug-in
+* Use the CSS Speech properties to control how text on a web page is read
+* Ensure media is accessible
+* Provide "Skip Links"
+* Ensure that your website meets the WCAG 2.0 Level AA Success criteria for accessibility
