@@ -37,7 +37,7 @@ To view the corresponding web guide section for each area of the checklist,
 * Don't use `@import` in plain CSS
 * Avoid browser-specific hacks
 * Use relative over absolute units
-* Don’t generate content with CSS
+* Don't generate content with CSS
 * Give selectors semantically meaningful names
 * Alphabetize properties in rules (except for vendor prefixes)
 * List vendor prefixes directly before their W3C form
