@@ -4,11 +4,9 @@ title: Web Accessibility
 permalink: /web-accessibility/
 ---
 
-Download the [UCSB Web Accessibility Guidelines (PDF)](/media/web-accessibility-guidelines.pdf)
-
 ### General Web Accessibility Guidelines
 
-In addition to the PDF above and the recommendations described throughout the Web
+In addition to the recommendations described throughout the Web
 Guide, the Web Standards Group also provides the following general guidelines for
 addressing accessibility in your websites:
 
