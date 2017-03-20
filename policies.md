@@ -91,23 +91,8 @@ To use an individual's personal image, photo, name, voice, or creative work on
 a UCSB website for the purpose of promoting a UCSB department, program, or
 event, obtain the individual's written permission prior to publishing it.
 
-#### Abbreviated Release for UCSB Affiliates
-
-To request permission of an individual employed by UCSB, you may use an
-abbreviated release.
-
-* [Release and license form to use UC employee's image, name, voice, and/or creative work (PDF)](/media/simple-photo-release.pdf)
-
-#### Release for Non-Affiliates
-
-To request permission of a minor, a student or an individual unaffiliated with
-UCSB, it is recommended that you use the release forms available at the
-[UCSB Risk Management website](http://www.riskmanagement.ucsb.edu/film.htm).
-If you have questions about when or how to use these forms, please contact Risk
-Management & Insurance.
-
-* [Use of photos, films, music, and/or artwork (PDF)](http://www.riskmanagement.ucsb.edu/Forms/rm/Rel_LictoUsePhoto.pdf)
-* [Use of an individual's image, name, and/or voice (PDF)](http://www.riskmanagement.ucsb.edu/Forms/rm/Rel_LictoUseImage.pdf)
+Refer to the [UCSB Risk Management website](http://www.ehs.ucsb.edu/riskmanagement/releases)
+for more information.
 
 #### Privacy Notification
 
