@@ -26,7 +26,7 @@ Each footer should include a link to the
 This link can be implemented in one of the following ways:
 
 * Link directly to the [UCSB Terms of Use document](http://www.policy.ucsb.edu/terms_of_use/)
-* Include the content of the [source document](http://www.policy.ucsb.edu/terms_of_use/content.html) on your website via a server-side technology (PHP, ASP.NET, etc.)
+* Include the content of the [source document](http://www.policy.ucsb.edu/terms_of_use/) on your website via a server-side technology (PHP, ASP.NET, etc.)
 
 If your organization needs to modify the Terms of Use document for a specific
 purpose, you should submit the modified version for approval to
