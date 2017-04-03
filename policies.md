@@ -22,7 +22,7 @@ in the [footer](/footer/) of every page on your website.
 ### Terms of Use
 
 The Office of the Vice Chancellor, Administrative Services, has developed and
-maintains a [Terms of Use](http://www.policy.ucsb.edu/terms_of_use/)
+maintains a [Terms of Use](http://www.policy.ucsb.edu/terms-of-use/)
 document that is specifically concerned with websites in the ucsb.edu domain.
 This document defines the ucsb.edu web space and includes sections on Links to
 Third Party Sites, Privacy, Access and Use of Services, Restrictions On Use Of
