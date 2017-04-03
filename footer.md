@@ -44,7 +44,7 @@ considered personal information. Similar to the Terms of Use, this link can be
 implemented in one of the following ways:
 
 * Link directly to the [UCSB Privacy Policy](http://www.policy.ucsb.edu/privacy-notification/)
-* Include the content of the [source document](http://www.policy.ucsb.edu/privacy-notification/content.html) on your website via a server-side technology (PHP, ASP.NET, etc.)
+* Include the content of the [source document](http://www.policy.ucsb.edu/privacy-notification/) on your website via a server-side technology (PHP, ASP.NET, etc.)
 
 The link to either the UCSB Privacy Policy or the page with the included
 content should contain the word "privacy."
