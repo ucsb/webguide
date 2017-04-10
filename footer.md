@@ -23,10 +23,9 @@ For more information about copyright requirements, visit
 
 Each footer should include a link to the
 [UCSB Terms of Use](http://www.policy.ucsb.edu/terms-of-use/).
-This link can be implemented in one of the following ways:
-
-* Link directly to the [UCSB Terms of Use document](http://www.policy.ucsb.edu/terms-of-use/)
-* Include the content of the [source document](http://www.policy.ucsb.edu/terms-of-use/) on your website via a server-side technology (PHP, ASP.NET, etc.)
+Each website can either link directly to the [UCSB Terms of Use document](http://www.policy.ucsb.edu/terms-of-use/)
+or include the content from that document on their own page using a server-side
+technology (PHP, ASP.NET, etc.).
 
 If your organization needs to modify the Terms of Use document for a specific
 purpose, you should submit the modified version for approval to
@@ -40,11 +39,10 @@ All UCSB websites that collect personal information from visitors should
 include a link to the
 [UCSB Privacy Notification](http://www.policy.ucsb.edu/privacy-notification/).
 Anonymous information collected for the purpose of web analytics is *not*
-considered personal information. Similar to the Terms of Use, this link can be
-implemented in one of the following ways:
-
-* Link directly to the [UCSB Privacy Policy](http://www.policy.ucsb.edu/privacy-notification/)
-* Include the content of the [source document](http://www.policy.ucsb.edu/privacy-notification/) on your website via a server-side technology (PHP, ASP.NET, etc.)
+considered personal information. Similar to the Terms of Use, each website can
+either link directly to the [UCSB Privacy Policy](http://www.policy.ucsb.edu/privacy-notification/)
+or include the content from that document on their own page using a server-side
+technology (PHP, ASP.NET, etc.).
 
 The link to either the UCSB Privacy Policy or the page with the included
 content should contain the word "privacy."
