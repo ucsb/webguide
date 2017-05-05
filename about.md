@@ -11,8 +11,8 @@ with the goal of creating a more consistent web presentation of UCSB across
 the various departments on campus. The group was assigned two main tasks
 towards accomplishing this goal:
 
-1. To recommend a set of web guidelines and best practices pertaining to usability, accessibility, and identity, that the ITPG, the ITB (Information Technology Board), the Office of Information Technology, the Office of the Executive Vice Chancellor, and the Office of Public Affairs could endorse as standards for UCSB campus websites
-2. To create a central campus resource for disseminating information on these guidelines, as well as other web-related information, resources, and tools.
+* To recommend a set of web guidelines and best practices pertaining to usability, accessibility, and identity, that the ITPG, the ITB (Information Technology Board), the Office of Information Technology, the Office of the Executive Vice Chancellor, and the Office of Public Affairs could endorse as standards for UCSB campus websites
+* To create a central campus resource for disseminating information on these guidelines, as well as other web-related information, resources, and tools.
 
 The WSG does not police campus websites. Instead, we promote and encourage
 campus web continuity through the use of established practices, logos, colors,
