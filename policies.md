@@ -43,16 +43,11 @@ The Office of the Vice Chancellor, Administrative Services, has also developed
 and maintains resources related to acknowledgements and advertising on UCSB
 websites. These include the following:
 
-[Guidelines for Acknowledgements and Advertising on University Electronic Resources (PDF)](http://www.policy.ucsb.edu/policies/policy-docs/advertising-guide.pdf):
+[Guidelines for Acknowledgements and Advertising on University Electronic Resources (PDF)](http://www.policy.ucsb.edu/files/docs/policies/advertising-guide.pdf):
 A set of guidelines designed to provide basic principles and examples of
 acceptable and unacceptable acknowledgements and advertising on UCSB electronic
 resources to assist web administrators, designers, and others to abide by
 University policy and applicable law.
-
-[Matrix for Web Acknowledgements, Advertising, and Sponsorships (PDF)](http://www.policy.ucsb.edu/policies/advisory-docs/WebAdMatrix.pdf):
-A matrix that displays what kinds of advertising or third-party symbols
-(banner ads, sponsor logos, links to online stores, etc.) are permitted or
-disallowed on various kinds of UCSB websites.
 
 ### Unauthorized Use of Data/Online Applications
 
@@ -64,7 +59,7 @@ Unauthorized access, disclosure, or use of this information may result in
 disciplinary action and/or criminal prosecution. See
 [Rules of Conduct for Rules of Conduct for University Employees Involved with Information Regarding Individuals](http://www.ucop.edu/ethics-compliance-audit-services/_files/compliance/privacy/rules-of-conduct.pdf)."
 
-For information, read [Civil Code Section 1798.55–1798.57](http://www.leginfo.ca.gov/cgi-bin/displaycode?section=civ&group=01001-02000&file=1798.55-1798.57).
+For information, read [Civil Code Section 1798.55–1798.57](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.8.&part=4.&chapter=1.&article=10).
 
 ### Privacy Notification
 
@@ -73,7 +68,7 @@ formal privacy notification statement, and websites that collect general
 information are also encouraged to do so. For details of the guidelines
 governing privacy notification, including a definition of "personal
 information," see the UCSB
-[Advisory on Privacy Notification (PDF)](http://www.policy.ucsb.edu/policies/advisory-docs/privacy-statement-advisory.pdf).
+[Advisory on Privacy Notification (PDF)](http://www.policy.ucsb.edu/files/docs/policies/privacy-statement-advisory.pdf).
 
 The Office of the Vice Chancellor, Administrative Services, has developed and
 maintains a [Privacy Notification Statement](http://www.policy.ucsb.edu/privacy-notification/)
@@ -110,13 +105,13 @@ advance notice by including a statement in your promotional materials
 recorded."
 
 For further details on the use of recording at public UCSB events, please see
-[Guidelines for the Use of Individuals' Images and Creative Work (PDF)](http://policy.ucsb.edu/policies/advisory-docs/use-of-images.pdf).
+[Guidelines for the Use of Individuals' Images and Creative Work (PDF)](http://www.policy.ucsb.edu/files/docs/policies/use-of-images.pdf).
 
 ### Additional Policies
 
 For a more comprehensive list of UCSB and UC Policies pertaining to websites,
 visit
-[UCSB Policies and Procedures - Privacy & Security](http://www.policy.ucsb.edu/information/info-pract/security/index.php)
+[UCSB Policies and Procedures - Privacy & Security](http://www.policy.ucsb.edu/information-stewardship/information-practices/privacy-security)
 
 ### Linking to UCOP Policies
 
