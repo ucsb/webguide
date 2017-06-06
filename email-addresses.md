@@ -23,4 +23,4 @@ A contact form or e-mail alias provides a number of benefits, including:
 
 * Protecting an individual department member's email address from being vulnerable to spam or other unwanted email
 * Routing general enquiries to a specific person or multiple people within the department
-* Keeping a web site updated. For example, if John Smith leaves his position, the contact form or email alias can be directed to the next person who fills his position</li>
+* Keeping a web site updated. For example, if John Smith leaves his position, the contact form or email alias can be directed to the next person who fills his position
