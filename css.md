@@ -66,8 +66,8 @@ This long rule declaration can be rewritten as:
 }
 ```
 
-Also note the use of the shortened hex code (#FFF instead of #FFFFFF) and the
-shortened zero pixel dimensions (0 instead of 0px).
+Also note the use of the shortened hex code (`#FFF` instead of `#FFFFFF`) and the
+shortened zero pixel dimensions (`0` instead of `0px`).
 
 #### Always use external stylesheets
 
@@ -141,7 +141,7 @@ p
 
 This will only work for the paragraph within the div because an inline
 declaration will always carry more precedence than a regular CSS declaration.
-So, to get around this issue, you add !important:
+So, to get around this issue, you add `!important`:
 
 ```css
 /* BAD PRACTICE! */
@@ -163,7 +163,7 @@ div p
 ```
 
 However, this won't do anything because your earlier `!important` declaration
-overrides this declaration. To fix this problem, you'll need to add !important
+overrides this declaration. To fix this problem, you'll need to add `!important`
 to this rule. As you can see, our CSS selector hierarchy is now becoming
 needlessly convoluted.
 
@@ -253,9 +253,9 @@ meaning:
 ```
 
 Imagine in the above example that you later decide all of the elements that
-have been marked with the class red (such as error messages, etc.), should
+have been marked with the class `.red` (such as error messages, etc.), should
 now be a different color. Also, imagine you later realize that the div marked
-with the ID #div1 should now be a form element instead.
+with the ID `#div1` should now be a form element instead.
 
 Instead, use CSS names that are semantically meaningful to the content:
 
@@ -319,7 +319,7 @@ adhere to the W3C specification.
 
 Thus, there have been cases in which both the vendor-specific and the "proper"
 form have both worked in the same browser, but with different behavior
-(border-radius and -webkit-border-radius in Webkit, for example). By listing
+(`border-radius` and `-webkit-border-radius` in Webkit, for example). By listing
 the "proper" form last, you ensure that you are always overriding any
 alternate, vendor-specific behavior with the behavior outlined in the CSS
 specification.
