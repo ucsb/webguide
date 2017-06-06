@@ -201,7 +201,7 @@ The following example summarizes the above suggestions:
       <link href="css/ie.css" rel="stylesheet" type="text/css" />
     <![endif]-->
     <noscript>
-      <link href="css/noscrpt.css" rel="stylesheet" type="text/css">
+      <link href="css/noscript.css" rel="stylesheet" type="text/css">
     </noscript>
 
     <script src="js/modernizr.js"></script>
