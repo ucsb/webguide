@@ -22,7 +22,7 @@ script.
 ### Content Delivery Networks
 
 A *content delivery network (CDN)* is a distributed system of servers that can
-be leveraged to quickly serve web resources to Users. Using a CDN to serve
+be leveraged to quickly serve web resources to users. Using a CDN to serve
 popular JavaScript or CSS libraries has a number of benefits, including
 decreased latency and the ability to leverage caching. The following example
 serves the popular jQuery library from Google's CDN:
