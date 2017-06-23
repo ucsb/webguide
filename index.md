@@ -29,8 +29,8 @@ its history visit [About the WSG](about).
 
 ### General
 
-The topics of this website have been organized into sections in the left
-side menu.
+The topics of this website have been organized into sections in the menu
+above.
 
 * **Graphical Presentation**: UC/UCSB branding as well as other visual components of a website
 * **Markup & Styling**: Use of well structured semantic markup to maximize accessibility
