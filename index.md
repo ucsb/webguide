@@ -36,6 +36,7 @@ above.
 * **Markup & Styling**: Use of well structured semantic markup to maximize accessibility
 * **General Recommendations**: Related best practices that are not easily categorized
 * **Policy Compliance**: Federal and UC Policies and why it's important to have a compliant website
+* **Resources**: Links to campus assets, website examples, templates, and a web standards checklist
 * **Behind the Standards**: Information about the WSG and this website
 
 ### Additional Resources
