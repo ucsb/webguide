@@ -22,14 +22,18 @@ published by the National Cyber Security Division of the U.S. Department of
 Homeland Security. This database can be used to research vulnerabilities common
 to a specific development platform.
 
+Online courses on coding best practices and the [OWASP Top 10](https://www.owasp.org/index.php/Top_10)
+are available. Please contact the campus Chief Information Security Officer
+if you are interested: [CISO@ucsb.edu](mailto:CISO@ucsb.edu).
+
 ### Reporting Security Incidences
 
-The Office of Information Technology's Security Services responds to reports
+The Security Operations Center (SOC) responds to reports
 of intrusions, denial of service and other information security incidents that
 take place on UCSB computers and Networks. To report an incident, send email
 to: [security@ucsb.edu](mailto:security@ucsb.edu).
 
-Please review [OIT's intrusion reporting guidelines](http://www.oit.ucsb.edu/security/report_intrusion.asp).
+Please review [Security Incident reporting information](https://security.ucsb.edu/report-incident).
 
 ### Secure Coding Practices
 
