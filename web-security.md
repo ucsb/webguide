@@ -43,7 +43,8 @@ Please review [Security Incident reporting information](https://security.ucsb.ed
 * Handle errors and don't display system error messages to end users
 * Provide accounts with the least amount of permissions and privileges required
 * Don't store secrets (e.g. passwords, keys) in your code
-* Use tested, reliable libraries or modules for common functions (e.g. authentication, encryption, session tracking)
+* Use tested, reliable libraries or modules for common functions (e.g.
+  authentication, encryption, session tracking)
 
 ### Common Web Application Vulnerabilities and Mitigation
 
