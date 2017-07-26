@@ -74,7 +74,7 @@ Keep the following best practices in mind when administering a web server:
 * Ensure that server components (OS, software/apps) are up-to-date
 * Avoid installing unnecessary applications on production servers
 * Remove unused and backup pages from the web server
-* Uninstall programming languages that are not in use
+* Uninstall programming language SDKs and runtimes that are not in use
 * If possible, make code libraries and configuration files inaccessible from the web
 * Disable directory browsing
 * Avoid making operating system calls based on user input
