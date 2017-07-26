@@ -82,7 +82,7 @@ Keep the following best practices in mind when administering a web server:
 #### Session Information
 
 There are a number of mechanisms for maintaining a user's "state" while
-authenticated within your application, including encrpyted variables within the
+authenticated within your application, including encrypted variables within the
 URL, hidden form elements, and cookies. Note that none of these methods are
 secure from an attack: URL variables can be easily modified and both hidden
 form elements and cookies can be manipulated with tools like Firebug.
