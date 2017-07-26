@@ -83,9 +83,9 @@ Keep the following best practices in mind when administering a web server:
 
 There are a number of mechanisms for maintaining a user's "state" while
 authenticated within your application, including encrypted variables within the
-URL, hidden form elements, and cookies. Note that none of these methods are
-secure from an attack: URL variables can be easily modified and both hidden
-form elements and cookies can be manipulated with tools like Firebug.
+URL, hidden form elements, and cookies. None of these methods are secure from an
+attack: URL variables can be easily modified and both hidden form elements and
+cookies can be manipulated with client-side browser development tools and proxies.
 
 In general, the best practice is to make use of the session tracking mechanism
 built into your development framework.
