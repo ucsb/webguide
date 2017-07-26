@@ -12,19 +12,18 @@ More specifically, *websites should not convey information by color alone*.
 This is especially important for users who are color blind or who use a screen
 reader.
 
-Note that CSS techniques and technologies are evolving rapidly. Website
-developers should try to understand the tradeoffs involved with their choices
-(loading one vs. many stylesheets, performance vs. organization, basic CSS vs.
-minified/compressed/compiled CSS). Website developers may want to consider
-using stylesheet minifiers, compilers, or other technologies (LESS, SASS,
-Compass) to make their CSS more consistent.
+CSS techniques and technologies are evolving rapidly. Website developers should
+try to understand the tradeoffs involved with their choices (loading one vs. many
+stylesheets, performance vs. organization, basic CSS vs. minified/compressed/compiled
+CSS). Website developers may want to consider using stylesheet minifies, compilers,
+or other technologies ([Less](http://lesscss.org/), [Sass](http://sass-lang.com/),
+[Compass](http://compass-style.org/), etc.) to make their CSS more consistent.
 
-Also note that there may be inconsistencies between how the various browsers
-interpret CSS and display your website to users. This could be a result of a
-lack of support for certain CSS properties as well as conflicting or
-inconsistent implementations of CSS properties. You will need to test in the
-various browsers to ensure that your website design is
-[cross-browser compatible](/browsers/).
+There may be inconsistencies between how the various browsers interpret CSS and
+display your website to users. This could be a result of a lack of support for
+certain CSS properties as well as conflicting or inconsistent implementations of
+CSS properties. You will need to test in the various browsers to ensure that your
+website design is [cross-browser compatible](/browsers/).
 
 ### Declarations
 
@@ -58,7 +57,7 @@ This long rule declaration can be rewritten as:
 /* GOOD PRACTICE */
 #content-wrapper
 {
-    background: #FFF url("/img/content_up.png") no-repeat center top;
+    background: #FFF url("/img/content_upper.png") no-repeat center top;
     clear: both;
     margin: 0 0 20px 0; /* Top, Right, Bottom, Left */
     padding-top: 10px;
@@ -66,7 +65,7 @@ This long rule declaration can be rewritten as:
 }
 ```
 
-Also note the use of the shortened hex code (`#FFF` instead of `#FFFFFF`) and the
+Note the use of the shortened hex code (`#FFF` instead of `#FFFFFF`) and the
 shortened zero pixel dimensions (`0` instead of `0px`).
 
 #### Always use external stylesheets
