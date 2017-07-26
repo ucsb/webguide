@@ -64,7 +64,7 @@ A few practices for avoiding these security risks include:
 #### Access Control
 
 Servers should only have the features and capabilities that are absolutely
-required. Installing unecessary software or enabling extraneous options may
+required. Installing unnecessary software or enabling extraneous options may
 create vulnerabilities within your server. Furthermore, servers should be
 configured to provide as little information as possible to external users and
 visitors.
