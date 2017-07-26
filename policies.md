@@ -4,8 +4,6 @@ title: Policies
 permalink: /policies/
 ---
 
-This page was last reviewed by WSG members in September 2014.
-
 Your web pages must comply with UC and UCSB policies. Some good policy
 resources to start with are the
 [UC Electronics Communications Policy](http://www.ucop.edu/information-technology-services/policies/electronic-communications.html)
