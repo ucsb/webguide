@@ -11,7 +11,7 @@ permalink: /site-map/
       <span>{{ category.name }}</span>
       <ul>
         {% for link in category.links %}
-          <li><a href="{{ link.url | prepend: site.baseurl }}">{{ link.text }}</a></li>
+          <li><a href="{{ link.url | relative_url }}">{{ link.text }}</a></li>
         {% endfor %}
       </ul>
     </li>

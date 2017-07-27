@@ -13,7 +13,7 @@
                 {% if page.url == relative_url %}
                   {% assign current = 'selected' %}
                 {% endif %}
-                <li class="{{ current }}"><a href="{{ link.url | prepend: site.baseurl }}">{{ link.text }}</a></li>
+                <li class="{{ current }}"><a href="{{ link.url | relative_url }}">{{ link.text }}</a></li>
               {% endfor %}
             </ul>
             </li>
