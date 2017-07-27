@@ -1,8 +1,8 @@
 <footer class="container" id="footer" role="contentinfo" aria-label="footer">
 <h2>WEBGUIDE</h2>
     <ul class="footer-nav row">
-    <li class="col-ms-6 col-sm-2 "><a href="{{ "site-map" | prepend: site.baseurl }}">Site Map</a></li>
-    <li class="col-ms-6 col-sm-2 "><a href="{{ "about" | prepend: site.baseurl }}">About Our Site</a></li>
+    <li class="col-ms-6 col-sm-2 "><a href="{{ "site-map" | relative_url }}">Site Map</a></li>
+    <li class="col-ms-6 col-sm-2 "><a href="{{ "about" | relative_url }}">About Our Site</a></li>
     <li class="col-ms-6 col-sm-2 "><a href="http://www.ucsb.edu/terms-of-use">Terms of Use</a></li>
     <li class="col-ms-6 col-sm-2 "><a href="http://www.ucsb.edu/accessibility">Web Accessibility</a></li>
     <li class="col-ms-6 col-sm-3 col-sm-offset-1">
@@ -14,8 +14,8 @@
   </section>
 </footer>
 
-<script src="{{ "scripts/jquery.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "scripts/bootstrap.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "scripts/main.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "scripts/jquery.min.js" | relative_url }}"></script>
+<script src="{{ "scripts/bootstrap.min.js" | relative_url }}"></script>
+<script src="{{ "scripts/main.min.js" | relative_url }}"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="{{ "scripts/ie10-viewport-bug-workaround.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "scripts/ie10-viewport-bug-workaround.min.js" | relative_url }}"></script>

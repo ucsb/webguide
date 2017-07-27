@@ -8,16 +8,16 @@
 
   <title>{% if page.title %}{{ page.title }}{% endif %} - UCSB Web Standards Guide</title>
 
-  <link href="{{ "style/bootstrap.min.css" | prepend: site.baseurl }}" rel="stylesheet">
-  <link href="{{ "style/main.min.css" | prepend: site.baseurl }}" rel="stylesheet">
-  <link href="{{ "style/outdatedbrowser.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+  <link href="{{ "/style/bootstrap.min.css" | relative_url }}" rel="stylesheet">
+  <link href="{{ "/style/main.min.css" | relative_url }}" rel="stylesheet">
+  <link href="{{ "/style/outdatedbrowser.min.css" | relative_url }}" rel="stylesheet">
 
   <!--[if lt IE 9]>
-    <link href="{{ "style/ie-8.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ "style/ie-8.css" | relative_url }}" rel="stylesheet">
   <![endif]-->
 
   <!--[if lt IE 8]>
-    <link href="{{ "style/ie-7.css" | prepend: site.baseurl }}" rel="stylesheet">
+    <link href="{{ "style/ie-7.css" | relative_url }}" rel="stylesheet">
   <![endif]-->
 
   <!--[if lt IE 9]>
