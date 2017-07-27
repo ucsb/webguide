@@ -43,8 +43,7 @@ Please review [Security Incident reporting information](https://security.ucsb.ed
 * Handle errors and don't display system error messages to end users
 * Provide accounts with the least amount of permissions and privileges required
 * Don't store secrets (e.g. passwords, keys) in your code
-* Use tested, reliable libraries or modules for common functions (e.g.
-  authentication, encryption, session tracking)
+* Use tested, reliable libraries or modules for common functions (e.g. authentication, encryption, session tracking)
 
 ### Common Web Application Vulnerabilities and Mitigation
 
@@ -65,7 +64,7 @@ A few practices for avoiding these security risks include:
 #### Access Control
 
 Servers should only have the features and capabilities that are absolutely
-required. Installing unnecessary software or enabling extraneous options may
+required. Installing unecessary software or enabling extraneous options may
 create vulnerabilities within your server. Furthermore, servers should be
 configured to provide as little information as possible to external users and
 visitors.
@@ -75,7 +74,7 @@ Keep the following best practices in mind when administering a web server:
 * Ensure that server components (OS, software/apps) are up-to-date
 * Avoid installing unnecessary applications on production servers
 * Remove unused and backup pages from the web server
-* Uninstall programming language SDKs and runtimes that are not in use
+* Uninstall programming languages that are not in use
 * If possible, make code libraries and configuration files inaccessible from the web
 * Disable directory browsing
 * Avoid making operating system calls based on user input
@@ -83,10 +82,10 @@ Keep the following best practices in mind when administering a web server:
 #### Session Information
 
 There are a number of mechanisms for maintaining a user's "state" while
-authenticated within your application, including encrypted variables within the
-URL, hidden form elements, and cookies. None of these methods are secure from an
-attack: URL variables can be easily modified and both hidden form elements and
-cookies can be manipulated with client-side browser development tools and proxies.
+authenticated within your application, including encrpyted variables within the
+URL, hidden form elements, and cookies. Note that none of these methods are
+secure from an attack: URL variables can be easily modified and both hidden
+form elements and cookies can be manipulated with tools like Firebug.
 
 In general, the best practice is to make use of the session tracking mechanism
 built into your development framework.
