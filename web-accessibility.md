@@ -62,7 +62,7 @@ separate approach than HTML documents, complicating your website's
 accessibility maintenance.
 
 If you must use a PDF, ensure that your PDF is accessible using
-[Adobe's PDF accessibility guidelines](http://www.adobe.com/accessibility/pdf/pdf-accessibility-overview.html).
+[Adobe's PDF accessibility guidelines](https://www.adobe.com/accessibility/pdf/pdf-accessibility-overview.html).
 
 #### Consistent Page Layout
 
@@ -122,15 +122,14 @@ to that anchor at the top of your page's HTML:
 
 ### Importance of Web Accessibility
 
-"Accessibility is a Civil Rights issue and inaccessible websites violate the
+Accessibility is a Civil Rights issue and inaccessible websites violate the
 *effective communications* requirement of the Americans with Disabilities Act
 (ADA) as well as provisions of Section 504 and 508 of the Rehabilitation Act.
 Just as the rights of disabled people are ensured by providing closed
 captioning for television programs, auditory crosswalk indicators or elevators
 and ramps in buildings with stairs, so too is it our obligation and
 responsibility to similarly accommodate the needs of the disabled when it comes
-to accessing electronic systems and data."
-(Source: [UCSB Web Accessibility Guidelines (PDF)](/media/web-accessibility-guidelines.pdf))
+to accessing electronic systems and data.
 
 All campus units should make every effort to comply with WSG accessibility
 recommendations.
@@ -154,10 +153,10 @@ In 2013, the
 proposed a
 [new systemwide accessibility policy](http://www.ucop.edu/electronic-accessibility/initiative/policy.html),
 which included the requirement that all websites should meet the
-[WCAG 2.0 Level AA Success](http://www.w3.org/TR/WCAG20/) requirements.
+[WCAG 2.0 Level AA Success](https://www.w3.org/TR/WCAG20/) requirements.
 
 For a guide on how to meet these requirements, use the
-[customizable quick reference](http://www.w3.org/WAI/WCAG20/quickref/).
+[customizable quick reference](https://www.w3.org/WAI/WCAG20/quickref/).
 
 ### Campus Resources
 
@@ -171,7 +170,7 @@ For a guide on how to meet these requirements, use the
 <br />
 *Policy Coordinator & Deputy ADA Compliance Officer*
 <br />
-[Jennifer.Lofthus@vcadmin.ucsb.edu](mailto:Jennifer.Lofthus@vcadmin.ucsb.edu)
+[jennifer.lofthus@vcadmin.ucsb.edu](mailto:jennifer.lofthus@vcadmin.ucsb.edu)
 
 **Gary White**
 <br />
@@ -181,30 +180,30 @@ For a guide on how to meet these requirements, use the
 
 ### Guidelines
 
-* [University of California Resources for Developing Accessible websites](http://www.ucop.edu/irc/itaccessibility/resources/)
-* [World Wide Web Consortium (W3C) Web Accessibility Initiative](http://www.w3.org/WAI/)
+* [University of California Resources for Developing Accessible websites](http://www.ucop.edu/electronic-accessibility/)
+* [World Wide Web Consortium (W3C) Web Accessibility Initiative](https://www.w3.org/WAI/)
 * [WebAIM](http://webaim.org/)
 
 ### Adaptive Software Providers
 
 * [Ai Squared](http://www.aisquared.com/products/)
-* [JAWS](http://www.freedomscientific.com/)
-* [Nuance](http://www.nuance.com/for-individuals/index.htm)
+* [JAWS](http://www.freedomscientific.com)
+* [Nuance](https://www.nuance.com/dragon.html)
 
 ### Accessibility Tools
 
 * [Firefox Web Developer Plug-in](https://addons.mozilla.org/en-US/firefox/addon/web-developer/)
-* [University of Minnesota List of Accessibility Tools](http://www.d.umn.edu/goto/tools#accesstools)
-* [W3C List of Accessibility Tools](http://www.w3.org/WAI/ER/tools/)
-* [W3C Validator Tool](http://validator.w3.org/)
+* [University of Minnesota List of Accessibility Tools](http://www.d.umn.edu/itss/training/online/webdesign/tools.html#accesstools)
+* [W3C List of Accessibility Tools](https://www.w3.org/WAI/ER/tools/)
+* [W3C Validator Tool](https://validator.w3.org/)
 
 ### Legislation
 
-* [A Guide to Disability Rights Laws](http://www.usdoj.gov/crt/ada/cguide.htm)
-* [Section 504 Fact Sheet](http://www.hhs.gov/ocr/civilrights/resources/factsheets/504.pdf)
-* [Section 508 of the Rehabilitation Act of 1973](http://www.section508.gov/Section-508-Of-The-Rehabilitation-Act)
-* [Section 255 of the Telecommunications Act of 1996](http://transition.fcc.gov/cgb/dro/section255.html)
-* [Americans with Disabilities Act of 1990](http://www.ada.gov/pubs/ada.htm)
+* [A Guide to Disability Rights Laws](https://www.ada.gov/cguide.htm)
+* [Section 504 Fact Sheet](https://www.hhs.gov/sites/default/files/ocr/civilrights/resources/factsheets/504.pdf)
+* [Section 508 of the Rehabilitation Act of 1973](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/background/section-508-the-law)
+* [Section 255 of the Telecommunications Act of 1996](https://www.access-board.gov/the-board/laws/telecommunications-act)
+* [Americans with Disabilities Act of 1990](https://www.ada.gov/pubs/ada.htm)
 
 ### Relevant Case Law
 
@@ -213,7 +212,7 @@ several laws. These laws are in turn enforced by several agencies:
 
 #### Section 504 of the Rehabilitation Act of 1973
 
-[Full Text](http://www.nationalrehab.org/website/history/act.html)
+[Full Text](https://www.dol.gov/oasam/regs/statutes/sec504.htm)
 
 "Section 504 states that "no qualified individual with a disability in the
 United States shall be excluded from, denied the benefits of, or be subjected
@@ -231,45 +230,39 @@ construction and alterations. Each agency is responsible for enforcing its own
 regulations. Section 504 may also be enforced through private lawsuits. It is
 not necessary to file a complaint with a Federal agency or to receive a
 "right-to-sue" letter before going to court."
-([Source](http://www.usdoj.gov/crt/ada/cguide.htm#anchor65610))
+([Source](https://www.ada.gov/cguide.htm#anchor65610))
 
 #### Section 508 of The Rehabilitation Act of 1973:
 
-[Full Text](http://www.section508.gov/index.cfm?FuseAction=Content&ID=14)
+[Full Text](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards/background/section-508-the-law)
 
-"In 1998, Congress amended the Rehabilitation Act to require Federal agencies
-to make their electronic and information technology accessible to people with
-disabilities. Inaccessible technology interferes with an individual's ability
-to obtain and use information quickly and easily. Section 508 was enacted to
-eliminate barriers in information technology, to make available new
-opportunities for people with disabilities, and to encourage development of
-technologies that will help achieve these goals. The law applies to all
-Federal agencies when they develop, procure, maintain, or use electronic and
-information technology. Under Section 508 (29 U.S.C. ‘ 794d), agencies must
-give disabled employees and members of the public access to information that
-is comparable to the access available to others. It is recommended that you
-review the laws and regulations listed below to further your understanding
-about Section 508 and how you can support implementation." For more
-information, visit the [Section 508 website](http://www.section508.gov).
+"In 1998, Congress amended the Rehabilitation Act of 1973 to require Federal
+agencies to make their electronic and information technology (EIT) accessible to
+people with disabilities. The law (29 U.S.C. § 794 (d)) applies to all Federal
+agencies when they develop, procure, maintain, or use electronic and information
+technology. Under Section 508, agencies must give disabled employees and members
+of the public access to information that is comparable to access available to
+others. The United States Access Board discusses the Section 508 law and its
+responsibility for developing accessibility standards for EIT to incorporate
+into regulations that govern Federal procurement practices."
+([Source](https://www.section508.gov/content/learn/laws-and-policies))
 
 #### Section 255 of The Telecommunications Act of 1996:
 
-[Full Text](http://www.fcc.gov/cgb/dro/telecom_language.html)
+[Full Text](https://www.access-board.gov/the-board/laws/telecommunications-act)
 
-"The Federal Communications Commission (FCC) has rules requiring
-telecommunications manufacturers and service providers to make their products
-and services accessible to people with disabilities, if readily achievable.
-These rules implement Section 255 of the Communications Act. Where it is not
-readily achievable to provide access, Section 255 requires manufacturers and
-providers to make their devices and services compatible with peripheral
-devices and specialized customer premises equipment that are commonly used
-by people with disabilities, if such compatibility is readily achievable."
-For more information, visit the
-[Section 255 website](http://www.fcc.gov/cgb/dro/section255.html)
+"FCC rules under Section 255 of the Communications Act require
+telecommunications equipment manufacturers and service providers to make their
+products and services accessible to people with disabilities, if such access
+is readily achievable. Where access is not readily achievable, manufacturers and
+service providers must make their devices and services compatible with
+peripheral devices and specialized customer premises equipment that are commonly
+used by people with disabilities, if such compatibility is readily achievable."
+([Source](https://www.fcc.gov/consumers/guides/telecommunications-access-people-disabilities))
 
 #### The Americans with Disabilities Act of 1990:
 
-[Full Text](http://www.usdoj.gov/crt/ada/pubs/ada.txt)
+[Full Text](https://www.ada.gov/pubs/adastatute08.htm)
 
 "The ADA prohibits discrimination on the basis of disability in employment,
 State and local government, public accommodations, commercial facilities,
@@ -283,34 +276,33 @@ impairment that substantially limits one or more major life activities, a
 person who has a history or record of such an impairment, or a person who is
 perceived by others as having such an impairment. The ADA does not
 specifically name all of the impairments that are covered."
-([Source](http://www.usdoj.gov/crt/ada/cguide.htm#anchor62335)).
+([Source](https://www.ada.gov/cguide.htm#anchor62335)).
 
 ### Agencies Who Enforce Access
 
 #### The United States Access Board
 
-The [United States Access Board](http://www.access-board.gov/) covers
-Accessible Design and sets standards for
-architecture and design. They set rules and standards for such things as size,
-distribution and arrangement of disabled parking spaces, wheelchair access for
-theatres, design guidelines for talking or chirping crosswalk indicators,
-etc.
+The [United States Access Board](https://www.access-board.gov/) covers
+Accessible Design and sets standards for architecture and design. They set
+rules and standards for such things as size, distribution and arrangement
+of disabled parking spaces, wheelchair access for theatres, design guidelines
+for talking or chirping crosswalk indicators, etc.
 
 #### U.S. Department of Education
 
 Section 504 is enforced by the
-[U.S. Department of Education, Office for Civil Rights](http://www.ed.gov/about/offices/list/ocr/index.html)
+[U.S. Department of Education, Office for Civil Rights](https://www2.ed.gov/about/offices/list/ocr/index.html)
 enforces Section 504 as it applies recipients of Federal Funding for education.
 
 #### U.S. Department of Justice
 
-[Section 508](http://www.usdoj.gov/crt/508/508home.html) requires all federal
+[Section 508](https://www.justice.gov/crt/section-508-home-page-0) requires all federal
 government bodies and their contractors to make Information Technology
 accessible for the disabled.
 
 #### The Federal Communications Commission (FCC)
 
-[Section 255 of The Telecommunications Act](http://www.fcc.gov/cgb/dro/section255.html)
+[Section 255 of The Telecommunications Act](https://www.fcc.gov/general/section-255-disability-rights-office)
 is coordinated by the FCC. They require the telecommunications industry to
 make equipment readily accessible or, alternatively make equipment compatible
 with assistive technology devices.
