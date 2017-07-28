@@ -290,8 +290,7 @@ for talking or chirping crosswalk indicators, etc.
 
 #### U.S. Department of Education
 
-Section 504 is enforced by the
-[U.S. Department of Education, Office for Civil Rights](https://www2.ed.gov/about/offices/list/ocr/index.html)
+The [U.S. Department of Education, Office for Civil Rights](https://www2.ed.gov/about/offices/list/ocr/index.html)
 enforces Section 504 as it applies recipients of Federal Funding for education.
 
 #### U.S. Department of Justice
