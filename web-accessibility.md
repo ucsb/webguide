@@ -303,5 +303,5 @@ accessible for the disabled.
 
 The FCC coordinates [Section 255 of The Telecommunications Act](https://www.fcc.gov/general/section-255-disability-rights-office).
 They require the telecommunications industry to
-make equipment readily accessible or, alternatively make equipment compatible
+make equipment readily accessible or, alternatively, make equipment compatible
 with assistive technology devices.
