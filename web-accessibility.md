@@ -31,7 +31,7 @@ navigated via keyboard can also be navigated by voice or screen reader.
 #### Avoid Time-Sensitive Content Changes
 
 Avoid time-sensitive content changes or allow users to control the timing of
-these changes. For example, if your website features a image carousel that cycles
+these changes. For example, if your website features an image carousel that cycles
 through several images, provide options for users to pause or slow down the
 transition between images.
 
