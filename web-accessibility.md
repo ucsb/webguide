@@ -301,7 +301,7 @@ accessible for the disabled.
 
 #### The Federal Communications Commission (FCC)
 
-[Section 255 of The Telecommunications Act](https://www.fcc.gov/general/section-255-disability-rights-office)
-is coordinated by the FCC. They require the telecommunications industry to
+The FCC coordinates [Section 255 of The Telecommunications Act](https://www.fcc.gov/general/section-255-disability-rights-office).
+They require the telecommunications industry to
 make equipment readily accessible or, alternatively make equipment compatible
 with assistive technology devices.
