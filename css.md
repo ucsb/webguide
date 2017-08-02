@@ -15,7 +15,7 @@ reader.
 CSS techniques and technologies are evolving rapidly. Website developers should
 try to understand the tradeoffs involved with their choices (loading one vs. many
 stylesheets, performance vs. organization, basic CSS vs. minified/compressed/compiled
-CSS). Website developers may want to consider using stylesheet minifies, compilers,
+CSS). Website developers may want to consider using stylesheet minifiers, compilers,
 or other technologies ([Less](http://lesscss.org/), [Sass](http://sass-lang.com/),
 [Compass](http://compass-style.org/), etc.) to make their CSS more consistent.
 
