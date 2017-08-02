@@ -20,7 +20,7 @@ In contrast, the following URL is more cryptic:
 
 ```bash
 # BAD PRACTICE
-http://department.ucsb.edu/page.php?id=63&amp;staff=john%20smith
+http://department.ucsb.edu/page.php?id=63&staff=john%20smith
 ```
 
 "Friendly" URLs are more accessible to both the users visiting the URLs as
