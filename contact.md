@@ -6,7 +6,7 @@ permalink: /contact/
 
 ### By E-mail
 
-* Email sent to [webstandards@lists.ucsb.edu](mailto:webstandards@lists.ucsb.edu) will be directed to the current Web Standards Group co-chairs
+* Email sent to [wsg-chairs@connect.ucsb.edu](mailto:wsg-chairs@connect.ucsb.edu) will be directed to the current Web Standards Group co-chairs
 * Join the [UCSB-Web Mailing List](https://lists.noc.ucsb.edu/mailman/listinfo/ucsb-web)
 
 ### In Person

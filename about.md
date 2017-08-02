@@ -72,4 +72,4 @@ In 2015, the webguide's underlying infrastructure was migrated from an on-campus
 ### Contact
 
 You may contact the WSG with questions, comments, or suggestions at
-[webstandards@lists.noc.ucsb.edu](mailto:webstandards@lists.noc.ucsb.edu).
+[wsg-chairs@connect.ucsb.edu](mailto:wsg-chairs@connect.ucsb.edu).
