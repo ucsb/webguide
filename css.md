@@ -5,26 +5,25 @@ permalink: /css/
 ---
 
 As a general rule of thumb, the content of your website should have a logical
-flow regardless of any styling. In other words, a user who has disabled CSS
+flow regardless of any styling. In other words, a user who has disabled (CSS)
 should still be able to understand your website's content.
 
 More specifically, *websites should not convey information by color alone*.
 This is especially important for users who are color blind or who use a screen
 reader.
 
-Note that CSS techniques and technologies are evolving rapidly. Website
-developers should try to understand the tradeoffs involved with their choices
-(loading one vs. many stylesheets, performance vs. organization, basic CSS vs.
-minified/compressed/compiled CSS). Website developers may want to consider
-using stylesheet minifiers, compilers, or other technologies (LESS, SASS,
-Compass) to make their CSS more consistent.
+CSS techniques and technologies are evolving rapidly. Website developers should
+try to understand the tradeoffs involved with their choices (loading one vs. many
+stylesheets, performance vs. organization, basic CSS vs. minified/compressed/compiled
+CSS). Website developers may want to consider using stylesheet minifiers, compilers,
+or other technologies ([Less](http://lesscss.org/), [Sass](http://sass-lang.com/),
+[Compass](http://compass-style.org/), etc.) to make their CSS more consistent.
 
-Also note that there may be inconsistencies between how the various browsers
-interpret CSS and display your website to users. This could be a result of a
-lack of support for certain CSS properties as well as conflicting or
-inconsistent implementations of CSS properties. You will need to test in the
-various browsers to ensure that your website design is
-[cross-browser compatible](/browsers/).
+There may be inconsistencies between how the various browsers interpret CSS and
+display your website to users. This could be a result of a lack of support for
+certain CSS properties as well as conflicting or inconsistent implementations of
+CSS properties. You will need to test in the various browsers to ensure that your
+website design is [cross-browser compatible](/browsers/).
 
 ### Declarations
 
@@ -58,7 +57,7 @@ This long rule declaration can be rewritten as:
 /* GOOD PRACTICE */
 #content-wrapper
 {
-    background: #FFF url("/img/content_up.png") no-repeat center top;
+    background: #FFF url("/img/content_upper.png") no-repeat center top;
     clear: both;
     margin: 0 0 20px 0; /* Top, Right, Bottom, Left */
     padding-top: 10px;
@@ -66,8 +65,8 @@ This long rule declaration can be rewritten as:
 }
 ```
 
-Also note the use of the shortened hex code (#FFF instead of #FFFFFF) and the
-shortened zero pixel dimensions (0 instead of 0px).
+Note the use of the shortened hex code (`#FFF` instead of `#FFFFFF`) and the
+shortened zero pixel dimensions (`0` instead of `0px`).
 
 #### Always use external stylesheets
 
@@ -107,7 +106,7 @@ Similarly, avoid using inline styles:
 ```
 
 These inline styles can not be overridden by standard CSS properties without
-the use of the !important keyword. This also clouds your markup file with
+the use of the `!important` keyword. This also clouds your markup file with
 presentation information, violating the separation of content and presentation
 principle.
 
@@ -130,7 +129,7 @@ an example, imagine you have the following HTML with inline styling:
 <p style="color: red;">Outside a div</p>
 ```
 
-Imagine that you discover you need to edit the color of the paragraphs, so you add some CSS:
+Imagine that you discover you need to edit the color of the `<p>`s, so you add some CSS:
 
 ```css
 p
@@ -139,9 +138,9 @@ p
 }
 ```
 
-This will only work for the paragraph within the div because an inline
+This will only work for the `<p>` within the `<div>` because an inline
 declaration will always carry more precedence than a regular CSS declaration.
-So, to get around this issue, you add !important:
+So, to get around this issue, you add `!important`:
 
 ```css
 /* BAD PRACTICE! */
@@ -151,9 +150,9 @@ p
 }
 ```
 
-Now your paragraph will have blue text. However, you realize that you want
-paragraphs that are within divs to have a different text color than regular
-paragraphs, so you add another CSS declaration:
+Now your `<p>` will have blue text. However, you realize that you want
+`<p>`s that are within `<div>`s to have a different text color than regular
+`<p>`s, so you add another CSS declaration:
 
 ```css
 div p
@@ -163,7 +162,7 @@ div p
 ```
 
 However, this won't do anything because your earlier `!important` declaration
-overrides this declaration. To fix this problem, you'll need to add !important
+overrides this declaration. To fix this problem, you'll need to add `!important`
 to this rule. As you can see, our CSS selector hierarchy is now becoming
 needlessly convoluted.
 
@@ -176,7 +175,7 @@ For all of these reasons, you should avoid using the `!important` keyword.
 
 #### Don't use `@import`
 
-As an alternative to using the link tag to import stylesheets, you can also
+As an alternative to using `link` to import stylesheets, you can also
 import a stylesheet from within a stylesheet using the `@import` rule:
 
 ```css
@@ -184,7 +183,7 @@ import a stylesheet from within a stylesheet using the `@import` rule:
 @import url("grid.css");
 ```
 
-However, this is less performant than the link tag as browsers will often end
+However, this is less performant than `link` as browsers will often end
 up downloading imported stylesheets sequentially, rather than in parallel as
 with the link tag. Due to these easily avoidable performance issues, don't use
 the `@import` rule.
@@ -235,7 +234,7 @@ Altogether, you should avoid generating _any_ content with CSS.
 
 Give selectors semantically meaningful names
 
-When choosing a name for a class or ID selector, do not use a name that is
+When choosing a name for a class or id selector, do not use a name that is
 linked to a specific implementation in CSS or markup or has no semantic
 meaning:
 
@@ -243,7 +242,7 @@ meaning:
 /* BAD PRACTICE! */
 .red
 {
-    color: #CC0000;
+    color: #C00;
 }
 
 #div1
@@ -253,9 +252,9 @@ meaning:
 ```
 
 Imagine in the above example that you later decide all of the elements that
-have been marked with the class red (such as error messages, etc.), should
-now be a different color. Also, imagine you later realize that the div marked
-with the ID #div1 should now be a form element instead.
+have been marked with the class `.red` (such as error messages, etc.), should
+now be a different color. Also, imagine you later realize that the `<div>` marked
+with the id `#div1` should now be a form element instead.
 
 Instead, use CSS names that are semantically meaningful to the content:
 
@@ -263,7 +262,7 @@ Instead, use CSS names that are semantically meaningful to the content:
 /* GOOD PRACTICE */
 .error
 {
-    color: #CC0000;
+    color: #C00;
 }
 
 #content-wrapper
@@ -319,7 +318,7 @@ adhere to the W3C specification.
 
 Thus, there have been cases in which both the vendor-specific and the "proper"
 form have both worked in the same browser, but with different behavior
-(border-radius and -webkit-border-radius in Webkit, for example). By listing
+(`border-radius` and `-webkit-border-radius` in Webkit, for example). By listing
 the "proper" form last, you ensure that you are always overriding any
 alternate, vendor-specific behavior with the behavior outlined in the CSS
 specification.
