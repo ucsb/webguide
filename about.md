@@ -11,8 +11,14 @@ with the goal of creating a more consistent web presentation of UCSB across
 the various departments on campus. The group was assigned two main tasks
 towards accomplishing this goal:
 
-* To recommend a set of web guidelines and best practices pertaining to usability, accessibility, and identity, that the ITPG, the ITB (Information Technology Board), the Office of Information Technology, the Office of the Executive Vice Chancellor, and the Office of Public Affairs could endorse as standards for UCSB campus websites
-* To create a central campus resource for disseminating information on these guidelines, as well as other web-related information, resources, and tools.
+* To recommend a set of web guidelines and best practices pertaining to
+usability, accessibility, and identity, that the ITPG, the ITB (Information
+Technology Board), the Office of Information Technology, the Office of the
+Executive Vice Chancellor, and the Office of Public Affairs could endorse as
+standards for UCSB campus websites
+
+* To create a central campus resource for disseminating information on these
+guidelines, as well as other web-related information, resources, and tools.
 
 The WSG does not police campus websites. Instead, we promote and encourage
 campus web continuity through the use of established practices, logos, colors,
@@ -27,7 +33,7 @@ The WSG is a campus-wide forum whose membership is drawn from web developers,
 designers, and administrators across campus. Its meetings, typically held the
 first Tuesday of every month, are open to all UCSB web professionals.
 Meeting announcements are disseminated through the
-[UCSB-Web mailing list](https://lists.noc.ucsb.edu/mailman/listinfo/ucsb-web).
+[UCSB-Web mailing list](contact/#join-mailing-list).
 WSG meeting notes and other documents are posted on the
 [WSG group page](https://it.ucsb.edu/groups/wsg) on the
 [campus (UCSB) IT website](https://it.ucsb.edu).
@@ -49,15 +55,17 @@ organized the subcommittee, and served as its first chair.
 
 The WSG became a task-level subcommittee/working group reporting directly to
 the ITPG in Fall 2005. Work began on the initial version of the webguide
-shortly thereafter. The initial version was brought before the ITPG for acceptance in late 2006 and was finally approved by the ITB in January 2007.
+shortly thereafter. The initial version was brought before the ITPG for
+acceptance in late 2006 and was finally approved by the ITB in January 2007.
 
 The WSG is active in promoting development and training opportunities for web
 professionals at UCSB. Since 2006, the group has organized more than 20 free
 workshops and Brown Bag forums on web standards, web accessibility, web
 applications security, web content management systems, and related topics.
-[Video archives of recorded events are available through the UCSB Gauchocast service](https://gauchocast.ucsb.edu/Panopto/Pages/Sessions/List.aspx#folderID=%22f454c5a2-ba6f-4383-a0fb-088f709f919c%22). The Office of Information
-Systems and Technology, the Division of Student Affairs, and the Disabled
-Students Program have provided support for this training.
+[Video archives of recorded events are available through the UCSB Gauchocast service](https://gauchocast.ucsb.edu/Panopto/Pages/Sessions/List.aspx#folderID=%22f454c5a2-ba6f-4383-a0fb-088f709f919c%22).
+The Office of Information Systems and Technology, the Division of Student
+Affairs, and the Disabled Students Program have provided support for this
+training.
 
 In September 2012, the WSG organized a subcommittee to update the web guide,
 bringing the guide up-to-date with modern web development and design best
@@ -67,7 +75,10 @@ In 2013, amid restructuring of IT units within UCSB, the reporting chain for
 many of the ITPG formed working groups, including the WSG, was transferred to
 the [UCSB IT Council](https://it.ucsb.edu/groups/itc).
 
-In 2015, the webguide's underlying infrastructure was migrated from an on-campus hosted solution to Github using Github Pages. This was to allow more rapid content development within the webguide and broader community contribution and collaboration leveraging the Github platform.
+In 2015, the webguide's underlying infrastructure was migrated from an
+on-campus hosted solution to Github using Github Pages. This was to allow more
+rapid content development within the webguide and broader community
+contribution and collaboration leveraging the Github platform.
 
 ### Contact
 
