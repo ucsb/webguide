@@ -6,7 +6,7 @@ permalink: /contact/
 
 ### Join Mailing List
 
-The UCSB-Web Mailing provides a forum for UCSB Web professionals to exchange
+The UCSB-Web Mailing List provides a forum for UCSB web professionals to exchange
 information about web design, development, best practices, and other
 web-related topics at UCSB. Web Standards Group meeting and event notices are
 also distributed via this list.
