@@ -230,6 +230,23 @@ unnecessarily read to a user with a screen reader.
 
 Altogether, you should avoid generating _any_ content with CSS.
 
+#### Use the "print" media query
+
+A "print" media query can be used to change the display of your website when
+the user prints it:
+
+```css
+/* GOOD PRACTICE! */
+@media print
+{
+    /* Hide the header when the user prints the page */
+    #header
+    {
+      display: none;
+    }
+}
+```
+
 ### Naming
 
 Give selectors semantically meaningful names

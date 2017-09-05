@@ -93,15 +93,6 @@ Next, include your CSS stylesheets:
 <link href="style/main.css" type="text/css" rel="stylesheet">
 ```
 
-### Print Stylesheet
-
-To optimize a website for printing, provide an alternate print stylesheet that
-strips unnecessary visual elements from the page:
-
-```html
-<link href="css/print.css" rel="stylesheet" type="text/css" media="print">
-```
-
 ### Internet Explorer Stylesheet
 
 Depending on the needs of your website and audience, you may want to include a
