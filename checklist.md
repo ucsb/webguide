@@ -38,6 +38,7 @@ To view the corresponding web guide section for each area of the checklist,
 * Avoid browser-specific hacks
 * Use relative over absolute units
 * Don't generate content with CSS
+* Use the "print" media query
 * Give selectors semantically meaningful names
 * Alphabetize properties in rules (except for vendor prefixes)
 * List vendor prefixes directly before their W3C form
