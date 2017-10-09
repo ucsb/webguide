@@ -1,10 +1,11 @@
 @charset "utf-8";
 
 @import "syntax-highlighting";
+@import "variables";
 
 // See: http://getbootstrap.com/getting-started/#support-ie10-width
-@viewport                                       { width: device-width; }
-@-ms-viewport                           { width: device-width; }
+@viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
 
 @font-face {
   font-family: 'Hind';
@@ -221,7 +222,7 @@ summary {
 }
 
 html {
-    background: #fff;
+    background: $color-background;
     height: 100%;
     line-height: 1.2em
 }
@@ -230,7 +231,7 @@ body {
     font-family: Hind, sans-serif;
     font-weight: 400;
     font-size: 93.5%;
-    color: #4d4e4e;
+    color: $color-main-text;
     height: 100%
 }
 
@@ -251,7 +252,7 @@ strong {
 }
 
 h1.page-title {
-    color: #00468b;
+    color: $color-header-text;
     font-size: 1.5em;
     font-weight: 700;
     text-transform: uppercase;
@@ -261,7 +262,7 @@ h1.page-title {
 
 h2.page-subtitle,
 h2.aside-title {
-    color: #00468b;
+    color: $color-header-text;
     font-size: 1.25em;
     font-weight: 600;
     text-transform: uppercase;
@@ -269,7 +270,7 @@ h2.aside-title {
 }
 
 h3 {
-    color: #00468b;
+    color: $color-header-text;
     font-size: 1.1em;
     font-weight: 600;
     text-transform: uppercase;
@@ -278,7 +279,7 @@ h3 {
 
 h4
 {
-  color: #00468b;
+  color: $color-header-text;
   font-size: 1em;
   font-weight: 600;
   padding: 7px 0 5px
@@ -546,10 +547,10 @@ h4
 .skip-to-content,
 .skip-to-content:hover,
 .skip-to-content:focus {
-    color: #ffce34;
+    color: $color-gold-accent;
     padding: 6px 15px;
     display: block;
-    background-color: #18335d;
+    background-color: $color-searchbar-background;
     z-index: 999;
     position: absolute;
     top: 60px;
@@ -583,8 +584,8 @@ header .navbar.navbar-default.yamm {
 }
 
 header .navbar-header {
-    color: #fff;
-    background: #18335d;
+    color: $color-searchbar-text;
+    background: $color-searchbar-background;
     margin: 0
 }
 
@@ -594,7 +595,7 @@ header .navbar-header .container {
 }
 
 header .navbar-header a {
-    color: #fff
+    color: $color-searchbar-text
 }
 
 header .navbar-header .navbar-brand {
@@ -648,9 +649,9 @@ header .navbar-header a#logo {
 }
 
 footer#footer {
-    color: #fff;
-    background-color: #00468b;
-    background: repeating-linear-gradient(-70deg, #00468b, #00468b 50%, #003f7d 50%, #003f7d)
+    color: $color-footer-text;
+    background-color: $color-footer-background-top;
+    background: repeating-linear-gradient(-70deg, $color-footer-background-top, $color-footer-background-top 50%, $color-footer-background-bottom 50%, $color-footer-background-bottom)
 }
 
 footer h2 {
@@ -659,34 +660,34 @@ footer h2 {
 }
 
 footer#footer a {
-    color: #fff
+    color: $color-footer-text;
 }
 
 footer#footer .footer-secondary {
-    border-top: 1px solid #fff
+    border-top: 1px solid $color-footer-border
 }
 
 @media (min-width: 480px) {
     footer#footer {
-        background: repeating-linear-gradient(-55deg, #00468b, #00468b 50%, #003f7d 50%, #003f7d)
+        background: repeating-linear-gradient(-55deg, $color-footer-background-top, $color-footer-background-top 50%, $color-footer-background-bottom 50%, $color-footer-background-bottom)
     }
 }
 
 @media (min-width: 768px) {
     footer#footer {
-        background: repeating-linear-gradient(-36deg, #00468b, #00468b 50%, #003f7d 50%, #003f7d)
+        background: repeating-linear-gradient(-36deg, $color-footer-background-top, $color-footer-background-top 50%, $color-footer-background-bottom 50%, $color-footer-background-bottom)
     }
 }
 
 @media (min-width: 992px) {
     footer#footer {
-        background: repeating-linear-gradient(-29.5deg, #00468b, #00468b 50%, #003f7d 50%, #003f7d)
+        background: repeating-linear-gradient(-29.5deg, $color-footer-background-top, $color-footer-background-top 50%, $color-footer-background-bottom 50%, $color-footer-background-bottom)
     }
 }
 
 @media (min-width: 1200px) {
     footer#footer {
-        background: repeating-linear-gradient(-16.5deg, #00468b, #00468b 50%, #003f7d 50%, #003f7d)
+        background: repeating-linear-gradient(-16.5deg, $color-footer-background-top, $color-footer-background-top 50%, $color-footer-background-bottom 50%, $color-footer-background-bottom)
     }
 }
 
@@ -929,8 +930,8 @@ footer#footer .footer-secondary {
 }
 
 #ucsb-nav {
-    background-color: #00468b;
-    color: #4d4e4e;
+    background-color: $color-navbar-background;
+    color: $color-main-text;
     text-transform: uppercase;
     font-weight: 700;
     padding-top:0px;
@@ -938,13 +939,6 @@ footer#footer .footer-secondary {
     padding-right: 0;
     margin-bottom: 5px;
     margin-top:0px
-}
-
-#ucsb-nav h3.nav-information-for-h3 {
-    text-transform: uppercase;
-    background: #fbb32e;
-    font-size: 1.1em;
-    padding: 7px 7px 5px
 }
 
 #ucsb-nav a {
@@ -958,7 +952,7 @@ footer#footer .footer-secondary {
 
 #ucsb-nav .nav-information-for ul.navbar-nav li a,
 #ucsb-nav .nav-primary ul.navbar-nav li a {
-    color: #FFF;
+    color: $color-navbar-text;
     font-weight: 600
 }
 
@@ -970,13 +964,13 @@ footer#footer .footer-secondary {
 }
 
 #ucsb-nav .nav-primary li.dropdown a.dropdown-title {
-    background: #00468b;
-    border-bottom: 2px solid #00468b
+    background: $color-navbar-background;
+    border-bottom: 2px solid $color-navbar-background
 }
 
 #ucsb-nav .nav-primary li.dropdown a.dropdown-title:hover {
     text-decoration: none;
-    border-bottom: 2px solid #00468b
+    border-bottom: 2px solid $color-navbar-background
 }
 
 #ucsb-nav .nav-primary li.dropdown a.dropdown-title:focus {
@@ -984,9 +978,9 @@ footer#footer .footer-secondary {
 }
 
 #ucsb-nav .nav-primary li.dropdown ul.dropdown-menu {
-    background-color: #00468b;
+    background-color: $color-navbar-background;
     padding: 10px 10px 10px 15px;
-    color: #FFF;
+    color: $color-navbar-text;
 }
 
 #ucsb-nav .nav-primary li.dropdown ul.dropdown-menu li {
@@ -1003,7 +997,6 @@ footer#footer .footer-secondary {
 
 #ucsb-nav .nav-primary li.dropdown.open a.dropdown-title {
     background: inherit;
-    /*border-bottom: 2px solid #00468b*/
 }
 
 #ucsb-nav .nav-primary .dropdown-menu li a {
@@ -1038,39 +1031,13 @@ footer#footer .footer-secondary {
         margin-bottom: 0px
     }
     .navbar-default {
-        background: #fff;
+        background: $color-navbar-text;
         border: none
     }
     #ucsb-nav {
-        background-color: #00468b;
+        background-color: $color-navbar-background;
         text-transform: uppercase;
         margin-bottom: 0
-    }
-    #ucsb-nav .nav-information-for {
-        margin-bottom: 15px
-    }
-    #ucsb-nav .nav-information-for .nav-information-for-h3 {
-        background: #fff;
-        font-weight: 600;
-        font-size: 0.9em;
-        float: left;
-        padding: 0px
-    }
-    #ucsb-nav .nav-information-for ul {
-        float: left;
-        font-size: 0.95em
-    }
-    #ucsb-nav .nav-information-for ul.navbar-nav li+li:before {
-        content: " / ";
-        position: absolute
-    }
-    #ucsb-nav .nav-information-for ul.navbar-nav li a {
-        color: #4d4e4e;
-        text-transform: none;
-        padding: 0 5px 0 10px
-    }
-    #ucsb-nav .nav-information-for ul.navbar-nav li:first-child a {
-        padding-left: 0
     }
     #ucsb-nav .nav-primary {
         margin-top: 0px
@@ -1080,14 +1047,14 @@ footer#footer .footer-secondary {
         width: 100%
     }
     #ucsb-nav .nav-primary ul li.dropdown {
-        background: #00468b;
+        background: $color-navbar-background;
         margin-bottom: 0;
         width: 16%;
         border-radius: 0;
         box-shadow: #000 0 0 0
     }
     #ucsb-nav .nav-primary ul li.dropdown a.dropdown-title {
-        color: #FFF;
+        color: $color-navbar-text;
         border-bottom: 3px solid #fff;
         font-weight: 700;
         padding: 0px 5px 10px 20px
@@ -1095,12 +1062,12 @@ footer#footer .footer-secondary {
     #ucsb-nav .nav-primary ul li.dropdown a.dropdown-title:hover,
     #ucsb-nav .nav-primary ul li.dropdown a.dropdown-title:focus {
         text-decoration: none;
-        border-bottom: 3px solid #ffce34
+        border-bottom: 3px solid $color-gold-accent
     }
     #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu {
-        background-color: #00468b;
+        background-color: $color-navbar-background;
         border: 0;
-        color: #FFF;
+        color: $color-navbar-text;
         font-size: 0.80em;
         height: 300px;
         text-align: center;
@@ -1118,7 +1085,7 @@ footer#footer .footer-secondary {
     }
     #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu li ul {
         padding: 7px 0;
-        background: #00468b;
+        background: $color-navbar-background;
         text-align: left
     }
     #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu li ul li {
@@ -1142,26 +1109,26 @@ footer#footer .footer-secondary {
         font-weight: 500;
         text-transform: none;
         font-size: 110%;
-        color: #FFF;
+        color: $color-navbar-text;
         width: 100%
     }
     #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu a:hover,
     #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu a:focus {
-        color: #4d4e4e;
-        background: #afdbf4;
+        color: $color-navbar-text-hover;
+        background: $color-navbar-background-hover;
         text-decoration: none
     }
     #ucsb-nav .nav-primary ul li.wide {
         width: 20%
     }
     #ucsb-nav .nav-primary ul li.dropdown.active a {
-        background: #ffce34
+        background: $color-gold-accent
     }
     #ucsb-nav .nav-primary ul li.dropdown.active ul li a {
-        background: #BAE6FF
+        background: $color-navbar-background-active
     }
     #ucsb-nav .nav-primary ul li.dropdown.open a.dropdown-title {
-        border-bottom: 3px solid #00468b;
+        border-bottom: 3px solid $color-navbar-background;
         padding-left: 20px;
     }
 }
@@ -1171,7 +1138,7 @@ footer#footer .footer-secondary {
         font-size: 1em
     }
     #ucsb-nav .nav-information-for ul.navbar-nav li a {
-        color: #4d4e4e;
+        color: $color-main-text;
         text-transform: none;
         padding: 0 7px 0 12px
     }
@@ -1251,7 +1218,7 @@ footer#footer .footer-secondary {
 }
 
 #hamburger .icon-bar {
-    background-color: #fff;
+    background-color: $color-navbar-text;
     height: 5px;
     width: 33px;
     margin-bottom: 2px;
@@ -1279,7 +1246,7 @@ footer#footer .footer-secondary {
 
 #hamburger:hover .icon-bar,
 #hamburger:focus .icon-bar {
-    background-color: #ffce34
+    background-color: $color-gold-accent
 }
 
 #hamburger.navbar-closed .burger-top {
@@ -1317,17 +1284,17 @@ form.site-search .searchinput {
     height: 30px;
     font-size: 0.9em;
     line-height: 1.42857143;
-    color: #555;
-    background-color: #fff;
+    color: $color-search-text;
+    background-color: $color-search-background;
     background-image: none;
-    border: 1px solid #ccc;
+    border: 1px solid $color-search-border;
     padding: 3px 0 0 3px;
     width: 100%;
     border-radius: 0
 }
 
 form.site-search .searchsubmit {
-    background: #18335d;
+    background: $color-searchbar-background;
     position: absolute;
     top: 1px;
     right: 3px;
@@ -1354,15 +1321,15 @@ form.site-search .searchsubmit {
         float: left;
         padding: 0 5px;
         line-height: 33px;
-        border-bottom: 5px solid #18335d
+        border-bottom: 5px solid $color-searchbar-background
     }
     .search-bundle-wrapper div a:hover,
     .search-bundle-wrapper div a:focus {
         text-decoration: none;
-        color: #ffce34
+        color: $color-gold-accent
     }
     .search-bundle-wrapper div.azindex-link.active {
-        border-bottom: 5px solid #00468b
+        border-bottom: 5px solid $color-navbar-background
     }
     .search-bundle-wrapper form.site-search-navbar-header {
         float: right;
@@ -1380,17 +1347,17 @@ form.site-search .searchsubmit {
         height: 30px;
         font-size: 0.9em;
         line-height: 1.42857143;
-        color: #555;
-        background-color: #fff;
+        color: $color-search-text;
+        background-color: $color-search-background;
         background-image: none;
-        border: 1px solid #ccc;
+        border: 1px solid $color-search-border;
         padding: 3px 0 0 3px;
         margin-top: 3px;
         width: 150px;
         border-radius: 0
     }
     .search-bundle-wrapper form.site-search-navbar-header .searchsubmit {
-        background: #18335d;
+        background: $color-searchbar-background;
         position: absolute;
         top: 4px;
         right: 1px;
@@ -1418,7 +1385,7 @@ form.site-search .searchsubmit {
 }
 
 .mailinglist-button{
-    background: #FFF;
+    background: $color-button-mailing-list-background;
     display: block;
     font-weight: 600;
     text-align: center;
@@ -1430,8 +1397,8 @@ form.site-search .searchsubmit {
     width: 135px;
 }
 
-footer#footer a.mailinglist-button, footer#footer a.mailinglist-button:visited { color: #00468b; }
-footer#footer a.mailinglist-button:hover, footer#footer a.mailinglist-button:focus { background: #EEE; text-decoration:none; }
+footer#footer a.mailinglist-button, footer#footer a.mailinglist-button:visited { color: $color-button-mailing-list-text; }
+footer#footer a.mailinglist-button:hover, footer#footer a.mailinglist-button:focus { background: $color-button-mailing-list-background-hover; text-decoration:none; }
 
 #content ul
 {
@@ -1442,7 +1409,7 @@ footer#footer a.mailinglist-button:hover, footer#footer a.mailinglist-button:foc
 
 #content a
 {
-  color: #337ab7;
+  color: $color-link;
   text-decoration: underline;
 }
 
@@ -1456,7 +1423,7 @@ footer#footer a.mailinglist-button:hover, footer#footer a.mailinglist-button:foc
 
 .highlight
 {
-	border: 3px solid #EEE;
+	border: 3px solid $color-code-border-default;
 	border-width: 0 0 0 3px;
 	font-size: 1em;
 	margin: 1em 0 1em 10px;
@@ -1472,12 +1439,12 @@ pre.highlight
 
 .highlight.good
 {
-    border-color: #7ACC00;
+    border-color: $color-code-border-good;
 }
 
 .highlight.bad
 {
-    border-color: #C00;
+    border-color: $color-code-border-bad;
 }
 
 .highlight code
@@ -1519,7 +1486,7 @@ pre.highlight
 
 #toc ul li a
 {
-	color: #337ab7;
+	color: $color-link;
 	margin: 0;
 }
 
