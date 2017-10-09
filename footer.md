@@ -9,15 +9,25 @@ elements described in this section.
 
 ### Copyright
 
-Include the following HTML statement with the year the site was created or the
-year of the last major redesign or version of the website:
+A copyright notice is not required but may be desired for your website.
+
+Any content created for UCSB is copyrighted by the Regents of the University of California.
+
+The year is optional but if used you may choose the year the site was created,
+the last major redesign, the last update, or the current year. Server-side code
+or JavaScript can be used to display the current year.
+
+HTML examples:
 
 ```html
-Copyright &copy; 2015 The Regents of the University of California, All Rights Reserved.
+Copyright &copy; 2017 The Regents of the University of California, All Rights Reserved.
+&copy; 2017 The Regents of the University of California, All Rights Reserved.
+&copy; The Regents of the University of California, All Rights Reserved.
+&copy; Regents of the University of California, All Rights Reserved.
 ```
 
 For more information about copyright requirements, visit
-[UCOP Copyright Matters](http://copyright.universityofcalifornia.edu/).
+[UCOP Copyright FAQ: How do I put a copyright notice on my work?](http://copyright.universityofcalifornia.edu/faqs/index.html#h).
 
 ### Terms of Use
 
