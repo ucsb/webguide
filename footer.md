@@ -14,7 +14,7 @@ A copyright notice is not required, but may be desired for your website.
 Any content created for UCSB is copyrighted by the Regents of the University of California.
 
 The year is optional, but if used you may choose the year the site was created,
-the last major redesign, the last update, or the current year. Server-side code
+the last major redesign, the last update, or the current year. Server-side technology
 or JavaScript can be used to display the current year.
 
 HTML examples:
@@ -52,7 +52,7 @@ Anonymous information collected for the purpose of web analytics is *not*
 considered personal information. Similar to the Terms of Use, each website can
 either link directly to the [UCSB Privacy Policy](http://www.policy.ucsb.edu/privacy-notification/)
 or include the content from that document on their own page using a server-side
-technology (PHP, ASP.NET, etc.).
+technology.
 
 The link to either the UCSB Privacy Policy or the page with the included
 content should contain the word "privacy."
@@ -85,7 +85,7 @@ and we will provide alternatives.
 
 Each web page may contain the date the last time the page was updated.
 The last modified date should appear in the following format:
-April 4, 2006 (no month or year abbreviation)
+May 4, 2018 (no month or year abbreviation)
 
 ### Contact Link
 
@@ -97,13 +97,13 @@ someone within the organization about questions or concerns with the website.
 The following example includes all of the guidelines described above:
 
 ```html
-Copyright &copy; 2015 The Regents of the University of California,
+Copyright &copy; 2018 The Regents of the University of California,
 All Rights Reserved
 <br>
 <a href="http://www.policy.ucsb.edu/terms-of-use/">Terms of Use</a> /
 <a href="http://www.policy.ucsb.edu/privacy-notification/">Privacy Notification</a> /
 <a href="/accessibility">Accessibility</a>
 <br>
-Last Modified April 4, 2006 /
+Last Modified May 4, 2018 /
 Questions or contacts? Please <a href="/contact">contact us</a>
 ```
