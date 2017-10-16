@@ -9,11 +9,11 @@ elements described in this section.
 
 ### Copyright
 
-A copyright notice is not required but may be desired for your website.
+A copyright notice is not required, but may be desired for your website.
 
 Any content created for UCSB is copyrighted by the Regents of the University of California.
 
-The year is optional but if used you may choose the year the site was created,
+The year is optional, but if used you may choose the year the site was created,
 the last major redesign, the last update, or the current year. Server-side code
 or JavaScript can be used to display the current year.
 
