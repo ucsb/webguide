@@ -14,12 +14,12 @@ Include this standard form copyright notice as recommended by the [UC Copyright 
 ```html
 Copyright &copy; 2018 The Regents of the University of California, All Rights Reserved.
 ```
-You may want to use server-side or client-side technology to display the current year in the notice.
+You may display the year of first publication or the current year using a server-side technology.
 
 The notice format can be altered or omitted to fit your needs.
 
 For more information about copyright requirements, visit
-[UC Copyright FAQ: How do I put a copyright notice on my work?](http://copyright.universityofcalifornia.edu/faqs/index.html#h).
+[UC Copyright FAQ: How do I put a copyright notice on my work?](http://copyright.universityofcalifornia.edu/faqs/index.html#h)
 
 ### Terms of Use
 
@@ -27,7 +27,7 @@ Each footer should include a link to the
 [UCSB Terms of Use](http://www.policy.ucsb.edu/terms-of-use/).
 Each website can either link directly to the [UCSB Terms of Use document](http://www.policy.ucsb.edu/terms-of-use/)
 or include the content from that document on their own page using a server-side
-technology (PHP, ASP.NET, etc.).
+technology.
 
 If your organization needs to modify the Terms of Use document for a specific
 purpose, you should submit the modified version for approval to
