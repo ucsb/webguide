@@ -9,15 +9,17 @@ elements described in this section.
 
 ### Copyright
 
-Include the following HTML statement with the year the site was created or the
-year of the last major redesign or version of the website:
+Include this standard form copyright notice as recommended by the [UC Copyright Guide](http://copyright.universityofcalifornia.edu/).
 
 ```html
-Copyright &copy; 2015 The Regents of the University of California, All Rights Reserved.
+Copyright &copy; 2018 The Regents of the University of California, All Rights Reserved.
 ```
+You may display the year of first publication or the current year using a server-side technology.
+
+The notice format can be altered or omitted to fit your needs.
 
 For more information about copyright requirements, visit
-[UCOP Copyright Matters](http://copyright.universityofcalifornia.edu/).
+[UC Copyright FAQ: How do I put a copyright notice on my work?](http://copyright.universityofcalifornia.edu/faqs/index.html#h)
 
 ### Terms of Use
 
@@ -25,7 +27,7 @@ Each footer should include a link to the
 [UCSB Terms of Use](http://www.policy.ucsb.edu/terms-of-use/).
 Each website can either link directly to the [UCSB Terms of Use document](http://www.policy.ucsb.edu/terms-of-use/)
 or include the content from that document on their own page using a server-side
-technology (PHP, ASP.NET, etc.).
+technology.
 
 If your organization needs to modify the Terms of Use document for a specific
 purpose, you should submit the modified version for approval to
@@ -42,7 +44,7 @@ Anonymous information collected for the purpose of web analytics is *not*
 considered personal information. Similar to the Terms of Use, each website can
 either link directly to the [UCSB Privacy Policy](http://www.policy.ucsb.edu/privacy-notification/)
 or include the content from that document on their own page using a server-side
-technology (PHP, ASP.NET, etc.).
+technology.
 
 The link to either the UCSB Privacy Policy or the page with the included
 content should contain the word "privacy."
@@ -75,7 +77,7 @@ and we will provide alternatives.
 
 Each web page may contain the date the last time the page was updated.
 The last modified date should appear in the following format:
-April 4, 2006 (no month or year abbreviation)
+May 4, 2018 (no month or year abbreviation)
 
 ### Contact Link
 
@@ -87,13 +89,13 @@ someone within the organization about questions or concerns with the website.
 The following example includes all of the guidelines described above:
 
 ```html
-Copyright &copy; 2015 The Regents of the University of California,
+Copyright &copy; 2018 The Regents of the University of California,
 All Rights Reserved
 <br>
 <a href="http://www.policy.ucsb.edu/terms-of-use/">Terms of Use</a> /
 <a href="http://www.policy.ucsb.edu/privacy-notification/">Privacy Notification</a> /
 <a href="/accessibility">Accessibility</a>
 <br>
-Last Modified April 4, 2006 /
+Last Modified May 4, 2018 /
 Questions or contacts? Please <a href="/contact">contact us</a>
 ```
