@@ -977,21 +977,21 @@ footer#footer .footer-secondary {
     text-decoration: none
 }
 
-#ucsb-nav .nav-primary li.dropdown ul.dropdown-menu {
+#ucsb-nav .nav-primary li.dropdown div.dropdown-menu {
     background-color: $color-navbar-background;
     padding: 10px 10px 10px 15px;
     color: $color-navbar-text;
 }
 
-#ucsb-nav .nav-primary li.dropdown ul.dropdown-menu li {
+#ucsb-nav .nav-primary li.dropdown div.dropdown-menu li {
     margin-bottom: 10px
 }
 
-#ucsb-nav .nav-primary li.dropdown ul.dropdown-menu li ul {
+#ucsb-nav .nav-primary li.dropdown div.dropdown-menu li ul {
     padding: 10px 0
 }
 
-#ucsb-nav .nav-primary li.dropdown ul.dropdown-menu li ul li a {
+#ucsb-nav .nav-primary li.dropdown div.dropdown-menu li ul li a {
     text-transform: none
 }
 
@@ -1064,7 +1064,7 @@ footer#footer .footer-secondary {
         text-decoration: none;
         border-bottom: 3px solid $color-gold-accent
     }
-    #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu {
+    #ucsb-nav .nav-primary ul li.dropdown div.dropdown-menu {
         background-color: $color-navbar-background;
         border: 0;
         color: $color-navbar-text;
@@ -1076,32 +1076,32 @@ footer#footer .footer-secondary {
         border-radius: 0;
         box-shadow: none
     }
-    #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu li {
+    #ucsb-nav .nav-primary ul li.dropdown div.dropdown-menu li {
         text-align: left;
         margin-bottom: 7px;
         margin-left: 0;
         padding: 0;
         line-height: 1.1em
     }
-    #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu li ul {
+    #ucsb-nav .nav-primary ul li.dropdown div.dropdown-menu li ul {
         padding: 7px 0;
         background: $color-navbar-background;
         text-align: left
     }
-    #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu li ul li {
+    #ucsb-nav .nav-primary ul li.dropdown div.dropdown-menu li ul li {
         margin-bottom: 0
     }
-    #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu .col4 {
+    #ucsb-nav .nav-primary ul li.dropdown div.dropdown-menu .col4 {
         float: left;
         height: 285px;
         width: 249px;
         padding: 15px 15px 0;
         /*border-right: 1px solid #fff*/
     }
-    #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu .col4:last-child {
+    #ucsb-nav .nav-primary ul li.dropdown div.dropdown-menu .col4:last-child {
         border-right: 0px
     }
-    #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu a {
+    #ucsb-nav .nav-primary ul li.dropdown div.dropdown-menu a {
         display: inline-block;
         padding: 4px 5px;
         margin-left: -5px;
@@ -1112,8 +1112,8 @@ footer#footer .footer-secondary {
         color: $color-navbar-text;
         width: 100%
     }
-    #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu a:hover,
-    #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu a:focus {
+    #ucsb-nav .nav-primary ul li.dropdown div.dropdown-menu a:hover,
+    #ucsb-nav .nav-primary ul li.dropdown div.dropdown-menu a:focus {
         color: $color-navbar-text-hover;
         background: $color-navbar-background-hover;
         text-decoration: none
@@ -1151,31 +1151,31 @@ footer#footer .footer-secondary {
     #ucsb-nav .nav-primary ul li.dropdown a.dropdown-title {
         font-size: 1.2em
     }
-    #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu {
+    #ucsb-nav .nav-primary ul li.dropdown div.dropdown-menu {
         font-size: 0.83em
     }
-    #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu li {
+    #ucsb-nav .nav-primary ul li.dropdown div.dropdown-menu li {
         line-height: 1.2em
     }
-    #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu .col4 {
+    #ucsb-nav .nav-primary ul li.dropdown div.dropdown-menu .col4 {
         width: 323px;
         padding: 20px 20px 0
     }
 }
 
 @media (min-width: 1200px) {
-    #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu {
+    #ucsb-nav .nav-primary ul li.dropdown div.dropdown-menu {
         font-size: 0.85em
     }
-    #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu li {
+    #ucsb-nav .nav-primary ul li.dropdown div.dropdown-menu li {
         line-height: 1.2em
     }
-    #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu .col4 {
+    #ucsb-nav .nav-primary ul li.dropdown div.dropdown-menu .col4 {
         width: 400px;
         padding: 23px 30px 0
     }
-    #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu a:hover,
-    #ucsb-nav .nav-primary ul li.dropdown ul.dropdown-menu a:focus {
+    #ucsb-nav .nav-primary ul li.dropdown div.dropdown-menu a:hover,
+    #ucsb-nav .nav-primary ul li.dropdown div.dropdown-menu a:focus {
         white-space: nowrap
     }
 }

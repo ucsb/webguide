@@ -1,26 +1,28 @@
 <nav class="nav-primary clearfix">
   <ul class="nav navbar-nav">
     <li class="dropdown yamm-fullwidth open" id="webguide-li"><a href="http://www.ucsb.edu/index#webguide" class="dropdown-toggle dropdown-title" data-toggle="dropdown" aria-expanded="false">WEBGUIDE CONTENTS<span class="caret"></span></a>
-      <ul class="dropdown-menu">
+      <div class="dropdown-menu">
         {% for categoryGroup in site.navigation %}
           <div class="col4">
           {% for category in categoryGroup.categories %}
-            <li id="{{ category.id }}">{{ category.name }}
             <ul>
-              {% for link in category.links %}
-                {% capture relative_url %}{{ link.url | prepend: '/' }}{% endcapture %}
-                {% assign current = nil %}
-                {% if page.url == relative_url %}
-                  {% assign current = 'selected' %}
-                {% endif %}
-                <li class="{{ current }}"><a href="{{ link.url | relative_url }}">{{ link.text }}</a></li>
-              {% endfor %}
+              <li id="{{ category.id }}">{{ category.name }}
+              <ul>
+                {% for link in category.links %}
+                  {% capture relative_url %}{{ link.url | prepend: '/' }}{% endcapture %}
+                  {% assign current = nil %}
+                  {% if page.url == relative_url %}
+                    {% assign current = 'selected' %}
+                  {% endif %}
+                  <li class="{{ current }}"><a href="{{ link.url | relative_url }}">{{ link.text }}</a></li>
+                {% endfor %}
+              </ul>
+              </li>
             </ul>
-            </li>
           {% endfor %}
           </div>
         {% endfor %}
-      </ul>
+      </div>
     </li>
   </ul>
 </nav>
