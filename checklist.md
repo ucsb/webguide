@@ -117,4 +117,8 @@ To view the corresponding web guide section for each area of the checklist,
 * Use the CSS Speech properties to control how text on a web page is read
 * Ensure media is accessible
 * Provide "Skip Links"
+* Always use a label or accessible alternative for input fields
+* Ensure accessibility of icon fonts
+* Nest headings properly
+* Ensure "Read More" links are accessible
 * Ensure that your website meets the WCAG 2.0 Level AA Success criteria for accessibility
