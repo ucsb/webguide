@@ -28,3 +28,15 @@ associated with hosting the UCSB Web Standards Guide on your local machine:
 4. Run `gulp` to generate the site and host it locally
 
 You can now view the site [http://localhost:4000/](http://localhost:4000/).
+
+## Client-side Libraries Used
+
+The web guide makes use of the following client-side libraries:
+
+* [Bootstrap](http://getbootstrap.com/) (v3.3.5)
+* [jQuery](https://jquery.com/) (v3.1.0)
+
+Most of these client-side libraries are served locally, rather than via a
+content delivery network (CDN).
+
+[Sass](http://sass-lang.com/) is used to write CSS.
