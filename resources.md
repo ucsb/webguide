@@ -46,3 +46,11 @@ into a single file. In other words, rather than referencing multiple JavaScript
 files on a page, these scripts should be concatenated into a single JavaScript
 file. This improves performance by reducing the number of separate
 connections the browser needs to establish while loading a page.
+
+### HTTP/2
+
+Web servers are gradually upgrading to a new version of the HTTP protocol,
+**HTTP/2**, which includes a number of improvements to performance. Specifically,
+HTTP/2 will allow multiplexing, or the ability to send multiple requests over
+a single TCP connection, which may actually obviate the need for concatenation
+and other HTTP/1-specific hacks.
