@@ -258,10 +258,10 @@ actual filename.
 
 #### Prefer text over images of text
 
-Whenever possible, use actual text instead of images of text, styling the text
+Whenever possible, use actual text instead of an image of text, styling the text
 as desired with CSS.
 
-In situations where you must use images of text instead of actual text (for example, a logo),
+In situations where you must use an image of text instead of actual text (for example, a logo),
 you can use **image replacement** to replace a bare HTML element with an image
 using CSS.
 
