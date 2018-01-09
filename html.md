@@ -258,5 +258,36 @@ actual filename.
 
 #### Prefer text over images of text
 
-Whenever possible, use actual text instead of images of text, styling the text
+Whenever possible, use actual text instead of an image of text, styling the text
 as desired with CSS.
+
+In situations where you must use an image of text instead of actual text (for example, a logo),
+you can use **image replacement** to replace a bare HTML element with an image
+using CSS.
+
+For example, instead of the following:
+
+```html
+<h1><img src="logo.jpg" alt="Website Name"></h1>
+```
+
+The bare text element can be used:
+
+```html
+<h1>Website Name</h1>
+```
+
+And the text can be _replaced_ with the image using CSS:
+
+```css
+h1
+{
+    background: url('logo.jpg');
+    height: 100px;
+    text-indent: -9999em;
+    width: 400px;
+}
+```
+
+There are a number of image replacement techniques. The method described above,
+which is the most popular approach, is called **Phark image replacement**.
