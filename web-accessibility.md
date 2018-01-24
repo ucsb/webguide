@@ -277,11 +277,11 @@ For a guide on how to meet these requirements, use the
 
 ### Campus Resources
 
-**Mark Grosch**
+**Kate Lucero**
 <br />
-*Adaptive Technology Specialist and ADA Web Compliance Officer*
+*Adaptive Technology Specialist*
 <br />
-[grosch-m@sa.ucsb.edu](mailto:grosch-m@sa.ucsb.edu)
+[lucero-k@sa.ucsb.edu](mailto:lucero-k@sa.ucsb.edu)
 
 **Jennifer Lofthus**
 <br />
