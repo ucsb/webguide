@@ -78,6 +78,7 @@ To view the corresponding web guide section for each area of the checklist,
 * Use `th` to provide table headers
 * Provide a meaningful "alt" attribute for every image
 * Prefer text over images of text
+* Use responsive image techniques
 
 ### [Resources](/resources/)
 

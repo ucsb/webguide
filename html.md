@@ -291,3 +291,21 @@ h1
 
 There are a number of image replacement techniques. The method described above,
 which is the most popular approach, is called **Phark image replacement**.
+
+#### Use responsive image techniques
+
+Images are a particularly difficult challenge for responsive designs: each
+individual image should shrink and scale its dimensions to fit the surrounding
+responsive layout. Beyond simple dimensions, however, other aspects of the
+image should also adapt, including the file size, the pixel density, and even
+the art direction.
+
+**For logos or icons**, SVGs or icon fonts should be used. Both options provide
+vector-based solutions that can shrink or scale infinitely (for both dimensions
+*and* pixel density) without a change in file size. Although icon fonts are
+often the most convenient option, SVGs are the preferred option
+for future-ready designs.
+
+**For other images**, use the responsive `picture` element, along with the
+`sizes` and `srcset` attributes, to provide a number of options that the user's
+device can choose as appropriate.
