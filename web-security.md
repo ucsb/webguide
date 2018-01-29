@@ -107,3 +107,13 @@ To help protect from these issues, keep the following best practices in mind:
 * Ensure that any errors reported to the user do not provide insight to web internals
 * Log detailed error information to a monitored log file
 * If outputting user input on a web page, sanitize the output for display
+
+#### SSL TLS Everywhere
+
+Provide secure HTTPS connections, enabled via Transport Layer Security (TLS)
+or Secure Socket Layer (SSL) using valid, up-to-date certificates, **across your
+entire website**, _not_ simply areas of the website that handle secure
+information.
+
+This recommendation is echoed by the White House Office of Management and
+Budget (OMB)'s [HTTPS-Only Standard directive](https://obamawhitehouse.archives.gov/blog/2015/06/08/https-everywhere-government).
