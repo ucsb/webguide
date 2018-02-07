@@ -108,10 +108,10 @@ To help protect from these issues, keep the following best practices in mind:
 * Log detailed error information to a monitored log file
 * If outputting user input on a web page, sanitize the output for display
 
-#### SSL TLS Everywhere
+#### HTTPS Everywhere
 
-Provide secure HTTPS connections, enabled via Transport Layer Security (TLS)
-or Secure Socket Layer (SSL) using valid, up-to-date certificates, **across your
+Provide secure HTTPS connections, enabled via Transport Layer Security (TLS),
+using valid, up-to-date certificates, **across your
 entire website**, _not_ simply areas of the website that handle secure
 information.
 
