@@ -1496,3 +1496,18 @@ pre.highlight
 	height: 1300px;
 	width: 100%;
 }
+
+h3
+{
+  margin: 7px 0 5px 0;
+  padding: 0;
+}
+
+h3::before
+{
+  display: block;
+  content: " ";
+  margin-top: -50px;
+  height: 50px;
+  visibility: hidden;
+}
