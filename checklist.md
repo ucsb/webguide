@@ -71,14 +71,19 @@ To view the corresponding web guide section for each area of the checklist,
 * Avoid `iframes`
 * Never use frames
 * When using `iframes`, use the `title` attribute
+* Nest headings properly
 * Use descriptive link text
 * Use the same destination for the same link text
+* Provide "skip links"
+* Ensure "read more" links are accessible
 * Don't use tables for layout
 * Use `caption`s and summaries with tables
 * Use `th` to provide table headers
 * Provide a meaningful "alt" attribute for every image
 * Prefer text over images of text
 * Use responsive image techniques
+* Always use a `label` or accessible alternative for `input` fields
+* Ensure accessibility of icon fonts
 
 ### [Resources](/resources/)
 
@@ -117,7 +122,6 @@ To view the corresponding web guide section for each area of the checklist,
 * Don't require the use of a plug-in
 * Use the CSS Speech properties to control how text on a web page is read
 * Ensure media is accessible
-* Provide "Skip Links"
 * Always use a label or accessible alternative for input fields
 * Ensure accessibility of icon fonts
 * Nest headings properly
