@@ -1421,7 +1421,7 @@ footer#footer a.mailinglist-button:hover, footer#footer a.mailinglist-button:foc
 /* =CODE
 =============================================*/
 
-.highlight
+pre.highlight
 {
 	border: 3px solid $color-code-border-default;
 	border-width: 0 0 0 3px;
@@ -1437,17 +1437,17 @@ pre.highlight
   border-radius: 0;
 }
 
-.highlight.good
+pre.highlight.good
 {
     border-color: $color-code-border-good;
 }
 
-.highlight.bad
+pre.highlight.bad
 {
     border-color: $color-code-border-bad;
 }
 
-.highlight code
+pre.highlight code
 {
 	font-size: 1em;
 }
