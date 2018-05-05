@@ -1,12 +1,12 @@
 {
-  "name": "ucsb-wsg.github.io",
+  "name": "webguide.ucsb.edu",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ucsb-wsg/ucsb-wsg.github.io"
+    "url": "git+https://github.com/UCSantaBarbara/webguide"
   },
   "bugs": {
-    "url": "https://github.com/ucsb-wsg/ucsb-wsg.github.io/issues"
+    "url": "https://github.com/UCSantaBarbara/webguide/issues"
   },
   "homepage": "http://webguide.ucsb.edu/",
   "dependencies": {},
