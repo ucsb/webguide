@@ -10,7 +10,7 @@ twitter_username: ucsantabarbara
 github_username:  ucsb-wsg
 
 # Add support for githubpages sitemap.xml.
-gems:
+plugins:
   - jekyll-sitemap
 
 # Build settings
