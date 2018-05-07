@@ -20,7 +20,7 @@ sections.
 
 Any individual seeking clarification or with an inquiry regarding web standards or best practices is encouraged to post their inquiry in the Github Issues Tracker which is actively moderated by the WSG Co-Chairs and WSG members. Please note that the Github platform requires a user account, by participating on Github your inquiries and responses will be in the public domain. Please observe proper etiquette and be respectful of others.
 
-### [UCSB-Web Mailing List](http://webguide.ucsb.edu/contact/#join-mailing-list)
+### [UCSB-Web Mailing List](https://webguide.ucsb.edu/contact/#join-mailing-list)
 
 Provides a forum for UCSB web professionals to exchange information about web
 design, development, best practices, and other web-related topics at UCSB. Web

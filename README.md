@@ -39,6 +39,8 @@ Through this migration, the Guide's URL was changed from http://www.ucsb.edu/web
 
 In February 2018, the repository for the guide was moved from the "UCSB Web Standards Group" GitHub organization to the "UC Santa Barbara" GitHub organization.
 
+In May 2018 [https://blog.github.com/2018-05-01-github-pages-custom-domains-https/](GitHub began supporting HTTPS for custom domains) by using [https://letsencrypt.org/](Let's Encrypt) which allowed the site to be hosted at https://webguide.ucsb.edu/
+
 ## Organization and Repository Management Between Co-Chairs
 
 Each of the two Web Standards Group Co-Chairs should have "Owner" permissions over the Web Standards Guide repository.

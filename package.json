@@ -8,7 +8,7 @@
   "bugs": {
     "url": "https://github.com/ucsb-wsg/ucsb-wsg.github.io/issues"
   },
-  "homepage": "http://webguide.ucsb.edu/",
+  "homepage": "https://webguide.ucsb.edu/",
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^6.5.3",
