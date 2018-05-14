@@ -20,10 +20,11 @@ user's browser, most prominently the browser's width.
 
 Since you are not targeting specific screen resolutions in your designs,
 there is also no specific recommended set of media query sizes or
-"breakpoints."
+"breakpoints".
 
 Instead, you should begin with a "mobile first" approach: start designing with the
-narrowest reasonable screen width (300px wide is a recommended starting point)
+narrowest reasonable screen width
+([320px is the smallest width with any significant use](http://gs.statcounter.com/screen-resolution-stats/mobile/worldwide))
 and then slowly increase the width of the browser, altering the design
 and adding breakpoints appropriately to accommodate the increasing width.
 
