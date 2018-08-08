@@ -156,7 +156,7 @@ function initSearch() {
 	}
 
 	$searchWrapper.html(
-		'<iframe src="http://www.google.com/cse?q='
+		'<iframe src="https://www.google.com/cse?q='
 			+ encodeURIComponent(searchTerm)
 			+ '&amp;cx=006455971487473204572%3A398_hnsuc6g&cof=FORID%3A11" '
 			+ 'class="search-results"></iframe>');
