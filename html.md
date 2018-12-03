@@ -438,6 +438,127 @@ In this case, you can use the `aria-label` attribute:
 <input type="submit" value="Search">
 ```
 
+#### Don't use placeholders as labels
+
+Placeholders should _not_ be used as a substitute for labels:
+
+```html
+<!-- BAD PRACTICE -->
+<input type="text" name="student-address" id="student-address" placeholder="Your Address">
+```
+
+Placeholders and labels have distinct purposes: labels are for identifying the
+purpose of a field, placeholders are for providing a hint to the users on how
+to complete a field:
+
+```html
+<!-- GOOD PRACTICE -->
+<label for="student-address">Your Address</label>
+<input type="text" name="student-address" id="student-address" placeholder="1234 Gaucho St">
+```
+
+There are a number of reasons to avoid using a placeholder as a label.
+First, assistive technologies do not have consistent support for placeholders and,
+when they do support them, they do not treat them the same as labels.
+Second, placeholders are often displayed in a light gray color with very
+little contrast against the default white input background. And, third, when a field gains focus,
+its placeholder text will disappear, completely removing the field's "label".
+
+#### Fit fields to content
+
+In general, fields should fit their intended content. This can be specifically
+implemented in a number of ways:
+
+Using CSS, you can ensure that a given field has an appropriate width:
+
+```css
+.age-input
+{
+  width: 3em;
+}
+
+.name-input
+{
+  width: 10em;
+}
+```
+
+In this example, the styling for the "age" input has a shorter width While
+the "name" input has a longer width, appropriate for their future content.
+
+Going further, you should also provide `maxlength` attributes to prevent the
+user from inputting values longer than allowed by your server-side validation:
+
+```html
+<!-- GOOD PRACTICE -->
+<input type="text" name="age" id="age" maxlength="3">
+```
+
+For a more advanced technique, you could also use JavaScript to provide a
+"text counter" or a dynamic count displayed near a field of how many
+characters a user can type before reaching the maximum length.
+
+Overall, when fitting fields to content, consider the user experience: if you
+a user were inputting a date of birth, for example, would it be easier to
+simply type in a year or leaf through a large drop-down list? By selecting,
+styling, and configuring our inputs to fit their content, we can provide users
+with a more accessible and user-friendly experience.
+
+#### Use `<fieldset>` and `<legend>` with checkboxes and radio buttons
+
+Checkboxes and radio buttons can be confusing since you often need both a
+label to describe the overarching set of options and a label for each individual
+input.
+
+The `<fieldset>` and `<legend>` elements should be used for this purpose:
+
+```html
+<!-- GOOD PRACTICE -->
+
+<fieldset>
+  <legend>What is your housing option?</legend>
+
+  <label for="housing-oncampus">On-Campus</label>
+  <input type="radio" name="housing" id="housing-oncampus">
+
+  <label for="housing-offcampus">Off-Campus</label>
+  <input type="radio" name="housing" id="housing-offcampus">
+
+  <label for="housing-commuter">Commuter</label>
+  <input type="radio" name="housing" id="housing-commuter">
+</fieldset>
+```
+
+Here's an example with checkboxes:
+
+```html
+<!-- GOOD PRACTICE -->
+
+<fieldset>
+  <legend>Where do you usually eat?</legend>
+
+  <label for="dining-diningcommons">Dining Commons</label>
+  <input type="checkbox" name="dining[]" id="dining-diningcommons">
+
+  <label for="dining-home">Home</label>
+  <input type="checkbox" name="dining[]" id="dining-home">
+
+  <label for="dining-restaurant">Restaurants</label>
+  <input type="checkbox" name="dining[]" id="dining-restaurant">
+</fieldset>
+```
+
+#### Provide helpful feedback on errors
+
+When a user encounters an error while completing your form, ensure that you
+provide feedback on what errors occurred and how a user can address the error.
+
+Ideally, you would identify the errors using all of the following techniques:
+
+* A summary message at the top of the form indicating the presence of errors
+* Styling to highlight the specific fields with errors
+* Messages near the specific fields with errors describing the error and a method to resolve the error
+
 ### Icon Fonts
 
 #### Ensure accessibility of icon fonts
