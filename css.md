@@ -352,5 +352,9 @@ There are a number of techniques for checking the accessibility of your
 website's colors, including using an automated tool, printing your website on
 a black and white printer, or lowering the brightness of your monitor.
 
+This guidelines applies to all types of content: it should be easy to read the
+color of text on a given background, to discern where an input field begins and
+ends, to differentiate between content areas, and so on.
+
 In all cases, the content of your website should be easy to discern and should
 not rely on subtle differences in color.

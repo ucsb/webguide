@@ -83,6 +83,10 @@ To view the corresponding web guide section for each area of the checklist,
 * Prefer text over images of text
 * Use responsive image techniques
 * Always use a `label` or accessible alternative for `input` fields
+* Don't use placeholders as labels
+* Fit fields to content
+* Use `fieldset` and `legend` with checkboxes and radio buttons
+* Provide helpful feedback on errors
 * Ensure accessibility of icon fonts
 
 ### [Resources](/resources/)
