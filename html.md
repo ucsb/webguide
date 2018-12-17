@@ -483,7 +483,7 @@ Using CSS, you can ensure that a given field has an appropriate width:
 }
 ```
 
-In this example, the styling for the "age" input has a shorter width While
+In this example, the styling for the "age" input has a shorter width while
 the "name" input has a longer width, appropriate for their future content.
 
 Going further, you should also provide `maxlength` attributes to prevent the
@@ -498,7 +498,7 @@ For a more advanced technique, you could also use JavaScript to provide a
 "text counter" or a dynamic count displayed near a field of how many
 characters a user can type before reaching the maximum length.
 
-Overall, when fitting fields to content, consider the user experience: if you
+Overall, when fitting fields to content, consider the user experience: if
 a user were inputting a date of birth, for example, would it be easier to
 simply type in a year or leaf through a large drop-down list? By selecting,
 styling, and configuring our inputs to fit their content, we can provide users
