@@ -59,6 +59,8 @@ headers:
 Content-Type: text/html; charset=utf-8
 ```
 
+Also be sure your text editor is set to UTF-8.
+
 UTF-8 is the only recommended character encoding for web pages.
 
 ### Document Title
@@ -66,7 +68,7 @@ UTF-8 is the only recommended character encoding for web pages.
 Next, add the `title` element:
 
 ```html
-<title>Section Name - Department Name</title>
+<title>Document Title - Site Name</title>
 ```
 
 The title should be short and descriptive. Put the most salient part of the
@@ -90,34 +92,7 @@ Santa Barbara.">
 Next, include your CSS stylesheets:
 
 ```html
-<link href="style/main.css" type="text/css" rel="stylesheet">
-```
-
-### Internet Explorer Stylesheet
-
-Depending on the needs of your website and audience, you may want to include a
-stylesheet specifically catered towards an older, less modern
-standards-compliant version of Internet Exporer. This can be accomplished
-through [conditional comments](https://msdn.microsoft.com/en-us/library/ms537512%28v=vs.85%29.aspx),
-a cleaner alternative than CSS hacks. The following snippet targets versions
-of Internet Explorer less than 8:
-
-```html
-<!--[if lte IE 8]>
-  <link href="style/ie.css" rel="stylesheet" type="text/css" />
-<![endif]-->
-```
-
-While a separate stylesheet is the most straightforward solution, please note
-that a separate stylesheet targeted by conditional comments can have a negative
-performance impact in Internet Explorer. An alternative solution is to use the
-conditional comments to add CSS classes to your `html` element:
-
-```html
-<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]> <html class="lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]> <html class="lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+<link href="css/main.css" rel="stylesheet">
 ```
 
 ### No JavaScript Stylesheet
@@ -127,52 +102,13 @@ enabled:
 
 ```html
 <noscript>
-  <link href="css/noscript.css" rel="stylesheet" type="text/css">
+  <link href="css/noscript.css" rel="stylesheet">
 </noscript>
 ```
 
-For an alternative method that doesn't rely on an extra CSS resource, include a
-[version of Modernizr with the "Add CSS Classes" option enabled](http://modernizr.com/download/#-shiv-cssclasses)
-and then add a "no-js" class to the `html` element of your website:
-
-```html
-<html class="no-js">
-```
-
-If JavaScript is enabled, the Modernizr script will replace all instances of
-the "no-js" CSS class with a "js" CSS class, allowing you to target users with
-or without JavaScript enabled via CSS.
-
-In general, however, a user should be able to interact with a document
+In general a user should be able to interact with a document
 *without* JavaScript; JavaScript should merely progressively enhance the
 experience.
-
-### HTML5 Shim
-
-If you are using HTML5 elements within your page, keep in mind that Internet
-Explorer versions 8 and earlier will not apply CSS styling to these elements
-unless you force the browser to recognize these elements via including a
-JavaScript snippet within the `head` of the document:
-
-```javascript
-document.createElement('header');
-document.createElement('nav');
-// ...continue calling document.createElement on all new HTML5 elements
-```
-
-This small snippet of JavaScript is called a "HTML5 Shim"
-(also sometimes called a "HTML5 Shiv"). The
-[base build of Modernizr](http://modernizr.com/download/#-printshiv)
-includes this HTML5 Shim by default:
-
-```html
-<script src="script/modernizr.js"></script>
-```
-
-In most cases, this is the *only* script that should be included in the
-`head` of your document since JavaScript files are a "blocking resource" that
-will prevent the browser from downloading other resources on the page while
-downloading the script.
 
 ### Header Example
 
@@ -184,41 +120,15 @@ The following example summarizes the above suggestions:
 <head>
     <meta charset="utf-8">
 
-    <title>Document Title</title>
+    <title>Document Title - Site Name</title>
+
     <meta name="description" content="Description of document">
 
-    <link href="css/main.css" type="text/css" rel="stylesheet">
-    <!--[if lte IE 8]>
-      <link href="css/ie.css" rel="stylesheet" type="text/css" />
-    <![endif]-->
+    <link href="css/main.css" rel="stylesheet">
+
     <noscript>
-      <link href="css/noscript.css" rel="stylesheet" type="text/css">
+      <link href="css/noscript.css" rel="stylesheet">
     </noscript>
-
-    <script src="js/modernizr.js"></script>
-</head>
-<body>
-```
-
-Alternatively, you could use the CSS-based approaches to targeting users with
-older versions of Internet Explorer or JavaScript disabled:
-
-```html
-<!DOCTYPE html>
-<!--[if lt IE 7]>
-  <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7">
-<![endif]-->
-<!--[if IE 7]> <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]> <html lang="en" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
-<head>
-    <meta charset="utf-8" />
-
-    <title>Document Title</title>
-    <meta name="description" content="Description of document">
-
-    <link href="css/main.css" type="text/css" rel="stylesheet">
-    <script src="js/modernizr.js"></script>
 </head>
 <body>
 ```
