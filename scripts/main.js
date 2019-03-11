@@ -24,12 +24,19 @@
         $('#content.container').addClass('movedown');
     })
     $('.dropdown').on('hide.bs.dropdown', function (e) {
-        if ($('#content.container').hasClass('movedown')) {
-            //$(this).find('.dropdown-menu').first().stop(true, true).slideUp();
-            $('#content.container').removeClass('movedown');
-        }
-    })
+      // add logic to prevent dropdown menu from closing if user clicks
+      // anywhere on the white area outside of the page content
+      // allow ONLY the "WEBGUIDE CONTENTS" bar to trigger the expand/collapse event
+      if ($("#webguide-li > a").attr('class') == "dropdown-toggle dropdown-title") {
+        return false;
+      }
 
+      if ($('#content.container').hasClass('movedown')) {
+        //$(this).find('.dropdown-menu').first().stop(true, true).slideUp();
+        $('#content.container').removeClass('movedown');
+      }
+
+    })
 
     // Caret open/close ---------------------------------
     $('a.dropdown-title').click(function (e) {
