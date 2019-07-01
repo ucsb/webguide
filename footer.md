@@ -84,18 +84,39 @@ May 4, 2018 (no month or year abbreviation)
 All websites should contain an email link or link to a contact form to contact
 someone within the organization about questions or concerns with the website.
 
+### "contentinfo" Landmark Role
+
+The element containing the footer should be marked with the "contentinfo"
+ARIA role:
+
+```html
+<div role="contentinfo">
+    <!-- Footer Content -->
+</div>
+```
+
+Or the HTML5 footer element should be used:
+
+```html
+<footer>
+    <!-- Footer Content -->
+</footer>
+```
+
 ### Footer Example
 
 The following example includes all of the guidelines described above:
 
 ```html
-Copyright &copy; 2018 The Regents of the University of California,
-All Rights Reserved
-<br>
-<a href="http://www.policy.ucsb.edu/terms-of-use/">Terms of Use</a> /
-<a href="http://www.policy.ucsb.edu/privacy-notification/">Privacy Notification</a> /
-<a href="/accessibility">Accessibility</a>
-<br>
-Last Modified May 4, 2018 /
-Questions or contacts? Please <a href="/contact">contact us</a>
+<footer>
+    Copyright &copy; 2018 The Regents of the University of California,
+    All Rights Reserved
+    <br>
+    <a href="http://www.policy.ucsb.edu/terms-of-use/">Terms of Use</a> /
+    <a href="http://www.policy.ucsb.edu/privacy-notification/">Privacy Notification</a> /
+    <a href="/accessibility">Accessibility</a>
+    <br>
+    Last Modified May 4, 2018 /
+    Questions or contacts? Please <a href="/contact">contact us</a>
+</footer>
 ```
