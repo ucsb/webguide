@@ -95,6 +95,11 @@ your website, ensure that media is accessible to all of your users.
 For example, all videos should include captions for deaf and hard of hearing
 audiences.
 
+#### Use ARIA Attributes
+
+[ARIA attributes](https://www.w3.org/TR/html-aria/) should be used to provide
+guidance to assistive technologies on how to parse your website.
+
 ### Importance of Web Accessibility
 
 Accessibility is a Civil Rights issue and inaccessible websites violate the

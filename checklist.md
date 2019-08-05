@@ -51,6 +51,7 @@ To view the corresponding web guide section for each area of the checklist,
 * If you collect personal information from visitors, include the UCSB Privacy Policy statement
 * Include statement about alternative, accessible content
 * Include a contact link
+* Use the "contentinfo" landmark role or "footer" element
 
 ### [Header](/header/)
 
@@ -131,3 +132,4 @@ To view the corresponding web guide section for each area of the checklist,
 * Nest headings properly
 * Ensure "Read More" links are accessible
 * Ensure that your website meets the WCAG 2.0 Level AA Success criteria for accessibility
+* Use ARIA attributes
