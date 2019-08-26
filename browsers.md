@@ -18,11 +18,6 @@ Analytics should abide by the [procedures (PDF)](http://www.policy.ucsb.edu/poli
 outlined by the announcement of campus support of Google Analytics and other
 click-through agreements.
 
-While Google Analytics may be used on campus websites, UCSB Enterprise
-Technology Services offers the [Piwik Analytics Platform](http://www.ets.ucsb.edu/services/ets-web-analytics)
-as a service to campus entities as a centrally hosted, on-campus alternative to
-a third-party vendor service.
-
 ### Vendor Requirements
 
 The standards described on this page may be used for vendor requirements.
