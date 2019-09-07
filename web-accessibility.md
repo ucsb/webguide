@@ -167,7 +167,7 @@ For a guide on how to meet these requirements, use the
 ### Adaptive Software Providers
 
 * [Ai Squared](http://www.aisquared.com/products/)
-* [JAWS](http://www.freedomscientific.com)
+* [JAWS](https://www.freedomscientific.com/products/software/jaws/)
 * [Nuance](https://www.nuance.com/dragon.html)
 
 ### Accessibility Tools
