@@ -5,7 +5,7 @@ permalink: /css/
 ---
 
 As a general rule of thumb, the content of your website should have a logical
-flow regardless of any styling. In other words, a user who has disabled (CSS)
+flow regardless of any styling. In other words, a user who has disabled CSS
 should still be able to understand your website's content.
 
 More specifically, *websites should not convey information by color alone*.
