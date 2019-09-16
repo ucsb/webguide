@@ -18,9 +18,15 @@ with the following markup:
 
 ```html
 <ul class="nav nav-tabs">
-    <li class="active"><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Messages</a></li>
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">About</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Messages</a>
+  </li>
 </ul>
 ```
 
