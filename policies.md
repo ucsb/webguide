@@ -116,7 +116,7 @@ visit
 UC wide Presidential Policies make use of a special permanent URL schema to
 avoid broken links. The permanent URLs end in a 7 digit number. The URL schema
 is described in the
-[UCOP Policy Toolkit](http://www.ucop.edu/ethics-compliance-audit-services/policy/policy-toolkit.html).
+[UCOP Policy Toolkit](https://www.ucop.edu/ethics-compliance-audit-services/policy/policy-development/policy-toolkit.html).
 
 To summarize the schema: the Sexual Harassment Policy is at:
 [http://policy.ucop.edu/doc/4000385/SHSV](http://policy.ucop.edu/doc/4000385/SHSV).
