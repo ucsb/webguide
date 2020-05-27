@@ -110,10 +110,15 @@ the use of the `!important` keyword. This also clouds your markup file with
 presentation information, violating the separation of content and presentation
 principle.
 
-The only exception to this rule is when elements are being manipulated by
+An exception to this rule is when elements are being manipulated by
 client-side scripting. However, even in this situation, the designer and
 JavaScript developer should attempt to contain the CSS properties in a class
 and then programmatically assign this CSS class to an element.
+
+Another exception to this rule is the practice of putting the most important
+CSS for the page within an inline style block to improve the performance of the
+page. This practice is referred to as "inlining critical CSS," and should be
+employed carefully, using performance metrics to measure the impact of the change.
 
 #### Don't use `!important`
 
