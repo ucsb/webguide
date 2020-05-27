@@ -167,7 +167,7 @@ For a guide on how to meet these requirements, use the
 ### Adaptive Software Providers
 
 * [Ai Squared](http://www.aisquared.com/products/)
-* [JAWS](http://www.freedomscientific.com)
+* [JAWS](https://www.freedomscientific.com/products/software/jaws/)
 * [Nuance](https://www.nuance.com/dragon.html)
 
 ### Accessibility Tools
@@ -192,7 +192,7 @@ several laws. These laws are in turn enforced by several agencies:
 
 #### Section 504 of the Rehabilitation Act of 1973
 
-[Full Text](https://www.dol.gov/oasam/regs/statutes/sec504.htm)
+[Full Text](https://www.dol.gov/agencies/oasam/civil-rights-center/statutes/section-504-rehabilitation-act-of-1973)
 
 "Section 504 states that "no qualified individual with a disability in the
 United States shall be excluded from, denied the benefits of, or be subjected
